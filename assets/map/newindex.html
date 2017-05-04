@@ -1,0 +1,392 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript">
+function getOffset(obj){
+    var x = obj.offsetLeft, y = obj.offsetTop;
+    while(obj.offsetParent){
+        obj = obj.offsetParent;
+        x += obj.offsetLeft;
+        y += obj.offsetTop;
+    }
+    return {x : x, y : y};
+};
+function showBorder(obj){
+    var img = document.getElementById("bd");
+    var div = document.getElementById(objId);
+    var offset = getOffset(img)
+	
+	
+    var coords = obj.coords.split(",");
+     
+    div.style.display = "block";
+    div.style.left = offset.x + parseInt(coords[0])-2 + "px";
+    div.style.top = offset.y + parseInt(coords[1])-1 + "px";
+    div.style.width = parseInt(coords[2]) - parseInt(coords[0])-1 + "px";
+    div.style.height = parseInt(coords[3]) - parseInt(coords[1])-1 + "px";
+	
+	div.style.textAlign="center";
+	div.style.lineHeight=div.style.height;
+    div.style.color="White";
+}
+
+function showBorderTest(obj,objId){
+    var img = document.getElementById("bd");
+    var div = document.getElementById('b'+objId);
+    var offset = getOffset(img)
+	
+	
+    var coords = obj.coords.split(",");
+    div.setAttribute("class", "test"); 
+    div.style.display = "block";
+    div.style.left = offset.x + parseInt(coords[0])-2 + "px";
+    div.style.top = offset.y + parseInt(coords[1])-1 + "px";
+    div.style.width = parseInt(coords[2]) - parseInt(coords[0])-1 + "px";
+    div.style.height = parseInt(coords[3]) - parseInt(coords[1])-1 + "px";
+	
+	div.style.textAlign="center";
+	div.style.lineHeight=div.style.height;
+    div.style.color="White";
+	//div.innerHTML="测试";
+}
+
+function hideBorder(){
+    document.getElementById("border").style.display = "none";
+}
+
+ function sendInfoToJava()
+ {
+    //调用android程序中的方法，并传递参数
+    var name = document.getElementById("name_input").value;
+    window.AndroidWebView.showInfoFromJs(name);
+  }
+
+  //在android代码中调用此方法
+  function showInfoFromJava(msg)
+  {
+    //alert("来自客户端的信息："+msg);
+    document.getElementById("name_input").value=msg;
+  }
+  
+   function ontest()
+  {
+    //alert("来自客户端的信息："+msg);
+     document.getElementById("test1").onmousemove();
+
+     document.getElementById("test2").onmousemove();
+  }
+  
+  var commId=null;
+  function oflink(key) 
+  { 
+     if(null!=commId)
+	 {
+	   var dv= document.getElementById(commId);
+	   dv.setAttribute("class", "test"); 
+	 }
+	  commId='b'+key;
+	  document.getElementById(commId).style.display = "block";
+      var div = document.getElementById('b'+key);
+      div.setAttribute("class", "best"); 
+
+   // javascript:window.location.href=key ; 
+  }
+
+function ofover(key) 
+{ 
+    javascript:window.location.href=key ; 
+}
+  
+function newjsonfun(json) 
+{ 
+   var str = eval(json);
+   document.getElementById('name_input').value=json;
+   var len=str.length;
+   for(var i=0;i<len;i++)
+   {
+      var key1=str[i].key; 
+	  var val1=str[i].val;
+
+	 // document.getElementById(key1).onmousemove();
+	 var div=  document.getElementById('b'+key1);
+	 div.innerHTML=val1;  
+	 var obj=document.getElementById(key1);
+	 showBorder(obj);
+	// div.setAttribute("class", "test"); 
+   }  	
+} 
+
+</script>
+
+<style type="text/css">
+<!-- 
+.test
+{
+ display:block; 
+ position:absolute;
+ border:0px solid #FF0000; 
+}
+
+.best
+{
+ display:block; 
+ position:absolute;
+ border:2px solid #FF0000; 
+}
+-->
+</style>
+<title></title>
+</head>
+
+<body>
+<div id="b23011113" onclick="of('23011113')" class="test" ></div>
+<div id="b23011123" onclick="of('23011123')" class="test"></div>
+
+
+<div id="b0203010101010101" onclick="oflink('0203010101010101')" class="test" ></div>
+<div id="b0203010101010102" onclick="oflink('0203010101010102')" class="test" ></div>
+<div id="b0203010101010103" onclick="oflink('0203010101010103')" class="test" ></div>
+<div id="b0203010101010201" onclick="oflink('0203010101010201')" class="test" ></div>
+<div id="b0203010101010202" onclick="oflink('0203010101010202')" class="test" ></div>
+<div id="b0203010101010203" onclick="oflink('0203010101010203')" class="test" ></div>
+<div id="b0203010101010301" onclick="oflink('0203010101010301')" class="test" ></div>
+<div id="b0203010101010302" onclick="oflink('0203010101010302')" class="test" ></div>
+<div id="b0203010101010303" onclick="oflink('0203010101010303')" class="test" ></div>
+<div id="b0203010101020101" onclick="oflink('0203010101020101')" class="test" ></div>
+<div id="b0203010101020102" onclick="oflink('0203010101020102')" class="test" ></div>
+<div id="b0203010101020103" onclick="oflink('0203010101020103')" class="test" ></div>
+<div id="b0203010101020201" onclick="oflink('0203010101020201')" class="test" ></div>
+<div id="b0203010101020202" onclick="oflink('0203010101020202')" class="test" ></div>
+<div id="b0203010101020203" onclick="oflink('0203010101020203')" class="test" ></div>
+<div id="b0203010101020301" onclick="oflink('0203010101020301')" class="test" ></div>
+<div id="b0203010101020302" onclick="oflink('0203010101020302')" class="test" ></div>
+<div id="b0203010101020303" onclick="oflink('0203010101020303')" class="test" ></div>
+<div id="b0203010101030101" onclick="oflink('0203010101030101')" class="test" ></div>
+<div id="b0203010101030102" onclick="oflink('0203010101030102')" class="test" ></div>
+<div id="b0203010101030103" onclick="oflink('0203010101030103')" class="test" ></div>
+<div id="b0203010101030201" onclick="oflink('0203010101030201')" class="test" ></div>
+<div id="b0203010101030202" onclick="oflink('0203010101030202')" class="test" ></div>
+<div id="b0203010101030203" onclick="oflink('0203010101030203')" class="test" ></div>
+<div id="b0203010101030301" onclick="oflink('0203010101030301')" class="test" ></div>
+<div id="b0203010101030302" onclick="oflink('0203010101030302')" class="test" ></div>
+<div id="b0203010101030303" onclick="oflink('0203010101030303')" class="test" ></div>
+<div id="b0203010101040101" onclick="oflink('0203010101040101')" class="test" ></div>
+<div id="b0203010101040102" onclick="oflink('0203010101040102')" class="test" ></div>
+<div id="b0203010101040103" onclick="oflink('0203010101040103')" class="test" ></div>
+<div id="b0203010101040201" onclick="oflink('0203010101040201')" class="test" ></div>
+<div id="b0203010101040202" onclick="oflink('0203010101040202')" class="test" ></div>
+<div id="b0203010101040203" onclick="oflink('0203010101040203')" class="test" ></div>
+<div id="b0203010101040301" onclick="oflink('0203010101040301')" class="test" ></div>
+<div id="b0203010101040302" onclick="oflink('0203010101040302')" class="test" ></div>
+<div id="b0203010101040303" onclick="oflink('0203010101040303')" class="test" ></div>
+<div id="b0203010101050101" onclick="oflink('0203010101050101')" class="test" ></div>
+<div id="b0203010101050102" onclick="oflink('0203010101050102')" class="test" ></div>
+<div id="b0203010101050103" onclick="oflink('0203010101050103')" class="test" ></div>
+<div id="b0203010101050201" onclick="oflink('0203010101050201')" class="test" ></div>
+<div id="b0203010101050202" onclick="oflink('0203010101050202')" class="test" ></div>
+<div id="b0203010101050203" onclick="oflink('0203010101050203')" class="test" ></div>
+<div id="b0203010101050301" onclick="oflink('0203010101050301')" class="test" ></div>
+<div id="b0203010101050302" onclick="oflink('0203010101050302')" class="test" ></div>
+<div id="b0203010101050303" onclick="oflink('0203010101050303')" class="test" ></div>
+<div id="b0203010101060101" onclick="oflink('0203010101060101')" class="test" ></div>
+<div id="b0203010101060102" onclick="oflink('0203010101060102')" class="test" ></div>
+<div id="b0203010101060103" onclick="oflink('0203010101060103')" class="test" ></div>
+<div id="b0203010101060201" onclick="oflink('0203010101060201')" class="test" ></div>
+<div id="b0203010101060202" onclick="oflink('0203010101060202')" class="test" ></div>
+<div id="b0203010101060203" onclick="oflink('0203010101060203')" class="test" ></div>
+<div id="b0203010101060301" onclick="oflink('0203010101060301')" class="test" ></div>
+<div id="b0203010101060302" onclick="oflink('0203010101060302')" class="test" ></div>
+<div id="b0203010101060303" onclick="oflink('0203010101060303')" class="test" ></div>
+<div id="b0203010102010101" onclick="oflink('0203010102010101')" class="test" ></div>
+<div id="b0203010102010102" onclick="oflink('0203010102010102')" class="test" ></div>
+<div id="b0203010102010103" onclick="oflink('0203010102010103')" class="test" ></div>
+<div id="b0203010102010201" onclick="oflink('0203010102010201')" class="test" ></div>
+<div id="b0203010102010202" onclick="oflink('0203010102010202')" class="test" ></div>
+<div id="b0203010102010203" onclick="oflink('0203010102010203')" class="test" ></div>
+<div id="b0203010102010301" onclick="oflink('0203010102010301')" class="test" ></div>
+<div id="b0203010102010302" onclick="oflink('0203010102010302')" class="test" ></div>
+<div id="b0203010102010303" onclick="oflink('0203010102010303')" class="test" ></div>
+<div id="b0203010102010401" onclick="oflink('0203010102010401')" class="test" ></div>
+<div id="b0203010102010402" onclick="oflink('0203010102010402')" class="test" ></div>
+<div id="b0203010102010403" onclick="oflink('0203010102010403')" class="test" ></div>
+<div id="b0203010102020101" onclick="oflink('0203010102020101')" class="test" ></div>
+<div id="b0203010102020102" onclick="oflink('0203010102020102')" class="test" ></div>
+<div id="b0203010102020103" onclick="oflink('0203010102020103')" class="test" ></div>
+<div id="b0203010102020201" onclick="oflink('0203010102020201')" class="test" ></div>
+<div id="b0203010102020202" onclick="oflink('0203010102020202')" class="test" ></div>
+<div id="b0203010102020203" onclick="oflink('0203010102020203')" class="test" ></div>
+<div id="b0203010102020301" onclick="oflink('0203010102020301')" class="test" ></div>
+<div id="b0203010102020302" onclick="oflink('0203010102020302')" class="test" ></div>
+<div id="b0203010102020303" onclick="oflink('0203010102020303')" class="test" ></div>
+<div id="b0203010102020401" onclick="oflink('0203010102020401')" class="test" ></div>
+<div id="b0203010102020402" onclick="oflink('0203010102020402')" class="test" ></div>
+<div id="b0203010102020403" onclick="oflink('0203010102020403')" class="test" ></div>
+<div id="b0203010102030101" onclick="oflink('0203010102030101')" class="test" ></div>
+<div id="b0203010102030102" onclick="oflink('0203010102030102')" class="test" ></div>
+<div id="b0203010102030103" onclick="oflink('0203010102030103')" class="test" ></div>
+<div id="b0203010102030201" onclick="oflink('0203010102030201')" class="test" ></div>
+<div id="b0203010102030202" onclick="oflink('0203010102030202')" class="test" ></div>
+<div id="b0203010102030203" onclick="oflink('0203010102030203')" class="test" ></div>
+<div id="b0203010102030301" onclick="oflink('0203010102030301')" class="test" ></div>
+<div id="b0203010102030302" onclick="oflink('0203010102030302')" class="test" ></div>
+<div id="b0203010102030303" onclick="oflink('0203010102030303')" class="test" ></div>
+<div id="b0203010102030401" onclick="oflink('0203010102030401')" class="test" ></div>
+<div id="b0203010102030402" onclick="oflink('0203010102030402')" class="test" ></div>
+<div id="b0203010102030403" onclick="oflink('0203010102030403')" class="test" ></div>
+<div id="b0203010102040101" onclick="oflink('0203010102040101')" class="test" ></div>
+<div id="b0203010102040102" onclick="oflink('0203010102040102')" class="test" ></div>
+<div id="b0203010102040103" onclick="oflink('0203010102040103')" class="test" ></div>
+<div id="b0203010102040201" onclick="oflink('0203010102040201')" class="test" ></div>
+<div id="b0203010102040202" onclick="oflink('0203010102040202')" class="test" ></div>
+<div id="b0203010102040203" onclick="oflink('0203010102040203')" class="test" ></div>
+<div id="b0203010102040301" onclick="oflink('0203010102040301')" class="test" ></div>
+<div id="b0203010102040302" onclick="oflink('0203010102040302')" class="test" ></div>
+<div id="b0203010102040303" onclick="oflink('0203010102040303')" class="test" ></div>
+<div id="b0203010102040401" onclick="oflink('0203010102040401')" class="test" ></div>
+<div id="b0203010102040402" onclick="oflink('0203010102040402')" class="test" ></div>
+<div id="b0203010102040403" onclick="oflink('0203010102040403')" class="test" ></div>
+<div id="b0203010102050101" onclick="oflink('0203010102050101')" class="test" ></div>
+<div id="b0203010102050102" onclick="oflink('0203010102050102')" class="test" ></div>
+<div id="b0203010102050103" onclick="oflink('0203010102050103')" class="test" ></div>
+<div id="b0203010102050201" onclick="oflink('0203010102050201')" class="test" ></div>
+<div id="b0203010102050202" onclick="oflink('0203010102050202')" class="test" ></div>
+<div id="b0203010102050203" onclick="oflink('0203010102050203')" class="test" ></div>
+<div id="b0203010102050301" onclick="oflink('0203010102050301')" class="test" ></div>
+<div id="b0203010102050302" onclick="oflink('0203010102050302')" class="test" ></div>
+<div id="b0203010102050303" onclick="oflink('0203010102050303')" class="test" ></div>
+<div id="b0203010102050401" onclick="oflink('0203010102050401')" class="test" ></div>
+<div id="b0203010102050402" onclick="oflink('0203010102050402')" class="test" ></div>
+<div id="b0203010102050403" onclick="oflink('0203010102050403')" class="test" ></div>
+
+<img src="storagemap.png" name="bd" width="1600" height="1000" border="0" usemap="#Map" id="bd" />
+<map name="Map" id="Map">
+
+ <area shape="rect" coords="1323,831,1473,875" id="0203010102050401"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1323,788,1473,832" id="0203010102050402"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1323,748,1473,792" id="0203010102050403"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1175,832,1325,876" id="0203010102050301"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1175,790,1325,834" id="0203010102050302"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1175,749,1325,793" id="0203010102050303"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1027,831,1177,875" id="0203010102050203"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1027,788,1177,832" id="0203010102050202"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1027,748,1177,792" id="0203010102050203"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="879,830,1029,874" id="0203010102050101"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="879,788,1029,832" id="0203010102050102"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="879,749,1029,793" id="0203010102050103"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1324,656,1474,700" id="0203010102040401"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1323,614,1473,658" id="0203010102040402"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1324,573,1474,617" id="0203010102040403"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1178,658,1328,702" id="0203010102040301"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1176,616,1326,660" id="0203010102040302"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1176,573,1326,617" id="0203010102040303"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1029,658,1179,702" id="0203010102040201"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1028,616,1178,660" id="0203010102040202"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1028,573,1178,617" id="0203010102040203"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="881,658,1031,702" id="0203010102040101"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="881,615,1031,659" id="0203010102040102"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="880,573,1030,617" id="0203010102040103"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1326,476,1476,520" id="0203010102030401"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1176,474,1326,518" id="0203010102030301"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1325,434,1475,478" id="0203010102030402"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1176,433,1326,477" id="0203010102030302"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1325,391,1475,435" id="0203010102030403"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1176,391,1326,435" id="0203010102030303"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1028,474,1178,518" id="0203010102030201"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1028,434,1178,478" id="0203010102030202"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1028,391,1178,435" id="0203010102030203"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="881,475,1031,519" id="0203010102020101"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="880,433,1030,477" id="0203010102030102"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="880,390,1030,434" id="0203010102030103"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1326,289,1476,333" id="0203010102020401"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1327,246,1477,290" id="0203010102020402"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1178,289,1328,333" id="0203010102020301"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1179,246,1329,290" id="0203010102020302"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1029,290,1179,334" id="0203010102020201"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1030,247,1180,291" id="0203010102020202"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1327,204,1477,248" id="0203010102020403"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1030,204,1180,248" id="0203010102020203"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1179,204,1329,248" id="0203010102020303"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="881,290,1031,334" id="0203010102020101"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="881,247,1031,291" id="0203010102020102"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="881,204,1031,248" id="0203010102020103"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1325,96,1475,140" id="0203010102010401"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1326,53,1476,97" id="0203010102010402"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1176,96,1326,140" id="0203010102010301"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1027,96,1177,140" id="0203010102010201"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="878,95,1028,139" id="0203010102010101"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1176,53,1326,97" id="0203010102010302"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1027,53,1177,97" id="0203010102010202"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="878,52,1028,96" id="0203010102010102"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1326,9,1476,53" id="0203010102010403"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1176,11,1326,55" id="0203010102010303"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="1028,11,1178,55" id="0203010102010203"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="878,11,1028,55" id="0203010102010103"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="436,872,586,916" id="0203010101060301"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="436,830,586,874" id="0203010101060302"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="436,788,586,832" id="0203010101060303"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="290,870,440,914" id="0203010101060201"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="288,829,438,873" id="0203010101060202"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="288,788,438,832" id="0203010101060203"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="139,871,289,915" id="0203010101060101"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="139,830,289,874" id="0203010101060102"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="139,787,289,831" id="0203010101060103"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="438,695,588,739" id="0203010101050301"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="437,657,587,701" id="0203010101050302"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="438,615,588,659" id="0203010101050303"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="439,575,589,619" id="0203010101040301"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="439,532,589,576" id="0203010101040302"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="439,490,589,534" id="0203010101040303"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="290,696,440,740" id="0203010101050201"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="289,656,439,700" id="0203010101050202"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="290,617,440,661" id="0203010101050203"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="290,575,440,619" id="0203010101040201"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="291,532,441,576" id="0203010101040202"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="290,491,440,535" id="0203010101040203"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="143,698,293,742" id="0203010101050101"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="142,657,292,701" id="0203010101050102"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="143,616,293,660" id="0203010101050103"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="141,574,291,618" id="0203010101040101"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="141,532,291,576" id="0203010101040102"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="141,490,291,534" id="0203010101040103"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="590,273,740,317" id="0203010102040101"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="590,230,740,274" id="0203010102040203"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="591,189,741,233" id="0203010102040303"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="441,398,591,442" id="0203010101030301"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="442,357,592,401" id="0203010101030302"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="443,315,593,359" id="0203010101030303"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="442,273,592,317" id="0203010102030103"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="442,231,592,275" id="0203010101020302"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="443,189,593,233" id="0203010101020303"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="294,397,444,441" id="0203010101030201"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="294,355,444,399" id="0203010101030202"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="294,315,444,359" id="0203010101030203"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="293,273,443,317" id="0203010102020101"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="293,232,443,276" id="0203010102020203"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="294,189,444,233" id="0203010102020301"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="146,397,296,441" id="0203010101030101"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="146,358,296,402" id="0203010101030102"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="146,317,296,361" id="0203010101030103"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="145,274,295,318" id="0203010101020101"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="145,232,295,276" id="0203010101020102"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="145,189,295,233" id="0203010101020103"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="590,95,740,139" id="0203010101040102"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="590,54,740,98" id="0203010101040202"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="442,95,592,139" id="0203010101010301"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="442,53,592,97" id="0203010101010302"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="293,97,443,141" id="0203010101020103"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="293,54,443,98" id="0203010102020101"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="144,96,294,140" id="0203010101010302"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="144,54,294,98" id="0203010101020103"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="590,12,740,56" id="0203010101040302"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="442,12,592,56" id="0203010101030302"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="293,12,443,56" id="0203010102030103"  onmousemove="showBorderTest(this,id);"  />
+  <area shape="rect" coords="144,15,294,59" id="0203010101030302"  onmousemove="showBorderTest(this,id);"  />
+</map>
+
+  <p>测试Android WebView 与 Javascript 交互</p>
+  <input id = "name_input" class = "inputStyle" value="你大爷的" type="text"/>
+  <a class = "rect" onclick="sendInfoToJava()">JS调用Java</a>
+</body>
+</html>

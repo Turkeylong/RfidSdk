@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/four_oneLin"
+                style="@style/leftFrameStyle"
+                android:layout_marginLeft="0dp"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button
+                style="@style/airLineStyle"
+                android:layout_below="@+id/four_oneLin"
+                android:layout_toRightOf="@+id/four_oneLin" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:orientation="vertical" >
+
+            <Button
+                style="@style/verticalDoorStairStyle"
+                android:text="@string/door_vert_text" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

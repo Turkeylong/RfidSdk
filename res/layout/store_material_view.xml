@@ -1,0 +1,172 @@
+<com.zk.rfid.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/titleBgStyle"
+        app:layout_heightPercent="10%"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/gobacktext"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/zk_back"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/backImg"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/back_left" />
+
+        <TextView
+            android:id="@+id/storemaptitle"
+            style="@style/TitleThemeStyle"
+            android:layout_centerVertical="true"
+            android:text="@string/zk_store_tag_text" />
+
+        <TextView
+            android:id="@+id/invtitle"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text="@string/inv_material_form"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/invImg"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/inv_right" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_heightPercent="10%"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/storage_write_epc_query" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View style="@style/longLineStyle" />
+
+            <include layout="@layout/epc_list_item" />
+        </LinearLayout>
+
+        <View style="@style/longLineStyle" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <com.zk.rfid.comm.listvew.CustomListView
+                android:id="@+id/dataListView"
+                style="@style/listViewStyle"
+                android:scrollbars="none" />
+
+            <View style="@style/longLineStyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/countTextsLin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <View style="@style/longLineStyle" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/showCounText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center|left"
+                    android:singleLine="true"
+                    android:textColor="@color/red"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/write_epc_info_msg"
+                    android:textColor="@color/red"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/long_white_bg"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/seacherEdit"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:gravity="center|left"
+                        android:hint="@string/seacher_hint"
+                        android:singleLine="true"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/seacher_delete"
+                        android:layout_width="20dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/delete"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</com.zk.rfid.percent.PercentLinearLayout>

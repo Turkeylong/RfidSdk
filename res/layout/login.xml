@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/login_bg_blue" >
+
+    <RelativeLayout
+        android:layout_width="500dp"
+        android:layout_height="280dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/login_bg" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/itemStyle"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/long_white_bg"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    style="@style/loginImgStyle"
+                    android:background="@drawable/usename_img" />
+
+                <EditText
+                    android:id="@+id/login_username_edit"
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:digits="@string/english_name_digits"
+                    android:hint="@string/login_username_hint"
+                    android:maxLength="18"
+                    android:paddingLeft="3dp"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/zk_login_delete"
+                    android:layout_width="25dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/delete"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/itemStyle"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/long_white_bg"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    style="@style/loginImgStyle"
+                    android:background="@drawable/password_img" />
+
+                <EditText
+                    android:id="@+id/login_pwd_edit"
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:digits="@string/english_password_digits"
+                    android:hint="@string/login_pwd_text_hint"
+                    android:maxLength="18"
+                    android:paddingLeft="3dp"
+                    android:password="true"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/zk_pwd_delete"
+                    android:layout_width="25dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/delete"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radioEmployee"
+                        style="@style/textStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleX="0.8"
+                        android:scaleY="0.8"
+                        android:text="@string/login_employee" />
+
+                    <RadioButton
+                        android:id="@+id/radioManager"
+                        style="@style/textStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:checked="true"
+                        android:scaleX="0.8"
+                        android:scaleY="0.8"
+                        android:text="@string/login_manager" />
+
+                    <RadioButton
+                        android:id="@+id/radioTemp"
+                        style="@style/textStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:scaleX="0.8"
+                        android:scaleY="0.8"
+                        android:text="@string/login_temp" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/login_submit_btn"
+                style="@style/clickBtnNoPercentStyle"
+                android:text="@string/login_submit" />
+
+            <Button
+                android:id="@+id/login_cancle_btn"
+                style="@style/clickBtnNoPercentStyle"
+                android:layout_marginLeft="20dp"
+                android:text="@string/login_cancle"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/login_epc_btn"
+                style="@style/clickBtnNoPercentStyle"
+                android:layout_marginLeft="20dp"
+                android:text="EPC登录"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/versionText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

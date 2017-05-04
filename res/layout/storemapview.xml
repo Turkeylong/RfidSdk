@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center|left"
+        android:layout_weight="4"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/stoRadioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="center|left"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/stoOne"
+                style="@style/textStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/one_area" />
+
+            <RadioButton
+                android:id="@+id/stoSecond"
+                style="@style/textStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/second_area" />
+
+            <RadioButton
+                android:id="@+id/stoThird"
+                style="@style/textStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/third_area" />
+
+            <RadioButton
+                android:id="@+id/stoFour"
+                style="@style/textStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/fourth_area"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/stoFifth"
+                style="@style/textStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/fifth_area" />
+        </RadioGroup>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/mapLin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical" >
+
+                <include
+                    android:id="@+id/mapone"
+                    layout="@layout/map_one_area"
+                    android:visibility="gone" />
+
+                <include
+                    android:id="@+id/maptwo"
+                    layout="@layout/map_two_area"
+                    android:visibility="gone" />
+
+                <include
+                    android:id="@+id/mapthree"
+                    layout="@layout/map_three_area"
+                    android:visibility="gone" />
+
+                <include
+                    android:id="@+id/mapfour"
+                    layout="@layout/map_four_area"
+                    android:visibility="gone" />
+
+                <include
+                    android:id="@+id/mapfive"
+                    layout="@layout/map_five_area"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <View style="@style/shortLineStyle" />
+
+    <LinearLayout
+        android:id="@+id/showStorageLin"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center|left"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/sposRadioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:gravity="center|left"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/radioPos"
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:checked="true"
+                android:text="@string/storage_pos" />
+
+            <RadioButton
+                android:id="@+id/radioStorage"
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:text="@string/storage" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <View
+        style="@style/shortLineStyle"
+        android:layout_marginRight="2dp" />
+
+</LinearLayout>

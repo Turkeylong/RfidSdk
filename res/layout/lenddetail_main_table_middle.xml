@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/itemStyle"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/orderText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/order_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/numberText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/query_number"
+            android:textIsSelectable="true" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/nameText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/apply_material_name"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/materialNumberText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:visibility="gone" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/unit"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/unit_text_hint" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/apply_count"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/apply_count_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/pre_count"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/pre_count_text" />
+
+        <LinearLayout
+            android:id="@+id/lendCountLin"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <EditText
+                android:id="@+id/lend_count"
+                style="@style/textStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:background="@drawable/rect_white_btn"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:text="1" />
+        </LinearLayout>
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/returnCountText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/back_count_text" />
+
+        <LinearLayout
+            android:id="@+id/returnCountLin"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <EditText
+                android:id="@+id/return_count"
+                style="@style/textStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:background="@drawable/rect_white_btn"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:text="1" />
+        </LinearLayout>
+
+        <View style="@style/shortLineStyle" />
+    </LinearLayout>
+
+</LinearLayout>

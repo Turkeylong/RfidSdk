@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/itemLin"
+        style="@style/itemListStyle"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/orderText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/order_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/numberText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/query_number" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/nameText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="@string/apply_material_name" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/posText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/position_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/countText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/wait_modify_old_count_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/objCountText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/wait_modify_obj_count_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/serialNumber"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/serialNumber_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/operateText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/operate_text"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/operateLin"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/operate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/onclick_blue_btn"
+                android:gravity="center"
+                android:minHeight="45dp"
+                android:minWidth="80dp"
+                android:text="@string/wait_modify_text"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <View style="@style/shortLineStyle" />
+    </LinearLayout>
+
+</LinearLayout>

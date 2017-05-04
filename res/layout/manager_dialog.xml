@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/writ_btn"
+            style="@style/clickBtnNoPercentStyle"
+            android:text="@string/zk_tag_write_text" />
+
+        <Button
+            android:id="@+id/logout_btn"
+            style="@style/clickBtnNoPercentStyle"
+            android:layout_marginLeft="10dp"
+            android:text="@string/logout" />
+
+        <Button
+            android:id="@+id/damage_btn"
+            style="@style/clickBtnNoPercentStyle"
+            android:layout_marginLeft="10dp"
+            android:text="@string/damage" />
+
+        <Button
+            android:id="@+id/change_use_btn"
+            style="@style/clickBtnNoPercentStyle"
+            android:layout_marginLeft="10dp"
+            android:text="@string/change_use" />
+
+        <Button
+            android:id="@+id/change_lend_btn"
+            style="@style/clickBtnNoPercentStyle"
+            android:layout_marginLeft="10dp"
+            android:text="@string/change_lend" />
+    </LinearLayout>
+
+</LinearLayout>

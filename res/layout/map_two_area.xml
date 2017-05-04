@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/two_oneLin"
+                style="@style/leftFrameStyle"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button style="@style/airLineStyle" />
+
+            <LinearLayout
+                android:id="@+id/two_twoLin"
+                style="@style/leftFrameStyle"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button style="@style/airLineStyle" />
+
+            <LinearLayout
+                android:id="@+id/two_threeLin"
+                style="@style/leftFrameStyle"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/two_fourLin"
+                style="@style/leftFrameStyle"
+                android:layout_marginTop="35dp"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button style="@style/airLineStyle" />
+
+            <LinearLayout
+                android:id="@+id/two_fiveLin"
+                style="@style/leftFrameStyle"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            style="@style/verticalDoorStairStyle"
+            android:text="@string/stair_vert_text"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

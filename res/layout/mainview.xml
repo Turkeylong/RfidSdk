@@ -1,0 +1,540 @@
+<com.zk.rfid.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainviewLin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/titleBgStyle"
+        app:layout_heightPercent="10%"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/menu_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/detailtitle"
+            style="@style/TitleThemeStyle"
+            android:layout_centerVertical="true"
+            android:text="@string/material_lend_title" />
+
+        <TextView
+            android:id="@+id/invtitle"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text="@string/inv_material_form"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/invImg"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/inv_right" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:layout_heightPercent="10%"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/query_lend_lin"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center|left"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/out_number"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/long_white_bg"
+                    android:gravity="center|left"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/queryApplyNumber"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:digits="@string/english_name_digits"
+                        android:hint="@string/out_number_hint"
+                        android:maxLength="30"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:id="@+id/zk_apply_delete"
+                        android:layout_width="20dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/delete"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/query_material_lin"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center|left"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/deliveryOrderNumber_text"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/long_white_bg"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/deliveryOrderEditNumber"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:digits="@string/english_name_digits"
+                        android:hint="@string/deliveryOrder_number_hint"
+                        android:maxLength="30"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:id="@+id/zk_deliveryOrder_delete"
+                        android:layout_width="20dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/delete"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:text="@string/query_number"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/long_white_bg"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/queryEditNumber"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:digits="@string/english_name_digits"
+                        android:hint="@string/query_number_hint"
+                        android:maxLength="11"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:id="@+id/zk_gnum_delete"
+                        android:layout_width="20dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/delete"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:text="@string/query_material_name"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/long_white_bg"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/queryEditMaterial"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:hint="@string/query_material_name_hint"
+                        android:maxLength="40"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:id="@+id/zk_gname_delete"
+                        android:layout_width="20dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/delete"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/query_name_lin"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="2"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/query_user_number"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/long_white_bg"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/queryEditUserNum"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:digits="@string/english_name_digits"
+                        android:hint="@string/query_user_number_hint"
+                        android:maxLength="20"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:id="@+id/zk_userno_delete"
+                        android:layout_width="20dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/delete"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:text="@string/query_user_name"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/long_white_bg"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/queryEditName"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:hint="@string/query_user_name_hint"
+                        android:maxLength="20"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:id="@+id/zk_username_delete"
+                        android:layout_width="20dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/delete"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/query_date_lin"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center|left"
+            android:layout_weight="2"
+            app:layout_heightPercent="10%"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/apply_date_time_text"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                app:layout_heightPercent="10%"
+                android:background="@drawable/long_white_bg"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/beginTime"
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:hint="@string/query_date_time_begin"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/zk_begintime_delete"
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/delete"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/textStyle"
+                android:layout_width="10dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="-" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                app:layout_heightPercent="10%"
+                android:background="@drawable/long_white_bg"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/endTime"
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:hint="@string/query_date_time_end"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/zk_endtime_delete"
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/delete"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            app:layout_heightPercent="10%"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center|right"
+                android:orientation="horizontal" >
+
+                <RadioGroup
+                    android:id="@+id/queryRadioGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radioLend"
+                        style="@style/textStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:checked="true"
+                        android:text="@string/query_radio_lend" />
+
+                    <LinearLayout
+                        android:id="@+id/lend_select_lin"
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/rect_white_btn"
+                        android:orientation="horizontal" >
+
+                        <EditText
+                            android:id="@+id/lend_select_edit"
+                            style="@style/textStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:background="@color/white"
+                            android:editable="false"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/lend_select_imgview"
+                            style="@style/textStyle"
+                            android:layout_width="25dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center|right"
+                            android:src="@drawable/select_down_img"
+                            android:visibility="visible" />
+                    </LinearLayout>
+
+                    <RadioButton
+                        android:id="@+id/radioRecord"
+                        style="@style/textStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/query_radio_storage" />
+
+                    <LinearLayout
+                        android:id="@+id/store_select_lin"
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/rect_white_btn"
+                        android:orientation="horizontal" >
+
+                        <EditText
+                            android:id="@+id/store_select_edit"
+                            style="@style/textStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:background="@color/white"
+                            android:editable="false"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/store_select_imgview"
+                            style="@style/textStyle"
+                            android:layout_width="25dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center|right"
+                            android:src="@drawable/select_down_img"
+                            android:visibility="visible" />
+                    </LinearLayout>
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/queryBtn"
+                    style="@style/clickBtnNoPercentStyle"
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/query" />
+
+                <Button
+                    android:id="@+id/applyBtn"
+                    style="@style/clickBtnNoPercentStyle"
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/request"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <include layout="@layout/mainview_listview" />
+    </LinearLayout>
+
+</com.zk.rfid.percent.PercentLinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/itemLin"
+        style="@style/itemStyle"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/orderText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/order_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/numberText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/material_group_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/countText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/count_hint"
+            android:visibility="gone" />
+
+        <View
+            style="@style/shortLineStyle"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/codeText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/material_id_text"
+            />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/nameText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="@string/query_material_name"
+            />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/unitText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/unit_text_hint" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/storageRecordText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/storage_record_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/realRecordText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/real_record_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/inventoryRecordText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/inventory_record_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/storageStatusText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/storage_status_text" />
+
+        <View style="@style/shortLineStyle" />
+    </LinearLayout>
+
+</LinearLayout>

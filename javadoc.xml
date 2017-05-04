@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" additionalparam=" -encoding UTF-8 -charset UTF-8" author="true" classpath="../RfidSdk/bin/rfidsdk.jar;libs/android-support-v4.jar" destdir="doc" doctitle="手持机代码说明文档" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="com.zk.rfid.init,com.zk.rfid.util,com.zk.rfid.update,com.zk.rfid.main.bean,com.zk.rfid.login.activity,com.zk.rfid.main.dao,com.zk.rfid.percent,com.zk.rfid.comm.search,com.zk.rfid.map.dao,com.zk.rfid.main.activity,com.zk.rfid.comm.base,com.zk.rfid.map.adapter,com.zk.rfid.comm.scro,com.zk.rfid.main.adapter,com.zk.rfid.comm.listvew,com.zk.rfid.login.dao,com.zk.rfid.comm.date,com.zk.rfid.main.util,com.zk.rfid.map.work,com.zk.rfid.login.work,com.zk.rfid.map.activity,com.zk.rfid.main.work,com.rfid.sdk" source="1.7" sourcefiles="gen/com/zk/rfid/R.java,gen/com/zk/rfid/BuildConfig.java" sourcepath="gen;src" splitindex="true" use="true" version="true">
+            <link href="file:/D:/EclWork/RfidPro/doc/"/>
+        </javadoc>
+    </target>
+</project>

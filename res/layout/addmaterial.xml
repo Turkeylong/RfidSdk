@@ -1,0 +1,319 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/boxRadioGroup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="30dp"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <RadioButton
+                    android:id="@+id/radioBoxNo"
+                    style="@style/textStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:checked="true"
+                    android:text="@string/create_radio_not_box" />
+
+                <RadioButton
+                    android:id="@+id/radioBoxYes"
+                    style="@style/textStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/create_radio_box" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/add_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center|right"
+                    android:background="@drawable/add_btn" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/mat_box_lin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <include layout="@layout/addmaterial_box" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/add_mat_scro_lin"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/addLin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/line_green"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:shrinkColumns="1" >
+
+                <TableRow style="@style/tableLayoutStyle" >
+
+                    <TextView
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/check_accept_text" />
+
+                    <View style="@style/shortLineStyle" />
+
+                    <LinearLayout
+                        style="@style/itemStyle"
+                        android:layout_width="0dp"
+                        android:layout_weight="3" >
+
+                        <EditText
+                            android:id="@+id/approvalOrderNumberEdit"
+                            style="@style/textStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/rect_white_btn"
+                            android:gravity="center|left"
+                            android:hint="@string/check_accept_hint"
+                            android:maxLength="20"
+                            android:singleLine="true" />
+
+                        <TextView style="@style/redNotNullStyle" />
+                    </LinearLayout>
+
+                    <View style="@style/shortLineStyle" />
+
+                    <TextView
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/send_cometime_text" />
+
+                    <View style="@style/shortLineStyle" />
+
+                    <LinearLayout
+                        style="@style/itemStyle"
+                        android:layout_width="0dp"
+                        android:layout_weight="3" >
+
+                        <EditText
+                            android:id="@+id/arrivedDateEdit"
+                            style="@style/textStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp"
+                            android:layout_weight="3"
+                            android:background="@drawable/rect_white_btn"
+                            android:gravity="center|left"
+                            android:hint="@string/send_cometime_hint"
+                            android:singleLine="true" />
+
+                        <TextView style="@style/redNotNullStyle" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow style="@style/tableLayoutStyle" >
+
+                    <TextView
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/purchase_order_number_text" />
+
+                    <View style="@style/shortLineStyle" />
+
+                    <LinearLayout
+                        style="@style/itemStyle"
+                        android:layout_width="0dp"
+                        android:layout_weight="3" >
+
+                        <EditText
+                            android:id="@+id/purchaseOrderNumberEdit"
+                            style="@style/textStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/rect_white_btn"
+                            android:gravity="center|left"
+                            android:hint="@string/purchase_order_number_hint"
+                            android:maxLength="40"
+                            android:singleLine="true" />
+
+                        <TextView style="@style/redNotNullStyle" />
+                    </LinearLayout>
+
+                    <View style="@style/shortLineStyle" />
+
+                    <TextView
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/send_com_text" />
+
+                    <View style="@style/shortLineStyle" />
+
+                    <LinearLayout
+                        style="@style/itemStyle"
+                        android:layout_width="0dp"
+                        android:layout_weight="3" >
+
+                        <EditText
+                            android:id="@+id/send_company"
+                            style="@style/textStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp"
+                            android:layout_weight="3"
+                            android:background="@drawable/rect_white_btn"
+                            android:gravity="center|left"
+                            android:hint="@string/send_com_hint"
+                            android:maxLength="40"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                    <View style="@style/shortLineStyle" />
+                </TableRow>
+
+                <TableRow style="@style/tableLayoutLastStyle" >
+
+                    <TextView
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/remarks" />
+
+                    <View style="@style/shortLineStyle" />
+
+                    <LinearLayout
+                        style="@style/itemStyle"
+                        android:layout_width="0dp"
+                        android:layout_weight="3" >
+
+                        <EditText
+                            android:id="@+id/add_remarks"
+                            style="@style/textStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp"
+                            android:layout_weight="3"
+                            android:background="@drawable/rect_white_btn"
+                            android:gravity="center|left"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                    <View style="@style/shortLineStyle" />
+
+                    <TextView
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/remarks"
+                        android:visibility="invisible" />
+
+                    <View style="@style/shortLineStyle" />
+
+                    <LinearLayout
+                        style="@style/itemStyle"
+                        android:layout_width="0dp"
+                        android:layout_weight="3" >
+
+                        <EditText
+                            style="@style/textStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp"
+                            android:layout_weight="3"
+                            android:background="@drawable/rect_white_btn"
+                            android:gravity="center|left"
+                            android:singleLine="true"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/add_submit_btn"
+                    style="@style/clickBtnNoPercentStyle"
+                    android:text="@string/add" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

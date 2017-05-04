@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/itemLin"
+        style="@style/itemListStyle"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:minHeight="30dp"
+        android:visibility="visible" >
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/orderText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/order_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/numberText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/query_number" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/nameText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="@string/apply_material_name" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/posText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/position_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/countText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/scan_detail_count" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/objCountText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/wait_modify_obj_count_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/serialNumber"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/serialNumber_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/boxText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/isbox" />
+
+        <View style="@style/shortLineStyle" />
+    </LinearLayout>
+
+</LinearLayout>

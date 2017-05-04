@@ -1,0 +1,79 @@
+# view AndroidManifest.xml #generated:30
+-keep class com.zk.rfid.comm.base.BootBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class com.zk.rfid.comm.base.MyApplication { <init>(...); }
+
+# view res/layout/exceptioninfo.xml #generated:97
+# view res/layout/mainview_listview.xml #generated:58
+# view res/layout/mainview_listview.xml #generated:72
+# view res/layout/store_material_view.xml #generated:98
+# view res/layout/store_total.xml #generated:137
+# view res/layout/store_total.xml #generated:152
+# view res/layout/store_total.xml #generated:167
+# view res/layout/store_total.xml #generated:182
+-keep class com.zk.rfid.comm.listvew.CustomListView { <init>(...); }
+
+# view res/layout/addmaterial_total.xml #generated:64
+# view res/layout/adjust_epc_total.xml #generated:62
+# view res/layout/mainview_total.xml #generated:6
+# view res/layout/store_material_total.xml #generated:9
+-keep class com.zk.rfid.comm.scro.HoScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.zk.rfid.login.activity.EditPwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.zk.rfid.login.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.zk.rfid.main.activity.AdjustActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.zk.rfid.main.activity.ApplyMaterialActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class com.zk.rfid.main.activity.ExceptionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.zk.rfid.main.activity.LendDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.zk.rfid.main.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.zk.rfid.main.activity.MaterialDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.zk.rfid.main.activity.ModifyBoxActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.zk.rfid.main.activity.OperateEpcActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.zk.rfid.main.activity.StoreToTalActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.zk.rfid.main.activity.WaitModifyCountActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class com.zk.rfid.map.activity.AddMaterialActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.zk.rfid.map.activity.EpcWriteActivity { <init>(...); }
+
+# view res/layout/addmaterial_total.xml #generated:1
+# view res/layout/apply_material.xml #generated:2
+# view res/layout/lenddetail.xml #generated:1
+# view res/layout/mainview.xml #generated:1
+# view res/layout/material_detail.xml #generated:1
+# view res/layout/modifybox.xml #generated:1
+# view res/layout/operateepc.xml #generated:1
+# view res/layout/store_material_view.xml #generated:1
+# view res/layout/store_total.xml #generated:1
+# view res/layout/wait_modify.xml #generated:1
+-keep class com.zk.rfid.percent.PercentLinearLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.zk.rfid.update.AutoUpdateActivty { <init>(...); }
+

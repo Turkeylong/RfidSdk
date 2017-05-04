@@ -1,0 +1,218 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/query_material_lin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/query_number"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/long_white_bg"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/queryEditNumber"
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:digits="@string/english_name_digits"
+                    android:hint="@string/query_number_hint"
+                    android:maxLength="11"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/zk_gnum_delete"
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/delete"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="@string/query_material_name"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/long_white_bg"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/queryEditMaterial"
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:hint="@string/query_material_name_hint"
+                    android:maxLength="40"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/zk_gname_delete"
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/delete"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="@string/come_date_time_text"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/long_white_bg"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/beginTime"
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:hint="@string/query_date_time_begin"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/zk_begintime_delete"
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/delete"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/textStyle"
+                android:layout_width="10dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="-" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/long_white_bg"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/endTime"
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:hint="@string/query_date_time_end"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/zk_endtime_delete"
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/delete"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/posCheck"
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="@string/pos_check_box"
+                android:visibility="visible" />
+
+            <RadioGroup
+                android:id="@+id/boxRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <RadioButton
+                    android:id="@+id/radioBoxNo"
+                    style="@style/textStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:checked="true"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:text="@string/create_radio_not_box" />
+
+                <RadioButton
+                    android:id="@+id/radioBoxYes"
+                    style="@style/textStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:text="@string/create_radio_box" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/queryBtn"
+                style="@style/clickBtnStyle"
+                android:layout_width="60dp"
+                android:layout_gravity="center|right"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/onclick_blue_btn"
+                android:text="@string/query"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

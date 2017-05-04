@@ -1,0 +1,2467 @@
+android.support.v4.app.ActionBarDrawerToggle
+android.support.v4.app.ActivityCompat
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.DialogFragment
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentHostCallback
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentPagerAdapter
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentStatePagerAdapter
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.INotificationSideChannel$Stub
+android.support.v4.app.ListFragment
+android.support.v4.app.NotificationCompat$Action
+android.support.v4.app.NotificationCompat$Action$WearableExtender
+android.support.v4.app.NotificationCompat$BigPictureStyle
+android.support.v4.app.NotificationCompat$BigTextStyle
+android.support.v4.app.NotificationCompat$CarExtender
+android.support.v4.app.NotificationCompat$CarExtender$UnreadConversation
+android.support.v4.app.NotificationCompat$InboxStyle
+android.support.v4.app.NotificationCompat$WearableExtender
+android.support.v4.app.NotificationCompatApi20$Builder
+android.support.v4.app.NotificationCompatApi21$Builder
+android.support.v4.app.NotificationCompatIceCreamSandwich$Builder
+android.support.v4.app.NotificationCompatJellybean$Builder
+android.support.v4.app.NotificationCompatKitKat$Builder
+android.support.v4.app.NotificationCompatSideChannelService
+android.support.v4.app.RemoteInput
+android.support.v4.content.AsyncTaskLoader
+android.support.v4.content.CursorLoader
+android.support.v4.content.FileProvider
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.content.WakefulBroadcastReceiver
+android.support.v4.internal.view.SupportSubMenu
+android.support.v4.media.MediaBrowserCompat$ItemReceiver
+android.support.v4.media.MediaBrowserCompat$MediaItem
+android.support.v4.media.MediaBrowserCompat$MediaItem: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.MediaBrowserServiceCompat
+android.support.v4.media.MediaBrowserServiceCompat$ServiceImplApi23$1
+android.support.v4.media.MediaBrowserServiceCompatApi21$ServiceCallbacksApi21
+android.support.v4.media.MediaBrowserServiceCompatApi23$ServiceImplApi23
+android.support.v4.media.MediaDescriptionCompat
+android.support.v4.media.MediaDescriptionCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.MediaMetadataCompat
+android.support.v4.media.MediaMetadataCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.RatingCompat
+android.support.v4.media.RatingCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.TransportMediator
+android.support.v4.media.session.IMediaControllerCallback$Stub
+android.support.v4.media.session.IMediaSession$Stub
+android.support.v4.media.session.MediaButtonReceiver
+android.support.v4.media.session.MediaControllerCompatApi23$TransportControls
+android.support.v4.media.session.MediaSessionCompat$QueueItem
+android.support.v4.media.session.MediaSessionCompat$QueueItem: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompat$ResultReceiverWrapper
+android.support.v4.media.session.MediaSessionCompat$ResultReceiverWrapper: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompat$Token
+android.support.v4.media.session.MediaSessionCompat$Token: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompatApi23$Callback
+android.support.v4.media.session.ParcelableVolumeInfo
+android.support.v4.media.session.ParcelableVolumeInfo: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.PlaybackStateCompat
+android.support.v4.media.session.PlaybackStateCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.PlaybackStateCompat$CustomAction
+android.support.v4.media.session.PlaybackStateCompat$CustomAction: android.os.Parcelable$Creator CREATOR
+android.support.v4.os.IResultReceiver$Stub
+android.support.v4.os.ResultReceiver
+android.support.v4.os.ResultReceiver: android.os.Parcelable$Creator CREATOR
+android.support.v4.util.ArrayMap
+android.support.v4.util.Pools$SimplePool
+android.support.v4.util.Pools$SynchronizedPool
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.view.ViewPager$SimpleOnPageChangeListener
+android.support.v4.view.ViewPropertyAnimatorListenerAdapter
+android.support.v4.view.animation.FastOutLinearInInterpolator
+android.support.v4.view.animation.FastOutSlowInInterpolator
+android.support.v4.view.animation.LinearOutSlowInInterpolator
+android.support.v4.widget.CursorAdapter
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: void setDrawerElevation(float)
+android.support.v4.widget.DrawerLayout: float getDrawerElevation()
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout: void setStatusBarBackground(android.graphics.drawable.Drawable)
+android.support.v4.widget.DrawerLayout: android.graphics.drawable.Drawable getStatusBarBackgroundDrawable()
+android.support.v4.widget.DrawerLayout: void setStatusBarBackground(int)
+android.support.v4.widget.DrawerLayout: void setStatusBarBackgroundColor(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout$SimpleDrawerListener
+android.support.v4.widget.ExploreByTouchHelper
+android.support.v4.widget.ListViewAutoScrollHelper
+android.support.v4.widget.NestedScrollView
+android.support.v4.widget.NestedScrollView: void setNestedScrollingEnabled(boolean)
+android.support.v4.widget.NestedScrollView: int getNestedScrollAxes()
+android.support.v4.widget.NestedScrollView: float getTopFadingEdgeStrength()
+android.support.v4.widget.NestedScrollView: float getBottomFadingEdgeStrength()
+android.support.v4.widget.NestedScrollView: int getMaxScrollAmount()
+android.support.v4.widget.NestedScrollView: void setOnScrollChangeListener(android.support.v4.widget.NestedScrollView$OnScrollChangeListener)
+android.support.v4.widget.NestedScrollView: void setFillViewport(boolean)
+android.support.v4.widget.NestedScrollView: void setSmoothScrollingEnabled(boolean)
+android.support.v4.widget.NestedScrollView: float getVerticalScrollFactorCompat()
+android.support.v4.widget.NestedScrollView: int getScrollRange()
+android.support.v4.widget.NestedScrollView$SavedState
+android.support.v4.widget.NestedScrollView$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.ResourceCursorAdapter
+android.support.v4.widget.SimpleCursorAdapter
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableLeft(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableRight(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceLeft(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceRight(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout$SimplePanelSlideListener
+android.support.v4.widget.SwipeRefreshLayout
+android.support.v4.widget.SwipeRefreshLayout: void setColorViewAlpha(int)
+android.support.v4.widget.SwipeRefreshLayout: void setSize(int)
+android.support.v4.widget.SwipeRefreshLayout: void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener)
+android.support.v4.widget.SwipeRefreshLayout: void setRefreshing(boolean)
+android.support.v4.widget.SwipeRefreshLayout: void setAnimationProgress(float)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressBackgroundColor(int)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressBackgroundColorSchemeResource(int)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressBackgroundColorSchemeColor(int)
+android.support.v4.widget.SwipeRefreshLayout: void setColorScheme(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setColorSchemeResources(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setColorSchemeColors(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setDistanceToTriggerSync(int)
+android.support.v4.widget.SwipeRefreshLayout: int getProgressCircleDiameter()
+android.support.v4.widget.SwipeRefreshLayout: int getNestedScrollAxes()
+android.support.v4.widget.SwipeRefreshLayout: void setNestedScrollingEnabled(boolean)
+android.zyapi.CommonApi
+android.zyapi.CommonApi: android.zyapi.CommonApi mMe
+android.zyapi.CommonApi: android.content.Context mContext
+android.zyapi.CommonApi: void <clinit>()
+android.zyapi.CommonApi: CommonApi()
+android.zyapi.CommonApi: android.zyapi.CommonApi getInstance(android.content.Context)
+android.zyapi.CommonApi: int setGpioMode(int,int)
+android.zyapi.CommonApi: int setGpioDir(int,int)
+android.zyapi.CommonApi: int setGpioPullEnable(int,int)
+android.zyapi.CommonApi: int setGpioPullSelect(int,int)
+android.zyapi.CommonApi: int setGpioOut(int,int)
+android.zyapi.CommonApi: int getGpioIn(int)
+android.zyapi.CommonApi: int openCom(java.lang.String,int,int,char,int)
+android.zyapi.CommonApi: int openComEx(java.lang.String,int,int,char,int,int)
+android.zyapi.CommonApi: int writeCom(int,byte[],int)
+android.zyapi.CommonApi: int readCom(int,byte[],int)
+android.zyapi.CommonApi: int readComEx(int,byte[],int,int,int)
+android.zyapi.CommonApi: int closeCom(int)
+com.rfid.sdk.R
+com.rfid.sdk.R: R()
+com.rfid.sdk.R$xml
+com.rfid.sdk.R$xml: int tidinfo
+com.rfid.sdk.R$xml: R$xml()
+com.rfid.sdk.callbackinterface.RevcCallBackListen
+com.rfid.sdk.callbackinterface.RevcCallBackListen: void callBackRegMsg(android.os.Message)
+com.rfid.sdk.callbackinterface.RevcCallBackListen: void callBackCmdMsg(android.os.Message)
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: boolean readFlag
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: short cmd_type
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: boolean cmd_success
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: short reg_name
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: int reg_val
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: android.os.Handler handler
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: RevcCallBackListenImpl(android.os.Handler)
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: short getCmd_type()
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: void setCmd_type(short)
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: boolean isCmd_success()
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: void setCmd_success(boolean)
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: short getReg_name()
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: void setReg_name(short)
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: void setReg_val(int)
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: int getReg_val()
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: void callBackRegMsg(android.os.Message)
+com.rfid.sdk.callbackinterface.RevcCallBackListenImpl: void callBackCmdMsg(android.os.Message)
+com.rfid.sdk.parsexml.TidMatchInfoParser
+com.rfid.sdk.parsexml.TidMatchInfoParser: android.content.res.XmlResourceParser xml_parser
+com.rfid.sdk.parsexml.TidMatchInfoParser: java.util.Map retMap
+com.rfid.sdk.parsexml.TidMatchInfoParser: TidMatchInfoParser()
+com.rfid.sdk.parsexml.TidMatchInfoParser: boolean load(android.content.res.XmlResourceParser)
+com.rfid.sdk.parsexml.TidMatchInfoParser: java.util.Map GetTidMatchInfo(java.lang.String)
+com.rfid.sdk.parsexml.TidMatchInfoParser: boolean GetClassDes()
+com.rfid.sdk.parsexml.TidMatchInfoParser: boolean GetSupplierDes()
+com.rfid.sdk.parsexml.TidMatchInfoParser: boolean GetTypeInfo()
+com.rfid.sdk.protocol.HandleCommandThread
+com.rfid.sdk.protocol.HandleCommandThread: boolean recvMsgThreadFlag
+com.rfid.sdk.protocol.HandleCommandThread: int tid
+com.rfid.sdk.protocol.HandleCommandThread: java.util.HashMap epcMap
+com.rfid.sdk.protocol.HandleCommandThread: android.os.Handler handler
+com.rfid.sdk.protocol.HandleCommandThread: com.rfid.sdk.callbackinterface.RevcCallBackListen revcListen
+com.rfid.sdk.protocol.HandleCommandThread: int revc_msg_type
+com.rfid.sdk.protocol.HandleCommandThread: int revc_msg_cmd
+com.rfid.sdk.protocol.HandleCommandThread: short Cur_cmd
+com.rfid.sdk.protocol.HandleCommandThread: int err
+com.rfid.sdk.protocol.HandleCommandThread: android.os.Handler getHandler()
+com.rfid.sdk.protocol.HandleCommandThread: void setHandler(android.os.Handler)
+com.rfid.sdk.protocol.HandleCommandThread: void ClearMap()
+com.rfid.sdk.protocol.HandleCommandThread: com.rfid.sdk.callbackinterface.RevcCallBackListen getRevcListen()
+com.rfid.sdk.protocol.HandleCommandThread: void setCallBackListen(com.rfid.sdk.callbackinterface.RevcCallBackListen)
+com.rfid.sdk.protocol.HandleCommandThread: HandleCommandThread()
+com.rfid.sdk.protocol.HandleCommandThread: boolean isRecvMsgThreadRun()
+com.rfid.sdk.protocol.HandleCommandThread: void setRecvMsgThreadRun(boolean)
+com.rfid.sdk.protocol.HandleCommandThread: void run()
+com.rfid.sdk.protocol.HandleCommandThread: boolean splitPakeage(java.nio.ByteBuffer)
+com.rfid.sdk.protocol.HandleCommandThread: void epcReadParse()
+com.rfid.sdk.protocol.HandleCommandThread: void epcReadParse(java.nio.ByteBuffer)
+com.rfid.sdk.protocol.NetWorkThread
+com.rfid.sdk.protocol.NetWorkThread: java.lang.String TAG
+com.rfid.sdk.protocol.NetWorkThread: java.net.Socket socket
+com.rfid.sdk.protocol.NetWorkThread: boolean isrunning
+com.rfid.sdk.protocol.NetWorkThread: boolean isconnect
+com.rfid.sdk.protocol.NetWorkThread: java.net.SocketAddress local_addr
+com.rfid.sdk.protocol.NetWorkThread: java.net.SocketAddress server_addr
+com.rfid.sdk.protocol.NetWorkThread: java.io.InputStream in
+com.rfid.sdk.protocol.NetWorkThread: java.io.OutputStream out
+com.rfid.sdk.protocol.NetWorkThread: com.rfid.sdk.protocol.Protocol protocol
+com.rfid.sdk.protocol.NetWorkThread: android.os.Handler handler
+com.rfid.sdk.protocol.NetWorkThread: java.io.DataInputStream revedata
+com.rfid.sdk.protocol.NetWorkThread: int readsize
+com.rfid.sdk.protocol.NetWorkThread: java.nio.ByteBuffer revcbuf
+com.rfid.sdk.protocol.NetWorkThread: NetWorkThread(android.os.Handler,java.net.InetSocketAddress)
+com.rfid.sdk.protocol.NetWorkThread: com.rfid.sdk.protocol.Protocol getProtocol()
+com.rfid.sdk.protocol.NetWorkThread: void run()
+com.rfid.sdk.protocol.NetWorkThread: java.net.Socket getSocket()
+com.rfid.sdk.protocol.NetWorkThread: void setSocket(java.net.Socket)
+com.rfid.sdk.protocol.NetWorkThread: java.net.SocketAddress getLocal_addr()
+com.rfid.sdk.protocol.NetWorkThread: void setLocal_addr(int)
+com.rfid.sdk.protocol.NetWorkThread: java.net.SocketAddress getServer_addr()
+com.rfid.sdk.protocol.NetWorkThread: void setServer_addr(java.net.SocketAddress)
+com.rfid.sdk.protocol.NetWorkThread: java.net.InetSocketAddress getAddress()
+com.rfid.sdk.protocol.NetWorkThread: void setServer_addr(java.net.InetSocketAddress)
+com.rfid.sdk.protocol.NetWorkThread: boolean isIsconnect()
+com.rfid.sdk.protocol.NetWorkThread: boolean isIsrunning()
+com.rfid.sdk.protocol.NetWorkThread: void closeSocket()
+com.rfid.sdk.protocol.NetWorkThread: void destroy()
+com.rfid.sdk.protocol.NetWorkThread: void sendCmdMsg(byte[])
+com.rfid.sdk.protocol.NetWorkThread: void getAntParm(int)
+com.rfid.sdk.protocol.NetWorkThread: void setAntParm(int,com.rfid.sdk.rfidclass.ANTERNNA)
+com.rfid.sdk.protocol.NetWorkThread: void getSelectRules(int)
+com.rfid.sdk.protocol.NetWorkThread: void setSelectRules(int,com.rfid.sdk.rfidclass.TAG_SELECT)
+com.rfid.sdk.protocol.NetWorkThread: void getInvAlgorithm()
+com.rfid.sdk.protocol.NetWorkThread: void setInvAlgorithm(com.rfid.sdk.rfidclass.ALGORITHM)
+com.rfid.sdk.protocol.NetWorkThread: void readTagAccessBank(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.NetWorkThread: void writeTagAccessBank(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.NetWorkThread: void qtTagAccess(com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG,int)
+com.rfid.sdk.protocol.NetWorkThread: void qtTagAccessRead(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.NetWorkThread: void qtTagAccessWrite(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.NetWorkThread: void startInventory()
+com.rfid.sdk.protocol.NetWorkThread: void confGPIO(int)
+com.rfid.sdk.protocol.NetWorkThread: void readGPIO(int)
+com.rfid.sdk.protocol.NetWorkThread: void setGPIO(int,int)
+com.rfid.sdk.protocol.NetWorkThread: void carrier_wave_ON()
+com.rfid.sdk.protocol.NetWorkThread: void carrier_wave_OFF()
+com.rfid.sdk.protocol.NetWorkThread: void readBypass(int)
+com.rfid.sdk.protocol.NetWorkThread: void writeBypass(int,int)
+com.rfid.sdk.protocol.NetWorkThread: void readOEM(int)
+com.rfid.sdk.protocol.NetWorkThread: void writeOEM(int,int)
+com.rfid.sdk.protocol.NetWorkThread: void readLinkProfile(int,int)
+com.rfid.sdk.protocol.NetWorkThread: void writeLinkProfile(int,int,int)
+com.rfid.sdk.protocol.NetWorkThread: void setProfile(int)
+com.rfid.sdk.protocol.Protocol
+com.rfid.sdk.protocol.Protocol: byte comm_way
+com.rfid.sdk.protocol.Protocol: android.zyapi.CommonApi mCommonApi
+com.rfid.sdk.protocol.Protocol: int mComFd
+com.rfid.sdk.protocol.Protocol: android.os.Handler handler
+com.rfid.sdk.protocol.Protocol: java.io.OutputStream socketout
+com.rfid.sdk.protocol.Protocol: com.rfid.sdk.protocol.HandleCommandThread handleCmd
+com.rfid.sdk.protocol.Protocol: com.rfid.sdk.callbackinterface.RevcCallBackListenImpl recvback
+com.rfid.sdk.protocol.Protocol: Protocol(android.os.Handler,byte)
+com.rfid.sdk.protocol.Protocol: Protocol(byte,android.zyapi.CommonApi,int)
+com.rfid.sdk.protocol.Protocol: Protocol(byte,java.io.OutputStream)
+com.rfid.sdk.protocol.Protocol: void setHandleCommand(com.rfid.sdk.protocol.HandleCommandThread)
+com.rfid.sdk.protocol.Protocol: void setComUart(android.zyapi.CommonApi,int)
+com.rfid.sdk.protocol.Protocol: void setSocketout(java.io.OutputStream)
+com.rfid.sdk.protocol.Protocol: void sendCmd(byte[])
+com.rfid.sdk.protocol.Protocol: byte[] ReadRegister(short)
+com.rfid.sdk.protocol.Protocol: byte[] ReadRegister(short,int)
+com.rfid.sdk.protocol.Protocol: byte[] WriteRegister(short,int)
+com.rfid.sdk.protocol.Protocol: void ReadRegisterCmd(short,int)
+com.rfid.sdk.protocol.Protocol: void WriteRegisterCmd(short,int)
+com.rfid.sdk.protocol.Protocol: int ReadRegisterVal(short)
+com.rfid.sdk.protocol.Protocol: int CheckError()
+com.rfid.sdk.protocol.Protocol: void setAntennaParm(int,byte,int,int,int,int)
+com.rfid.sdk.protocol.Protocol: int setSelectConfig(int,int,int,int)
+com.rfid.sdk.protocol.Protocol: void setAlgorithm()
+com.rfid.sdk.protocol.Protocol: int setSlectAlgorithmParm(int,int,int,int)
+com.rfid.sdk.protocol.Protocol: int setFixedAlgorithmParm(int)
+com.rfid.sdk.protocol.Protocol: int setSlectAlgorithmParm2(int,int)
+com.rfid.sdk.protocol.Protocol: int setEPCMatch(int,int)
+com.rfid.sdk.protocol.Protocol: int setQueryConf(int,int,int)
+com.rfid.sdk.protocol.Protocol: int setQueryConf(com.rfid.sdk.rfidclass.TAG_GROUP)
+com.rfid.sdk.protocol.Protocol: short setInventoryConf(int,int,int,int)
+com.rfid.sdk.protocol.Protocol: void readGeneralBlock()
+com.rfid.sdk.protocol.Protocol: void readTestBlock()
+com.rfid.sdk.protocol.Protocol: void readPlatformControlBlock()
+com.rfid.sdk.protocol.Protocol: void readProtocolSchedulerBlock()
+com.rfid.sdk.protocol.Protocol: void readMACBypassBlock()
+com.rfid.sdk.protocol.Protocol: void readOEMConfigBlock()
+com.rfid.sdk.protocol.Protocol: void readGPIOBlock()
+com.rfid.sdk.protocol.Protocol: void readAntennaBlock()
+com.rfid.sdk.protocol.Protocol: void readTagSelectBlock()
+com.rfid.sdk.protocol.Protocol: void readTagSelectBank(int)
+com.rfid.sdk.protocol.Protocol: void readInventoryBlock()
+com.rfid.sdk.protocol.Protocol: void readInventoryBank(int)
+com.rfid.sdk.protocol.Protocol: void readTagAccessBlock()
+com.rfid.sdk.protocol.Protocol: void readRFTCBlock()
+com.rfid.sdk.protocol.Protocol: void readFrequencyBlock()
+com.rfid.sdk.protocol.Protocol: void readAlgoParm(int)
+com.rfid.sdk.protocol.Protocol: int qtTagQTcommand(byte,byte,byte,byte,byte,byte,short)
+com.rfid.sdk.protocol.Protocol: boolean setTagAccessWrite(short[],int,int)
+com.rfid.sdk.protocol.Protocol: void setTagAccessConf(int,short[],int)
+com.rfid.sdk.protocol.Protocol: void selTagAccessBank(int,int)
+com.rfid.sdk.protocol.Protocol: void readTagAccessBank(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.Protocol: void writeTagAccessBank(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.Protocol: void killTagAccess(int,int)
+com.rfid.sdk.protocol.Protocol: void lockTagAccess(int,int)
+com.rfid.sdk.protocol.Protocol: void blockWriteBank(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.Protocol: void blockEraseBank(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.Protocol: void qtTagAccess(com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG,int)
+com.rfid.sdk.protocol.Protocol: byte[] WriteTag(short,int,int)
+com.rfid.sdk.protocol.Protocol: void startInventory()
+com.rfid.sdk.protocol.Protocol: void getAntParm(int)
+com.rfid.sdk.protocol.Protocol: void setAntParm(int,com.rfid.sdk.rfidclass.ANTERNNA)
+com.rfid.sdk.protocol.Protocol: void getInvAlgorithm()
+com.rfid.sdk.protocol.Protocol: void setInvAlgorithm(com.rfid.sdk.rfidclass.ALGORITHM)
+com.rfid.sdk.protocol.Protocol: void getSelectRules(int)
+com.rfid.sdk.protocol.Protocol: void setTagMask(int[])
+com.rfid.sdk.protocol.Protocol: void setSelectRules(int,com.rfid.sdk.rfidclass.TAG_SELECT)
+com.rfid.sdk.protocol.Protocol: void confGPIO(int)
+com.rfid.sdk.protocol.Protocol: void readGPIO(int)
+com.rfid.sdk.protocol.Protocol: void setGPIO(int,int)
+com.rfid.sdk.protocol.Protocol: void carrier_wave_ON()
+com.rfid.sdk.protocol.Protocol: void carrier_wave_OFF()
+com.rfid.sdk.protocol.Protocol: void readBypass(int)
+com.rfid.sdk.protocol.Protocol: void writeBypass(int,int)
+com.rfid.sdk.protocol.Protocol: void readOEM(int)
+com.rfid.sdk.protocol.Protocol: void writeOEM(int,int)
+com.rfid.sdk.protocol.Protocol: void readLinkProfile(int,int)
+com.rfid.sdk.protocol.Protocol: void writeLinkProfile(int,int,int)
+com.rfid.sdk.protocol.Protocol: void setProfile(int)
+com.rfid.sdk.protocol.Protocol: boolean modifyMaterial_EPC(java.lang.String,java.lang.String,int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol
+com.rfid.sdk.protocol.Reader_TCP_Protocol: java.lang.String TAG
+com.rfid.sdk.protocol.Reader_TCP_Protocol: android.os.Handler handler
+com.rfid.sdk.protocol.Reader_TCP_Protocol: java.net.Socket socket
+com.rfid.sdk.protocol.Reader_TCP_Protocol: java.net.InetSocketAddress server_address
+com.rfid.sdk.protocol.Reader_TCP_Protocol: com.rfid.sdk.protocol.Reader_TCP_Protocol protocol
+com.rfid.sdk.protocol.Reader_TCP_Protocol: com.rfid.sdk.protocol.NetWorkThread tcp_thread
+com.rfid.sdk.protocol.Reader_TCP_Protocol: com.rfid.sdk.protocol.HandleCommandThread handleCmd
+com.rfid.sdk.protocol.Reader_TCP_Protocol: android.content.Context mContext
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void <clinit>()
+com.rfid.sdk.protocol.Reader_TCP_Protocol: android.os.Handler getHandler()
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void setHandler(android.os.Handler)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: com.rfid.sdk.protocol.HandleCommandThread getHandleCmd()
+com.rfid.sdk.protocol.Reader_TCP_Protocol: com.rfid.sdk.protocol.NetWorkThread getNetWorkThread()
+com.rfid.sdk.protocol.Reader_TCP_Protocol: Reader_TCP_Protocol()
+com.rfid.sdk.protocol.Reader_TCP_Protocol: com.rfid.sdk.protocol.Reader_TCP_Protocol getInstance(android.content.Context)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void setServerIP(java.lang.String,int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void setServerAddress(java.net.InetSocketAddress)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void setServerSocket(java.net.Socket)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void setLocalPort(int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: boolean connectReader()
+com.rfid.sdk.protocol.Reader_TCP_Protocol: boolean disconnectReader()
+com.rfid.sdk.protocol.Reader_TCP_Protocol: java.lang.String getServerIP()
+com.rfid.sdk.protocol.Reader_TCP_Protocol: int getServerPort()
+com.rfid.sdk.protocol.Reader_TCP_Protocol: boolean sendCmdMsg(byte[])
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void startInventory()
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void stopInventory()
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void getAntParm(int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void setAntParm(int,com.rfid.sdk.rfidclass.ANTERNNA)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void getSelectRules(int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void setSelectRules(int,com.rfid.sdk.rfidclass.TAG_SELECT)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void getInvAlgorithm()
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void setInvAlgorithm(com.rfid.sdk.rfidclass.ALGORITHM)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void tagAccessRead(java.lang.String,int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: int tagAccessWrite(java.lang.String,java.lang.String,int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void readTagAccessBank(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void writeTagAccessBank(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void tagQtAccess(int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void setQtAccess(byte,byte,int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void tagQtAccessRead(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void tagQtAccessWrite(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void confGPIO(int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void readGPIO(int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void setGPIO(int,int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void carrier_wave_ON()
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void carrier_wave_OFF()
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void readBypass(int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void writeBypass(int,int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void readOEM(int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void writeOEM(int,int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void readLinkProfile(int,int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void writeLinkProfile(int,int,int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void setProfile(int)
+com.rfid.sdk.protocol.Reader_TCP_Protocol: void clear()
+com.rfid.sdk.protocol.Reader_UART_Protocol
+com.rfid.sdk.protocol.Reader_UART_Protocol: android.os.Handler handler
+com.rfid.sdk.protocol.Reader_UART_Protocol: com.rfid.sdk.protocol.Reader_UART_Protocol protocol
+com.rfid.sdk.protocol.Reader_UART_Protocol: com.rfid.sdk.protocol.UartThread uart_thread
+com.rfid.sdk.protocol.Reader_UART_Protocol: com.rfid.sdk.protocol.HandleCommandThread handleCmd
+com.rfid.sdk.protocol.Reader_UART_Protocol: android.content.Context mContext
+com.rfid.sdk.protocol.Reader_UART_Protocol: void <clinit>()
+com.rfid.sdk.protocol.Reader_UART_Protocol: android.os.Handler getHandler()
+com.rfid.sdk.protocol.Reader_UART_Protocol: void setHandler(android.os.Handler)
+com.rfid.sdk.protocol.Reader_UART_Protocol: com.rfid.sdk.protocol.HandleCommandThread getHandleCmd()
+com.rfid.sdk.protocol.Reader_UART_Protocol: com.rfid.sdk.protocol.UartThread getUartThread()
+com.rfid.sdk.protocol.Reader_UART_Protocol: Reader_UART_Protocol()
+com.rfid.sdk.protocol.Reader_UART_Protocol: com.rfid.sdk.protocol.Reader_UART_Protocol getInstance(android.content.Context)
+com.rfid.sdk.protocol.Reader_UART_Protocol: boolean connectReader()
+com.rfid.sdk.protocol.Reader_UART_Protocol: com.rfid.sdk.protocol.UartThread getNetWorkThread()
+com.rfid.sdk.protocol.Reader_UART_Protocol: boolean disconnectReader()
+com.rfid.sdk.protocol.Reader_UART_Protocol: boolean reset()
+com.rfid.sdk.protocol.Reader_UART_Protocol: boolean power_on()
+com.rfid.sdk.protocol.Reader_UART_Protocol: boolean power_off()
+com.rfid.sdk.protocol.Reader_UART_Protocol: boolean reset_up()
+com.rfid.sdk.protocol.Reader_UART_Protocol: boolean reset_down()
+com.rfid.sdk.protocol.Reader_UART_Protocol: boolean sendCmdMsg(byte[])
+com.rfid.sdk.protocol.Reader_UART_Protocol: void startInventory()
+com.rfid.sdk.protocol.Reader_UART_Protocol: void stopInventory()
+com.rfid.sdk.protocol.Reader_UART_Protocol: void getAntParm(int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void setAntParm(int,com.rfid.sdk.rfidclass.ANTERNNA)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void getSelectRules(int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void setSelectRules(int,com.rfid.sdk.rfidclass.TAG_SELECT)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void getInvAlgorithm()
+com.rfid.sdk.protocol.Reader_UART_Protocol: void setInvAlgorithm(com.rfid.sdk.rfidclass.ALGORITHM)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void tagAccessRead(java.lang.String,int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: int tagAccessWrite(java.lang.String,java.lang.String,int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void setMaterial_EPC(java.lang.String,int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: boolean modifyMaterial_EPC(java.lang.String,java.lang.String,int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void readTagAccessBank(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void writeTagAccessBank(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void tagQtAccess(int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void setQtAccess(byte,byte,int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void tagQtAccessRead(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void tagQtAccessWrite(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void setProfile(int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void confGPIO(int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void readGPIO(int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void setGPIO(int,int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void carrier_wave_ON()
+com.rfid.sdk.protocol.Reader_UART_Protocol: void carrier_wave_OFF()
+com.rfid.sdk.protocol.Reader_UART_Protocol: void readBypass(int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void writeBypass(int,int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void readOEM(int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void writeOEM(int,int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void readLinkProfile(int,int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void writeLinkProfile(int,int,int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void ReadRegister(short,int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void WriteRegister(short,int)
+com.rfid.sdk.protocol.Reader_UART_Protocol: void clear()
+com.rfid.sdk.protocol.Reader_UDP_Protocol
+com.rfid.sdk.protocol.Reader_UDP_Protocol: Reader_UDP_Protocol()
+com.rfid.sdk.protocol.UartThread
+com.rfid.sdk.protocol.UartThread: java.lang.String TAG
+com.rfid.sdk.protocol.UartThread: android.zyapi.CommonApi mCommonApi
+com.rfid.sdk.protocol.UartThread: int mComFd
+com.rfid.sdk.protocol.UartThread: com.rfid.sdk.protocol.Protocol protocol
+com.rfid.sdk.protocol.UartThread: boolean btn_Inventory
+com.rfid.sdk.protocol.UartThread: boolean btn_ReadWrite
+com.rfid.sdk.protocol.UartThread: int btn_state
+com.rfid.sdk.protocol.UartThread: android.content.Intent intent
+com.rfid.sdk.protocol.UartThread: android.content.Context context
+com.rfid.sdk.protocol.UartThread: boolean isrunning
+com.rfid.sdk.protocol.UartThread: int readsize
+com.rfid.sdk.protocol.UartThread: android.os.Handler handler
+com.rfid.sdk.protocol.UartThread: java.nio.ByteBuffer revcbuf
+com.rfid.sdk.protocol.UartThread: void <clinit>()
+com.rfid.sdk.protocol.UartThread: android.os.Handler getHandler()
+com.rfid.sdk.protocol.UartThread: void setHandler(android.os.Handler)
+com.rfid.sdk.protocol.UartThread: UartThread(android.content.Context)
+com.rfid.sdk.protocol.UartThread: boolean isIsrunning()
+com.rfid.sdk.protocol.UartThread: void run()
+com.rfid.sdk.protocol.UartThread: int openUart()
+com.rfid.sdk.protocol.UartThread: int closeUart()
+com.rfid.sdk.protocol.UartThread: void sendCmdMsg(byte[])
+com.rfid.sdk.protocol.UartThread: void startInventory()
+com.rfid.sdk.protocol.UartThread: void stopInventory()
+com.rfid.sdk.protocol.UartThread: void getAntParm(int)
+com.rfid.sdk.protocol.UartThread: void setAntParm(int,com.rfid.sdk.rfidclass.ANTERNNA)
+com.rfid.sdk.protocol.UartThread: void getSelectRules(int)
+com.rfid.sdk.protocol.UartThread: void setSelectRules(int,com.rfid.sdk.rfidclass.TAG_SELECT)
+com.rfid.sdk.protocol.UartThread: void getInvAlgorithm()
+com.rfid.sdk.protocol.UartThread: void setInvAlgorithm(com.rfid.sdk.rfidclass.ALGORITHM)
+com.rfid.sdk.protocol.UartThread: void readTagAccessBank(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.UartThread: void writeTagAccessBank(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.UartThread: void qtTagAccess(com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG,int)
+com.rfid.sdk.protocol.UartThread: void qtTagAccessRead(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.UartThread: void qtTagAccessWrite(com.rfid.sdk.rfidclass.TAG_ACCESS)
+com.rfid.sdk.protocol.UartThread: void confGPIO(int)
+com.rfid.sdk.protocol.UartThread: void readGPIO(int)
+com.rfid.sdk.protocol.UartThread: void setGPIO(int,int)
+com.rfid.sdk.protocol.UartThread: void carrier_wave_ON()
+com.rfid.sdk.protocol.UartThread: void carrier_wave_OFF()
+com.rfid.sdk.protocol.UartThread: void ReadRegister(short,int)
+com.rfid.sdk.protocol.UartThread: void WriteRegister(short,int)
+com.rfid.sdk.protocol.UartThread: void readBypass(int)
+com.rfid.sdk.protocol.UartThread: void writeBypass(int,int)
+com.rfid.sdk.protocol.UartThread: void readOEM(int)
+com.rfid.sdk.protocol.UartThread: void writeOEM(int,int)
+com.rfid.sdk.protocol.UartThread: void readLinkProfile(int,int)
+com.rfid.sdk.protocol.UartThread: void writeLinkProfile(int,int,int)
+com.rfid.sdk.protocol.UartThread: void setProfile(int)
+com.rfid.sdk.protocol.UartThread: com.rfid.sdk.protocol.Protocol getProtocol()
+com.rfid.sdk.protocol.UartThread: boolean modifyMaterial_EPC(java.lang.String,java.lang.String,int)
+com.rfid.sdk.public_utils.CheckCRC
+com.rfid.sdk.public_utils.CheckCRC: CheckCRC()
+com.rfid.sdk.public_utils.CheckCRC: short CRC16CCITT(byte[],int)
+com.rfid.sdk.public_utils.DebugLog
+com.rfid.sdk.public_utils.DebugLog: boolean filtering
+com.rfid.sdk.public_utils.DebugLog: java.lang.String TAG
+com.rfid.sdk.public_utils.DebugLog: void <clinit>()
+com.rfid.sdk.public_utils.DebugLog: DebugLog()
+com.rfid.sdk.public_utils.DebugLog: void i(java.lang.String,java.lang.String)
+com.rfid.sdk.public_utils.DebugLog: void d(java.lang.String,java.lang.String)
+com.rfid.sdk.public_utils.DebugLog: void e(java.lang.String,java.lang.String)
+com.rfid.sdk.public_utils.FormatTransfer
+com.rfid.sdk.public_utils.FormatTransfer: FormatTransfer()
+com.rfid.sdk.public_utils.FormatTransfer: byte[] toLH(int)
+com.rfid.sdk.public_utils.FormatTransfer: byte[] toHH(int)
+com.rfid.sdk.public_utils.FormatTransfer: byte[] toLH(short)
+com.rfid.sdk.public_utils.FormatTransfer: byte[] toHH(short)
+com.rfid.sdk.public_utils.FormatTransfer: byte[] toLH(float)
+com.rfid.sdk.public_utils.FormatTransfer: byte[] toHH(float)
+com.rfid.sdk.public_utils.FormatTransfer: byte[] stringToBytes(java.lang.String,int)
+com.rfid.sdk.public_utils.FormatTransfer: short stringTolShort(java.lang.String)
+com.rfid.sdk.public_utils.FormatTransfer: short stringTohShort(java.lang.String)
+com.rfid.sdk.public_utils.FormatTransfer: java.lang.String bytesToString(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: byte[] stringToBytes(java.lang.String)
+com.rfid.sdk.public_utils.FormatTransfer: int hBytesToInt(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: int lBytesToInt(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: short hBytesToShort(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: short lBytesToShort(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: float hBytesToFloat(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: float lBytesToFloat(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: byte[] bytesReverseOrder(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: byte char2byte(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: byte ascii2byte(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: byte char2byte(java.lang.String)
+com.rfid.sdk.public_utils.FormatTransfer: byte string2byte(java.lang.String)
+com.rfid.sdk.public_utils.FormatTransfer: short ascii2short(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: short string2short(java.lang.String)
+com.rfid.sdk.public_utils.FormatTransfer: int string2int(java.lang.String)
+com.rfid.sdk.public_utils.FormatTransfer: short[] ascii2shortbuf(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: java.lang.String long2hex(long,int)
+com.rfid.sdk.public_utils.FormatTransfer: java.lang.String int2hex(int)
+com.rfid.sdk.public_utils.FormatTransfer: java.lang.String halfint2hex(int)
+com.rfid.sdk.public_utils.FormatTransfer: java.lang.String short2hex(short)
+com.rfid.sdk.public_utils.FormatTransfer: java.lang.String byte2hex(byte)
+com.rfid.sdk.public_utils.FormatTransfer: java.lang.String bytes2hex(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: java.lang.String byte2string(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: byte[] string2bytes(java.lang.String)
+com.rfid.sdk.public_utils.FormatTransfer: short[] string2shorts(java.lang.String)
+com.rfid.sdk.public_utils.FormatTransfer: int[] string2ints(java.lang.String)
+com.rfid.sdk.public_utils.FormatTransfer: java.lang.String hexStr2Str(java.lang.String)
+com.rfid.sdk.public_utils.FormatTransfer: void printBytes(byte[])
+com.rfid.sdk.public_utils.FormatTransfer: int reverseInt(int)
+com.rfid.sdk.public_utils.FormatTransfer: int swapInt(int)
+com.rfid.sdk.public_utils.FormatTransfer: short reverseShort(short)
+com.rfid.sdk.public_utils.FormatTransfer: float reverseFloat(float)
+com.rfid.sdk.public_utils.HostPacketType
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_COMMAND_BEGIN
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_COMMAND_END
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_ANTENNA_CYCLE_BEGIN
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_ANTENNA_BEGIN
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_18K6C_INVENTORY_ROUND_BEGIN
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_18K6C_INVENTORY
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_18K6C_TAG_ACCESS
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_ANTENNA_CYCLE_END
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_ANTENNA_END
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_18K6C_INVENTORY_ROUND_END
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_INVENTORY_CYCLE_BEGIN
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_INVENTORY_CYCLE_END
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_CARRIER_INFO
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_COMMAND_ACTIVE
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_READ_REGISTER
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_WRITE_REGISTER
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_READER_SN
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_MBP_READ_REG
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_GPIO_READ
+com.rfid.sdk.public_utils.HostPacketType: short RFID_PACKET_TYPE_OEMCFG_READ
+com.rfid.sdk.public_utils.HostPacketType: HostPacketType()
+com.rfid.sdk.public_utils.MAC_Command
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_QUERYREP
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_ACK
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_WROEM
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_RDOEM
+com.rfid.sdk.public_utils.MAC_Command: byte CMD_MBPRDREG
+com.rfid.sdk.public_utils.MAC_Command: byte CMD_MBPWRREG
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_QUERY
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_QUERYADJ
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_SELECT
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_RDGPIO
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_WRGPIO
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_CFGGPIO
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_NAK
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_REQRN
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_READ
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_WRITE
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_KILL
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_LOCK
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_ACCESS
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_BLOCKWRITE
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_BLOCKERASE
+com.rfid.sdk.public_utils.MAC_Command: byte RFID_18K6C_QT
+com.rfid.sdk.public_utils.MAC_Command: short CMD_18K6CINV
+com.rfid.sdk.public_utils.MAC_Command: short CMD_18K6CREAD
+com.rfid.sdk.public_utils.MAC_Command: short CMD_18K6CWRITE
+com.rfid.sdk.public_utils.MAC_Command: short CMD_18K6CLOCK
+com.rfid.sdk.public_utils.MAC_Command: short CMD_18K6CKILL
+com.rfid.sdk.public_utils.MAC_Command: short CMD_CLRERR
+com.rfid.sdk.public_utils.MAC_Command: short CMD_CWON
+com.rfid.sdk.public_utils.MAC_Command: short CMD_CWOFF
+com.rfid.sdk.public_utils.MAC_Command: short CMD_UPDATELINKPROFILE
+com.rfid.sdk.public_utils.MAC_Command: short CMD_LPROF_RDXCVRREG
+com.rfid.sdk.public_utils.MAC_Command: short CMD_LPROF_WRXCVRREG
+com.rfid.sdk.public_utils.MAC_Command: short CMD_18K6CBLOCKERASE
+com.rfid.sdk.public_utils.MAC_Command: short CMD_18K6CBLOCKWRITE
+com.rfid.sdk.public_utils.MAC_Command: short CMD_18K6CQT
+com.rfid.sdk.public_utils.MAC_Command: MAC_Command()
+com.rfid.sdk.public_utils.MAC_Register
+com.rfid.sdk.public_utils.MAC_Register: short MAC_VER
+com.rfid.sdk.public_utils.MAC_Register: short MAC_INFO
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTRANSINFO
+com.rfid.sdk.public_utils.MAC_Register: short MAC_DBG1
+com.rfid.sdk.public_utils.MAC_Register: short MAC_DBG2
+com.rfid.sdk.public_utils.MAC_Register: short MAC_ERROR
+com.rfid.sdk.public_utils.MAC_Register: short MAC_LAST_ERROR
+com.rfid.sdk.public_utils.MAC_Register: short MAC_STATE
+com.rfid.sdk.public_utils.MAC_Register: short MAC_XCVR_HEALTH_CHECK_FAIL_COUNT
+com.rfid.sdk.public_utils.MAC_Register: short MAC_LAST_COMMAND_DURATION
+com.rfid.sdk.public_utils.MAC_Register: short MAC_KEY
+com.rfid.sdk.public_utils.MAC_Register: short MAC_ERROR_DIAGNOSTIC_SEL
+com.rfid.sdk.public_utils.MAC_Register: short MAC_ERROR_DIAGNOSTIC
+com.rfid.sdk.public_utils.MAC_Register: short MAC_FW_DEFAULT_VALUE_SOURCE
+com.rfid.sdk.public_utils.MAC_Register: short MAC_NV_UPDATE_CONTROL
+com.rfid.sdk.public_utils.MAC_Register: short MAC_BL_VER
+com.rfid.sdk.public_utils.MAC_Register: short MAC_ACTIVE_FW
+com.rfid.sdk.public_utils.MAC_Register: short MAC_FW_CRC
+com.rfid.sdk.public_utils.MAC_Register: short MAC_MICROPROCESSOR_ID
+com.rfid.sdk.public_utils.MAC_Register: short HST_ENGTEST_ARG0
+com.rfid.sdk.public_utils.MAC_Register: short HST_ENGTEST_ARG1
+com.rfid.sdk.public_utils.MAC_Register: short HST_DBG1
+com.rfid.sdk.public_utils.MAC_Register: short HST_TX_RANDOM_DATA_DURATION
+com.rfid.sdk.public_utils.MAC_Register: short HST_TX_RANDOM_DATA_CONTROL
+com.rfid.sdk.public_utils.MAC_Register: short HST_TX_RANDOM_DATA_ON_TIME
+com.rfid.sdk.public_utils.MAC_Register: short HST_TX_RANDOM_DATA_OFF_TIME
+com.rfid.sdk.public_utils.MAC_Register: short HST_SET_FREQUENCY_CFG
+com.rfid.sdk.public_utils.MAC_Register: short HST_SET_FREQUENCY_CHANNEL
+com.rfid.sdk.public_utils.MAC_Register: short HST_SET_FREQUENCY_KHZ
+com.rfid.sdk.public_utils.MAC_Register: short HST_SET_FREQUENCY_PLLDIVMULT
+com.rfid.sdk.public_utils.MAC_Register: short HST_SET_FREQUENCY_PLLDACCTL
+com.rfid.sdk.public_utils.MAC_Register: short HST_TEST_FREQUENCY_PLLDIVMULT
+com.rfid.sdk.public_utils.MAC_Register: short HST_TEST_FREQUENCY_PLLDACCTL
+com.rfid.sdk.public_utils.MAC_Register: short HST_TEST_INVENTORY_CFG
+com.rfid.sdk.public_utils.MAC_Register: short HST_ENGTEST_RESULT_SEL
+com.rfid.sdk.public_utils.MAC_Register: short HST_ENGTEST_RESULT
+com.rfid.sdk.public_utils.MAC_Register: short HST_TEST_ANTENNA
+com.rfid.sdk.public_utils.MAC_Register: short HST_TEST_RFPOWER
+com.rfid.sdk.public_utils.MAC_Register: short HST_INJECT_RANDOM_TX_COUNT
+com.rfid.sdk.public_utils.MAC_Register: short HST_TEST_MANUAL_OVERRIDE
+com.rfid.sdk.public_utils.MAC_Register: short HST_FORMAT_OEM_CONFIGURATION
+com.rfid.sdk.public_utils.MAC_Register: short HST_FORMAT_OEM_KEY_CHECK
+com.rfid.sdk.public_utils.MAC_Register: short HST_CALIBRATION_CONTROL
+com.rfid.sdk.public_utils.MAC_Register: short HST_CAL_PA_BIAS_CONFIG
+com.rfid.sdk.public_utils.MAC_Register: short HST_CAL_PA_BIAS_MEASUREMENT
+com.rfid.sdk.public_utils.MAC_Register: short HST_CAL_PA_BIAS_TARGET_CURRENT
+com.rfid.sdk.public_utils.MAC_Register: short HST_CAL_PA_BIAS_CURRENT_PER_LSB
+com.rfid.sdk.public_utils.MAC_Register: short HST_CAL_GROSSGAIN_CONFIG
+com.rfid.sdk.public_utils.MAC_Register: short HST_PWRMGMT
+com.rfid.sdk.public_utils.MAC_Register: short HST_CMNDIAGS
+com.rfid.sdk.public_utils.MAC_Register: short HST_TRACE
+com.rfid.sdk.public_utils.MAC_Register: short HST_IMPINJ_EXTENSIONS
+com.rfid.sdk.public_utils.MAC_Register: short HST_PWRMGMT_STATUS
+com.rfid.sdk.public_utils.MAC_Register: short HST_INVENTORY_PACKET_CONTROL
+com.rfid.sdk.public_utils.MAC_Register: short HST_REGULATORY_REGION
+com.rfid.sdk.public_utils.MAC_Register: short HST_PROTSCH_LBTCFG
+com.rfid.sdk.public_utils.MAC_Register: short HST_PROTSCH_FTIME
+com.rfid.sdk.public_utils.MAC_Register: short HST_PROTSCH_TXTIME_ON
+com.rfid.sdk.public_utils.MAC_Register: short HST_PROTSCH_TXTIME_OFF
+com.rfid.sdk.public_utils.MAC_Register: short HST_PROTSCH_ADJCW
+com.rfid.sdk.public_utils.MAC_Register: short HST_PROTSCH_TXTIME_ON_OVHD
+com.rfid.sdk.public_utils.MAC_Register: short HST_PROTSCH_TXTIME_OFF_OVHD
+com.rfid.sdk.public_utils.MAC_Register: short HST_PROTSCH_LBTRSSI
+com.rfid.sdk.public_utils.MAC_Register: short HST_MBP_ADDR
+com.rfid.sdk.public_utils.MAC_Register: short HST_MBP_DATA
+com.rfid.sdk.public_utils.MAC_Register: short HST_LPROF_SEL
+com.rfid.sdk.public_utils.MAC_Register: short HST_LPROF_ADDR
+com.rfid.sdk.public_utils.MAC_Register: short HST_LPROF_DATA
+com.rfid.sdk.public_utils.MAC_Register: short HST_OEM_ADDR
+com.rfid.sdk.public_utils.MAC_Register: short HST_OEM_DATA
+com.rfid.sdk.public_utils.MAC_Register: short HST_OEM_STRING_TYPE
+com.rfid.sdk.public_utils.MAC_Register: short HST_OEM_STRING_LENGTH
+com.rfid.sdk.public_utils.MAC_Register: short HST_OEM_STRING_CHAR_SEL
+com.rfid.sdk.public_utils.MAC_Register: short HST_OEM_STRING_CHAR
+com.rfid.sdk.public_utils.MAC_Register: short HST_GPIO_INMSK
+com.rfid.sdk.public_utils.MAC_Register: short HST_GPIO_OUTMSK
+com.rfid.sdk.public_utils.MAC_Register: short HST_GPIO_OUTVAL
+com.rfid.sdk.public_utils.MAC_Register: short HST_GPIO_CFG
+com.rfid.sdk.public_utils.MAC_Register: short HST_ANT_CYCLES
+com.rfid.sdk.public_utils.MAC_Register: short HST_ANT_DESC_SEL
+com.rfid.sdk.public_utils.MAC_Register: short HST_ANT_DESC_CFG
+com.rfid.sdk.public_utils.MAC_Register: short MAC_ANT_DESC_STAT
+com.rfid.sdk.public_utils.MAC_Register: short HST_ANT_DESC_PORTDEF
+com.rfid.sdk.public_utils.MAC_Register: short HST_ANT_DESC_DWELL
+com.rfid.sdk.public_utils.MAC_Register: short HST_ANT_DESC_RFPOWER
+com.rfid.sdk.public_utils.MAC_Register: short HST_ANT_DESC_INV_CNT
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGMSK_DESC_SEL
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGMSK_DESC_CFG
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGMSK_BANK
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGMSK_PTR
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGMSK_LEN
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGMSK_0_3
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGMSK_4_7
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGMSK_8_11
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGMSK_12_15
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGMSK_16_19
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGMSK_20_23
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGMSK_24_27
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGMSK_28_31
+com.rfid.sdk.public_utils.MAC_Register: short HST_QUERY_CFG
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_CFG
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_SEL
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_ALG_PARM_0
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_ALG_PARM_1
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_ALG_PARM_2
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_ALG_PARM_3
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_RSSI_FILTERING_CONFIG
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_RSSI_FILTERING_THRESHOLD
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_RSSI_FILTERING_COUNT
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPC_MATCH_CFG
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_0_3
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_4_7
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_8_11
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_12_15
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_16_19
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_20_23
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_24_27
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_28_31
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_32_35
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_36_39
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_40_43
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_44_47
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_48_51
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_52_55
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_56_59
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_EPCDAT_60_63
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_STATS_DURATION
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_STATS_QUERY
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_STATS_RN16RCV
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_STATS_RN16TO
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_STATS_EPCTO
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_STATS_TAGREADS
+com.rfid.sdk.public_utils.MAC_Register: short HST_INV_STATS_EPCCRC
+com.rfid.sdk.public_utils.MAC_Register: short HST_LBT_STATS_INTF_DURATION
+com.rfid.sdk.public_utils.MAC_Register: short HST_LBT_STATS_INTF_COUNT
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGACC_DESC_CFG
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGACC_BANK
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGACC_PTR
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGACC_CNT
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGACC_LOCKCFG
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGACC_ACCPWD
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGACC_KILLPWD
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_SEL
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_0
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_1
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_2
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_3
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_4
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_5
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_6
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_7
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_8
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_9
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_10
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_11
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_12
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_13
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_14
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGWRDAT_15
+com.rfid.sdk.public_utils.MAC_Register: short HST_TAGQTDAT
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PAPWRLEV
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_PAPWRCTL_PGAIN
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_PAPWRCTL_IGAIN
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_REVPWRLEV
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_REVPWRTHRSH
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_AMBIENTTEMP
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_AMBIENTTEMPTHRSH
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_XCVRTEMP
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_XCVRTEMPTHRESH
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PATEMP
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_PATEMPTHRSH
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_PAPWRCTL_AIWDELAY
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PAPWRCTL_STAT0
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PAPWRCTL_STAT1
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PAPWRCTL_STAT2
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PAPWRCTL_STAT3
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_ANTSENSRESTHRSH
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_IFLNAAGCRANGE
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_LAST_ANARXGAINNORM
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_OPENLOOPPWRCTRL
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_SJC_CFG
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_DC_OFFSET_COEFF
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_PA_BIAS_DAC
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_GROSSGAIN_CONFIG
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_GROSSGAIN_SEL
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_GROSSGAIN_VALUE
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_GGNEG7_X
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_GGNEG5_X
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_GGNEG3_X
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_GGNEG1_X
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_GGPLUS1_X
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_GGPLUS3_X
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_GGPLUS5_X
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_GGPLUS7_X
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_RFFWDPWR_A2
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_RFFWDPWR_A1
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_RFFWDPWR_A0
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_FWDPWRTHRSH
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CLKDBLR_CFG
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CLKDBLR_SEL
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CLKDBLR_LUTENTRY
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_FRQHOPMODE
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_FRQHOPENTRYCNT
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_FRQHOPTABLEINDEX
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_HOPCNT
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_MINHOPDUR
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_MAXHOPDUR
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_FRQHOPRANDSEED
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_FRQHOPSHFTREGVAL
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_FRQHOPRANDNUMCNT
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_FRQCHINDEX
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_PLLLOCKTIMEOUT
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_BERREADDELAY
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_FWDRFPWRRAWADC
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_REVRFPWRRAWADC
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_ANTSENSERAWADC
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_AMBTEMPRAWADC
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PATEMPRAWADC
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_XCVRTEMPRAWADC
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PACURRENT
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PACURRENTADC
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_ACTIVE_PROFILE
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CURRENT_PROFILE
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_PROF_SEL
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_CFG
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_ID_HIGH
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_ID_LOW
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_IDVER
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_PROTOCOL
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_R2TMODTYPE
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_TARI
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_X
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_PW
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_RTCAL
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_TRCAL
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_DIVIDERATIO
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_MILLERNUM
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_T2RLINKFREQ
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_VART2DELAY
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_RXDELAY
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_MINTOTT2DELAY
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_TXPROPDELAY
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_RSSIAVECFG
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_PREAMCMD
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_FSYNCCMD
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_PROF_T2WAITCMD
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_RFREVPWR_A2
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_RFREVPWR_A1
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_RFREVPWR_A0
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_AMBIENT_TEMP_A2
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_AMBIENT_TEMP_A1
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_AMBIENT_TEMP_A0
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_XCVR_TEMP_A2
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_XCVR_TEMP_A1
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_XCVR_TEMP_A0
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_ANT_SENSE_A2
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_ANT_SENSE_A1
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_ANT_SENSE_A0
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_SJC_EXTERNALLOTHRSH
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_PA_CURRENT_TRIM
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_PA_TEMP_A2
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_PA_TEMP_A1
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_PA_TEMP_A0
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_PA_CURRENT_A2
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_PA_CURRENT_A1
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_PA_CURRENT_A0
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_CAL_EPC_RSSI
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_FRQCH_SEL
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_FRQCH_CFG
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_FRQCH_DESC_PLLDIVMULT
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_FRQCH_DESC_PLLDACCTL
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_FRQCH_DESC_PLLLOCKSTAT0
+com.rfid.sdk.public_utils.MAC_Register: short MAC_RFTC_FRQCH_DESC_PLLLOCKSTAT1
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_FRQCH_CMDSTART
+com.rfid.sdk.public_utils.MAC_Register: short HST_RFTC_PLL_LAST_LOCK_FREQ
+com.rfid.sdk.public_utils.MAC_Register: short RESERVED_CUSTOMER
+com.rfid.sdk.public_utils.MAC_Register: short HST_CMD
+com.rfid.sdk.public_utils.MAC_Register: short HostToMAC
+com.rfid.sdk.public_utils.MAC_Register: MAC_Register()
+com.rfid.sdk.public_utils.Message_Type
+com.rfid.sdk.public_utils.Message_Type: java.lang.String EPC
+com.rfid.sdk.public_utils.Message_Type: java.lang.String QT_EPC
+com.rfid.sdk.public_utils.Message_Type: java.lang.String TID_TYPE
+com.rfid.sdk.public_utils.Message_Type: java.lang.String TID_SN
+com.rfid.sdk.public_utils.Message_Type: java.lang.String USER
+com.rfid.sdk.public_utils.Message_Type: java.lang.String msg_type
+com.rfid.sdk.public_utils.Message_Type: java.lang.String cmd_type
+com.rfid.sdk.public_utils.Message_Type: java.lang.String read_sn
+com.rfid.sdk.public_utils.Message_Type: java.lang.String begin_cmd
+com.rfid.sdk.public_utils.Message_Type: java.lang.String begin_inventory
+com.rfid.sdk.public_utils.Message_Type: java.lang.String tag_inventory
+com.rfid.sdk.public_utils.Message_Type: java.lang.String end_inventory
+com.rfid.sdk.public_utils.Message_Type: java.lang.String tag_read
+com.rfid.sdk.public_utils.Message_Type: java.lang.String tag_write
+com.rfid.sdk.public_utils.Message_Type: java.lang.String tag_check
+com.rfid.sdk.public_utils.Message_Type: java.lang.String tag_err
+com.rfid.sdk.public_utils.Message_Type: java.lang.String tag_read_EPC
+com.rfid.sdk.public_utils.Message_Type: java.lang.String qt_tag_check
+com.rfid.sdk.public_utils.Message_Type: java.lang.String qt_tag_read
+com.rfid.sdk.public_utils.Message_Type: java.lang.String qt_tag_err
+com.rfid.sdk.public_utils.Message_Type: java.lang.String mac_err
+com.rfid.sdk.public_utils.Message_Type: java.lang.String read_register
+com.rfid.sdk.public_utils.Message_Type: java.lang.String read_oem
+com.rfid.sdk.public_utils.Message_Type: java.lang.String read_addr
+com.rfid.sdk.public_utils.Message_Type: java.lang.String read_val
+com.rfid.sdk.public_utils.Message_Type: java.lang.String value
+com.rfid.sdk.public_utils.Message_Type: void <clinit>()
+com.rfid.sdk.public_utils.Message_Type: Message_Type()
+com.rfid.sdk.public_utils.Public
+com.rfid.sdk.public_utils.Public: boolean Debug
+com.rfid.sdk.public_utils.Public: byte UART
+com.rfid.sdk.public_utils.Public: byte TCP
+com.rfid.sdk.public_utils.Public: byte UDP
+com.rfid.sdk.public_utils.Public: byte[] device_SN
+com.rfid.sdk.public_utils.Public: byte[] inventory_stop
+com.rfid.sdk.public_utils.Public: byte[] reset
+com.rfid.sdk.public_utils.Public: java.util.concurrent.locks.Lock revcmsgLock
+com.rfid.sdk.public_utils.Public: java.util.List revcmsgList
+com.rfid.sdk.public_utils.Public: java.nio.ByteBuffer revcmsgbuf
+com.rfid.sdk.public_utils.Public: java.lang.String left_down
+com.rfid.sdk.public_utils.Public: java.lang.String left_up
+com.rfid.sdk.public_utils.Public: java.lang.String right_down
+com.rfid.sdk.public_utils.Public: java.lang.String right_up
+com.rfid.sdk.public_utils.Public: short ReadRegister
+com.rfid.sdk.public_utils.Public: short WriteRegister
+com.rfid.sdk.public_utils.Public: byte TRUE
+com.rfid.sdk.public_utils.Public: byte FALSE
+com.rfid.sdk.public_utils.Public: byte Enable
+com.rfid.sdk.public_utils.Public: byte Disable
+com.rfid.sdk.public_utils.Public: byte A
+com.rfid.sdk.public_utils.Public: byte B
+com.rfid.sdk.public_utils.Public: byte Fixed_Q
+com.rfid.sdk.public_utils.Public: byte Dynamic_Q
+com.rfid.sdk.public_utils.Public: int Reserved
+com.rfid.sdk.public_utils.Public: int EPC
+com.rfid.sdk.public_utils.Public: int TID
+com.rfid.sdk.public_utils.Public: int User
+com.rfid.sdk.public_utils.Public: byte SELECT_ALL
+com.rfid.sdk.public_utils.Public: byte SELECT_DEASSERTED
+com.rfid.sdk.public_utils.Public: byte SELECT_ASSERTED
+com.rfid.sdk.public_utils.Public: byte S0
+com.rfid.sdk.public_utils.Public: byte S1
+com.rfid.sdk.public_utils.Public: byte S2
+com.rfid.sdk.public_utils.Public: byte S3
+com.rfid.sdk.public_utils.Public: byte SEL
+com.rfid.sdk.public_utils.Public: int ASLINVA_DSLINVB
+com.rfid.sdk.public_utils.Public: int ASLINVA_NOTHING
+com.rfid.sdk.public_utils.Public: int NOTHING_DSLINVB
+com.rfid.sdk.public_utils.Public: int NSLINVS_NOTHING
+com.rfid.sdk.public_utils.Public: int DSLINVB_ASLINVA
+com.rfid.sdk.public_utils.Public: int DSLINVB_NOTHING
+com.rfid.sdk.public_utils.Public: int NOTHING_ASLINVA
+com.rfid.sdk.public_utils.Public: int NOTHING_NSLINVS
+com.rfid.sdk.public_utils.Public: byte QT_None
+com.rfid.sdk.public_utils.Public: byte QT_Read
+com.rfid.sdk.public_utils.Public: byte QT_Write
+com.rfid.sdk.public_utils.Public: byte Read
+com.rfid.sdk.public_utils.Public: byte Write
+com.rfid.sdk.public_utils.Public: byte Temporary
+com.rfid.sdk.public_utils.Public: byte Permanent
+com.rfid.sdk.public_utils.Public: byte Private
+com.rfid.sdk.public_utils.Public: byte Public
+com.rfid.sdk.public_utils.Public: byte Near
+com.rfid.sdk.public_utils.Public: byte Far
+com.rfid.sdk.public_utils.Public: short Monza_3
+com.rfid.sdk.public_utils.Public: short Monza_4U
+com.rfid.sdk.public_utils.Public: short Monza_4QT
+com.rfid.sdk.public_utils.Public: short Monza_4E
+com.rfid.sdk.public_utils.Public: short Monza_4D
+com.rfid.sdk.public_utils.Public: short Monza_5
+com.rfid.sdk.public_utils.Public: short G2XM
+com.rfid.sdk.public_utils.Public: short G2iL
+com.rfid.sdk.public_utils.Public: short G2iM
+com.rfid.sdk.public_utils.Public: short H3
+com.rfid.sdk.public_utils.Public: short H4
+com.rfid.sdk.public_utils.Public: short QR2352
+com.rfid.sdk.public_utils.Public: java.lang.String BOOT_COMPLETED
+com.rfid.sdk.public_utils.Public: java.lang.String BROADCAST_BUTTON_ACTION
+com.rfid.sdk.public_utils.Public: void <clinit>()
+com.rfid.sdk.public_utils.Public: Public()
+com.rfid.sdk.public_utils.Public: java.nio.ByteBuffer getByteBuffer()
+com.rfid.sdk.rfidclass.ALGORITHM
+com.rfid.sdk.rfidclass.ALGORITHM: byte algorithm_type
+com.rfid.sdk.rfidclass.ALGORITHM: java.lang.Object algorithm
+com.rfid.sdk.rfidclass.ALGORITHM: byte match_rep
+com.rfid.sdk.rfidclass.ALGORITHM: byte auto_sel
+com.rfid.sdk.rfidclass.ALGORITHM: byte disable_inv
+com.rfid.sdk.rfidclass.ALGORITHM: ALGORITHM(int)
+com.rfid.sdk.rfidclass.ALGORITHM: ALGORITHM(byte,byte,byte,byte)
+com.rfid.sdk.rfidclass.ALGORITHM: byte getAlgorithm_type()
+com.rfid.sdk.rfidclass.ALGORITHM: void setAlgorithm_type(byte)
+com.rfid.sdk.rfidclass.ALGORITHM: byte getMatch_rep()
+com.rfid.sdk.rfidclass.ALGORITHM: void setMatch_rep(byte)
+com.rfid.sdk.rfidclass.ALGORITHM: byte getAuto_sel()
+com.rfid.sdk.rfidclass.ALGORITHM: void setAuto_sel(byte)
+com.rfid.sdk.rfidclass.ALGORITHM: byte getDisable_inv()
+com.rfid.sdk.rfidclass.ALGORITHM: void setDisable_inv(byte)
+com.rfid.sdk.rfidclass.ALGORITHM: java.lang.Object getAlgorithm()
+com.rfid.sdk.rfidclass.ALGORITHM: void setAlgorithm(java.lang.Object)
+com.rfid.sdk.rfidclass.ALGORITHM: java.lang.String toString()
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: int startQValue
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: int minQValue
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: int maxQValue
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: int retryCount
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: int toggleTarget
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: int thresholdMultiplier
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: ALGORITHM$ALGORITHM_DYNAMICQ(int,int,int,int,int,int)
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: ALGORITHM$ALGORITHM_DYNAMICQ()
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: int getStartQValue()
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: void setStartQValue(int)
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: int getMinQValue()
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: void setMinQValue(int)
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: int getMaxQValue()
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: void setMaxQValue(int)
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: int getRetryCount()
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: void setRetryCount(int)
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: int getToggleTarget()
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: void setToggleTarget(int)
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: int getThresholdMultiplier()
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: void setThresholdMultiplier(int)
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_DYNAMICQ: java.lang.String toString()
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: int qValue
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: int retryCount
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: int toggleTarget
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: int repeatUntilNoTags
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: ALGORITHM$ALGORITHM_FIXEDQ(int,int,int,int)
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: ALGORITHM$ALGORITHM_FIXEDQ()
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: int getqValue()
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: void setqValue(int)
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: int getRetryCount()
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: void setRetryCount(int)
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: int getToggleTarget()
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: void setToggleTarget(int)
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: int getRepeatUntilNoTags()
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: void setRepeatUntilNoTags(int)
+com.rfid.sdk.rfidclass.ALGORITHM$ALGORITHM_FIXEDQ: java.lang.String toString()
+com.rfid.sdk.rfidclass.ANTERNNA
+com.rfid.sdk.rfidclass.ANTERNNA: short cycles
+com.rfid.sdk.rfidclass.ANTERNNA: int enable
+com.rfid.sdk.rfidclass.ANTERNNA: int ant_resistance
+com.rfid.sdk.rfidclass.ANTERNNA: int tx_rx_port
+com.rfid.sdk.rfidclass.ANTERNNA: int dwell_time
+com.rfid.sdk.rfidclass.ANTERNNA: int power
+com.rfid.sdk.rfidclass.ANTERNNA: int inv_rounds
+com.rfid.sdk.rfidclass.ANTERNNA: ANTERNNA(int,boolean,int,int,int)
+com.rfid.sdk.rfidclass.ANTERNNA: short getCycles()
+com.rfid.sdk.rfidclass.ANTERNNA: void setCycles(short)
+com.rfid.sdk.rfidclass.ANTERNNA: int getEnable()
+com.rfid.sdk.rfidclass.ANTERNNA: void setEnable(int)
+com.rfid.sdk.rfidclass.ANTERNNA: void setEnable(boolean)
+com.rfid.sdk.rfidclass.ANTERNNA: int getAnt_resistance()
+com.rfid.sdk.rfidclass.ANTERNNA: void setAnt_resistance(int)
+com.rfid.sdk.rfidclass.ANTERNNA: int getTx_rx_port()
+com.rfid.sdk.rfidclass.ANTERNNA: void setTx_rx_port(int)
+com.rfid.sdk.rfidclass.ANTERNNA: int getDwell_time()
+com.rfid.sdk.rfidclass.ANTERNNA: void setDwell_time(int)
+com.rfid.sdk.rfidclass.ANTERNNA: int getPower()
+com.rfid.sdk.rfidclass.ANTERNNA: void setPower(int)
+com.rfid.sdk.rfidclass.ANTERNNA: int getInv_rounds()
+com.rfid.sdk.rfidclass.ANTERNNA: void setInv_rounds(int)
+com.rfid.sdk.rfidclass.ANTERNNA: java.lang.String toString()
+com.rfid.sdk.rfidclass.TAG_ACCESS
+com.rfid.sdk.rfidclass.TAG_ACCESS: int base_bank
+com.rfid.sdk.rfidclass.TAG_ACCESS: int bank_offset
+com.rfid.sdk.rfidclass.TAG_ACCESS: int word_count
+com.rfid.sdk.rfidclass.TAG_ACCESS: int access_pass
+com.rfid.sdk.rfidclass.TAG_ACCESS: int kill_pass
+com.rfid.sdk.rfidclass.TAG_ACCESS: short[] data
+com.rfid.sdk.rfidclass.TAG_ACCESS: com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG qt_tag
+com.rfid.sdk.rfidclass.TAG_ACCESS: TAG_ACCESS()
+com.rfid.sdk.rfidclass.TAG_ACCESS: TAG_ACCESS(int,int,int,int,int)
+com.rfid.sdk.rfidclass.TAG_ACCESS: int getBase_bank()
+com.rfid.sdk.rfidclass.TAG_ACCESS: void setBase_bank(int)
+com.rfid.sdk.rfidclass.TAG_ACCESS: int getBank_offset()
+com.rfid.sdk.rfidclass.TAG_ACCESS: void setBank_offset(int)
+com.rfid.sdk.rfidclass.TAG_ACCESS: int getWord_count()
+com.rfid.sdk.rfidclass.TAG_ACCESS: void setWord_count(int)
+com.rfid.sdk.rfidclass.TAG_ACCESS: int getAccess_pass()
+com.rfid.sdk.rfidclass.TAG_ACCESS: void setAccess_pass(int)
+com.rfid.sdk.rfidclass.TAG_ACCESS: int getKill_pass()
+com.rfid.sdk.rfidclass.TAG_ACCESS: void setKill_pass(int)
+com.rfid.sdk.rfidclass.TAG_ACCESS: short[] getData()
+com.rfid.sdk.rfidclass.TAG_ACCESS: void setData(short[])
+com.rfid.sdk.rfidclass.TAG_ACCESS: com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG getQt_tag()
+com.rfid.sdk.rfidclass.TAG_ACCESS: void setQt_tag(com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG)
+com.rfid.sdk.rfidclass.TAG_ACCESS: java.lang.String toString()
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: byte access_cmd
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: byte control
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: byte persistence
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: byte memory_map
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: byte short_range
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: byte raw_enable
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: short raw_ctrl
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: TAG_ACCESS$QT_TAG(byte,byte,byte,byte,byte,byte,short)
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: TAG_ACCESS$QT_TAG(byte,byte,byte,byte,byte)
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: byte getAccess_cmd()
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: void setAccess_cmd(byte)
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: byte getControl()
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: void setControl(byte)
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: byte getPersistence()
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: void setPersistence(byte)
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: byte getMemory_map()
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: void setMemory_map(byte)
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: byte getShort_range()
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: void setShort_range(byte)
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: byte getRaw_enable()
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: void setRaw_enable(byte)
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: short getRaw_ctrl()
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: void setRaw_ctrl(short)
+com.rfid.sdk.rfidclass.TAG_ACCESS$QT_TAG: java.lang.String toString()
+com.rfid.sdk.rfidclass.TAG_GROUP
+com.rfid.sdk.rfidclass.TAG_GROUP: byte query_sel
+com.rfid.sdk.rfidclass.TAG_GROUP: byte query_target
+com.rfid.sdk.rfidclass.TAG_GROUP: byte query_session
+com.rfid.sdk.rfidclass.TAG_GROUP: TAG_GROUP(byte,byte,byte)
+com.rfid.sdk.rfidclass.TAG_GROUP: TAG_GROUP(int,int,int)
+com.rfid.sdk.rfidclass.TAG_GROUP: byte getQuery_sel()
+com.rfid.sdk.rfidclass.TAG_GROUP: void setQuery_sel(byte)
+com.rfid.sdk.rfidclass.TAG_GROUP: byte getQuery_target()
+com.rfid.sdk.rfidclass.TAG_GROUP: void setQuery_target(byte)
+com.rfid.sdk.rfidclass.TAG_GROUP: byte getQuery_session()
+com.rfid.sdk.rfidclass.TAG_GROUP: void setQuery_session(byte)
+com.rfid.sdk.rfidclass.TAG_SELECT
+com.rfid.sdk.rfidclass.TAG_SELECT: int enable
+com.rfid.sdk.rfidclass.TAG_SELECT: int target
+com.rfid.sdk.rfidclass.TAG_SELECT: int action
+com.rfid.sdk.rfidclass.TAG_SELECT: int trunk_en
+com.rfid.sdk.rfidclass.TAG_SELECT: int bank
+com.rfid.sdk.rfidclass.TAG_SELECT: int bank_offset
+com.rfid.sdk.rfidclass.TAG_SELECT: int mask_len
+com.rfid.sdk.rfidclass.TAG_SELECT: java.lang.String mask
+com.rfid.sdk.rfidclass.TAG_SELECT: int select_state
+com.rfid.sdk.rfidclass.TAG_SELECT: int session
+com.rfid.sdk.rfidclass.TAG_SELECT: int session_target
+com.rfid.sdk.rfidclass.TAG_SELECT: int select_rules
+com.rfid.sdk.rfidclass.TAG_SELECT: int post_singulation
+com.rfid.sdk.rfidclass.TAG_SELECT: TAG_SELECT()
+com.rfid.sdk.rfidclass.TAG_SELECT: TAG_SELECT(int,int,int,int,int,int,int,java.lang.String,int,int,int,int,int)
+com.rfid.sdk.rfidclass.TAG_SELECT: int getEnable()
+com.rfid.sdk.rfidclass.TAG_SELECT: void setEnable(int)
+com.rfid.sdk.rfidclass.TAG_SELECT: void setEnable(boolean)
+com.rfid.sdk.rfidclass.TAG_SELECT: int getTarget()
+com.rfid.sdk.rfidclass.TAG_SELECT: void setTarget(int)
+com.rfid.sdk.rfidclass.TAG_SELECT: int getAction()
+com.rfid.sdk.rfidclass.TAG_SELECT: void setAction(int)
+com.rfid.sdk.rfidclass.TAG_SELECT: int getTrunk_en()
+com.rfid.sdk.rfidclass.TAG_SELECT: void setTrunk_en(int)
+com.rfid.sdk.rfidclass.TAG_SELECT: void setTrunk_en(boolean)
+com.rfid.sdk.rfidclass.TAG_SELECT: int getBank()
+com.rfid.sdk.rfidclass.TAG_SELECT: void setBank(int)
+com.rfid.sdk.rfidclass.TAG_SELECT: int getBank_offset()
+com.rfid.sdk.rfidclass.TAG_SELECT: void setBank_offset(int)
+com.rfid.sdk.rfidclass.TAG_SELECT: int getMask_len()
+com.rfid.sdk.rfidclass.TAG_SELECT: void setMask_len(int)
+com.rfid.sdk.rfidclass.TAG_SELECT: java.lang.String getMask()
+com.rfid.sdk.rfidclass.TAG_SELECT: void setMask(java.lang.String)
+com.rfid.sdk.rfidclass.TAG_SELECT: int getSelect_state()
+com.rfid.sdk.rfidclass.TAG_SELECT: void setSelect_state(int)
+com.rfid.sdk.rfidclass.TAG_SELECT: int getSession()
+com.rfid.sdk.rfidclass.TAG_SELECT: void setSession(int)
+com.rfid.sdk.rfidclass.TAG_SELECT: int getSession_target()
+com.rfid.sdk.rfidclass.TAG_SELECT: void setSession_target(int)
+com.rfid.sdk.rfidclass.TAG_SELECT: int getSelect_rules()
+com.rfid.sdk.rfidclass.TAG_SELECT: void setSelect_rules(int)
+com.rfid.sdk.rfidclass.TAG_SELECT: void setSelect_rules(boolean)
+com.rfid.sdk.rfidclass.TAG_SELECT: int getPost_singulation()
+com.rfid.sdk.rfidclass.TAG_SELECT: void setPost_singulation(int)
+com.rfid.sdk.rfidclass.TAG_SELECT: void setPost_singulation(boolean)
+com.rfid.sdk.rfidclass.TAG_SELECT: java.lang.String toString()
+com.rfid.sdk.rfidclass.TAG_TID
+com.rfid.sdk.rfidclass.TAG_TID: int tid
+com.rfid.sdk.rfidclass.TAG_TID: int ms_ctrl
+com.rfid.sdk.rfidclass.TAG_TID: byte NB_RSSI
+com.rfid.sdk.rfidclass.TAG_TID: byte WB_RSSI
+com.rfid.sdk.rfidclass.TAG_TID: float RSSI
+com.rfid.sdk.rfidclass.TAG_TID: short Ana_Ctrl
+com.rfid.sdk.rfidclass.TAG_TID: byte Phase
+com.rfid.sdk.rfidclass.TAG_TID: byte Ch_Index
+com.rfid.sdk.rfidclass.TAG_TID: short PC
+com.rfid.sdk.rfidclass.TAG_TID: java.lang.String EPC
+com.rfid.sdk.rfidclass.TAG_TID: int times
+com.rfid.sdk.rfidclass.TAG_TID: TAG_TID(int,int,byte,byte,float,short,byte,byte,short,java.lang.String)
+com.rfid.sdk.rfidclass.TAG_TID: int getTimes()
+com.rfid.sdk.rfidclass.TAG_TID: void setTimes(int)
+com.rfid.sdk.rfidclass.TAG_TID: void setNB_RSSI(byte)
+com.rfid.sdk.rfidclass.TAG_TID: byte getNB_RSSI()
+com.rfid.sdk.rfidclass.TAG_TID: void setWB_RSSI(byte)
+com.rfid.sdk.rfidclass.TAG_TID: byte getWB_RSSI()
+com.rfid.sdk.rfidclass.TAG_TID: void setRSSI(float)
+com.rfid.sdk.rfidclass.TAG_TID: float getRSSI()
+com.rfid.sdk.rfidclass.TAG_TID: void setEPC(java.lang.String)
+com.rfid.sdk.rfidclass.TAG_TID: java.lang.String getEPC()
+com.rfid.sdk.rfidclass.TAG_TID: int getTid()
+com.rfid.sdk.rfidclass.TAG_TID: void setTid(int)
+com.rfid.sdk.rfidclass.TAG_TID: int getMs_ctrl()
+com.rfid.sdk.rfidclass.TAG_TID: void setMs_ctrl(int)
+com.rfid.sdk.rfidclass.TAG_TID: short getAna_Ctrl()
+com.rfid.sdk.rfidclass.TAG_TID: void setAna_Ctrl(short)
+com.rfid.sdk.rfidclass.TAG_TID: byte getPhase()
+com.rfid.sdk.rfidclass.TAG_TID: void setPhase(byte)
+com.rfid.sdk.rfidclass.TAG_TID: byte getCh_Index()
+com.rfid.sdk.rfidclass.TAG_TID: void setCh_Index(byte)
+com.rfid.sdk.rfidclass.TAG_TID: short getPC()
+com.rfid.sdk.rfidclass.TAG_TID: void setPC(short)
+com.rfid.sdk.rfidclass.TAG_TID: java.lang.String toString()
+com.zk.rfid.R$attr: int layout_heightPercent
+com.zk.rfid.R$attr: int layout_marginBottomPercent
+com.zk.rfid.R$attr: int layout_marginEndPercent
+com.zk.rfid.R$attr: int layout_marginLeftPercent
+com.zk.rfid.R$attr: int layout_marginPercent
+com.zk.rfid.R$attr: int layout_marginRightPercent
+com.zk.rfid.R$attr: int layout_marginStartPercent
+com.zk.rfid.R$attr: int layout_marginTopPercent
+com.zk.rfid.R$attr: int layout_maxHeightPercent
+com.zk.rfid.R$attr: int layout_maxWidthPercent
+com.zk.rfid.R$attr: int layout_minHeightPercent
+com.zk.rfid.R$attr: int layout_minWidthPercent
+com.zk.rfid.R$attr: int layout_textSizePercent
+com.zk.rfid.R$attr: int layout_widthPercent
+com.zk.rfid.R$color: int alpha
+com.zk.rfid.R$color: int black
+com.zk.rfid.R$color: int blue
+com.zk.rfid.R$color: int green
+com.zk.rfid.R$color: int light_green
+com.zk.rfid.R$color: int line_green
+com.zk.rfid.R$color: int login_bg_blue
+com.zk.rfid.R$color: int red
+com.zk.rfid.R$color: int title_blue
+com.zk.rfid.R$color: int white
+com.zk.rfid.R$color: int yellow
+com.zk.rfid.R$dimen: int activity_horizontal_margin
+com.zk.rfid.R$dimen: int activity_vertical_margin
+com.zk.rfid.R$drawable: int add
+com.zk.rfid.R$drawable: int add_btn
+com.zk.rfid.R$drawable: int addmat
+com.zk.rfid.R$drawable: int airbg
+com.zk.rfid.R$drawable: int approve_img
+com.zk.rfid.R$drawable: int back_left
+com.zk.rfid.R$drawable: int btn_blue
+com.zk.rfid.R$drawable: int btn_yellow
+com.zk.rfid.R$drawable: int btnshape
+com.zk.rfid.R$drawable: int check_box_bg
+com.zk.rfid.R$drawable: int createnew
+com.zk.rfid.R$drawable: int delete
+com.zk.rfid.R$drawable: int doorbg
+com.zk.rfid.R$drawable: int editpwd
+com.zk.rfid.R$drawable: int exception
+com.zk.rfid.R$drawable: int exit
+com.zk.rfid.R$drawable: int exit_store_img
+com.zk.rfid.R$drawable: int fail
+com.zk.rfid.R$drawable: int green
+com.zk.rfid.R$drawable: int headbg
+com.zk.rfid.R$drawable: int icon
+com.zk.rfid.R$drawable: int init_bg
+com.zk.rfid.R$drawable: int inv_right
+com.zk.rfid.R$drawable: int listview_arrow
+com.zk.rfid.R$drawable: int listview_progressbar_bg
+com.zk.rfid.R$drawable: int login_bg
+com.zk.rfid.R$drawable: int long_white_bg
+com.zk.rfid.R$drawable: int map_btn
+com.zk.rfid.R$drawable: int mastorage
+com.zk.rfid.R$drawable: int menu
+com.zk.rfid.R$drawable: int modifybox
+com.zk.rfid.R$drawable: int myinfo
+com.zk.rfid.R$drawable: int myrecord
+com.zk.rfid.R$drawable: int onclick_blue_btn
+com.zk.rfid.R$drawable: int onclick_btn
+com.zk.rfid.R$drawable: int onclick_item
+com.zk.rfid.R$drawable: int orange_bg
+com.zk.rfid.R$drawable: int password_img
+com.zk.rfid.R$drawable: int pt_balance_have_check
+com.zk.rfid.R$drawable: int pt_balance_no_check
+com.zk.rfid.R$drawable: int read
+com.zk.rfid.R$drawable: int rect_blue_btn
+com.zk.rfid.R$drawable: int rect_blue_pre_btn
+com.zk.rfid.R$drawable: int rect_white_btn
+com.zk.rfid.R$drawable: int rect_yellow_btn
+com.zk.rfid.R$drawable: int reduce
+com.zk.rfid.R$drawable: int reduce_btn
+com.zk.rfid.R$drawable: int refresh
+com.zk.rfid.R$drawable: int reports
+com.zk.rfid.R$drawable: int select_down_img
+com.zk.rfid.R$drawable: int success
+com.zk.rfid.R$drawable: int systemset
+com.zk.rfid.R$drawable: int usename_img
+com.zk.rfid.R$drawable: int userhead
+com.zk.rfid.R$drawable: int white
+com.zk.rfid.R$drawable: int write
+com.zk.rfid.R$drawable: int zk_right_arr
+com.zk.rfid.R$id: int addLin
+com.zk.rfid.R$id: int add_box_submit
+com.zk.rfid.R$id: int add_btn
+com.zk.rfid.R$id: int add_mat_btn
+com.zk.rfid.R$id: int add_mat_scro_lin
+com.zk.rfid.R$id: int add_material_record_lin
+com.zk.rfid.R$id: int add_record_list
+com.zk.rfid.R$id: int add_record_list_lin
+com.zk.rfid.R$id: int add_remarks
+com.zk.rfid.R$id: int add_submit_btn
+com.zk.rfid.R$id: int add_unit_edit
+com.zk.rfid.R$id: int add_unit_lin
+com.zk.rfid.R$id: int agreeBtn
+com.zk.rfid.R$id: int appliedOrderText
+com.zk.rfid.R$id: int applyBtn
+com.zk.rfid.R$id: int applyCountLin
+com.zk.rfid.R$id: int apply_count
+com.zk.rfid.R$id: int apply_option_list
+com.zk.rfid.R$id: int apply_remarks
+com.zk.rfid.R$id: int apply_submit
+com.zk.rfid.R$id: int approvalOrderNumberEdit
+com.zk.rfid.R$id: int approvalOrderNumberText
+com.zk.rfid.R$id: int arrive_beginTime
+com.zk.rfid.R$id: int arrive_endTime
+com.zk.rfid.R$id: int arrive_zk_begintime_delete
+com.zk.rfid.R$id: int arrive_zk_endtime_delete
+com.zk.rfid.R$id: int arrivedDateEdit
+com.zk.rfid.R$id: int attachment
+com.zk.rfid.R$id: int attachmentText
+com.zk.rfid.R$id: int auditRemarks
+com.zk.rfid.R$id: int audit_remarks
+com.zk.rfid.R$id: int backBtn
+com.zk.rfid.R$id: int backImg
+com.zk.rfid.R$id: int beginTime
+com.zk.rfid.R$id: int boxPos
+com.zk.rfid.R$id: int boxRadioGroup
+com.zk.rfid.R$id: int boxText
+com.zk.rfid.R$id: int box_pos_full
+com.zk.rfid.R$id: int box_pos_item_edit
+com.zk.rfid.R$id: int button
+com.zk.rfid.R$id: int cancle_btn
+com.zk.rfid.R$id: int change_lend_btn
+com.zk.rfid.R$id: int change_use_btn
+com.zk.rfid.R$id: int checkBox
+com.zk.rfid.R$id: int checkText
+com.zk.rfid.R$id: int closeBtn
+com.zk.rfid.R$id: int closeEditBtn
+com.zk.rfid.R$id: int codeText
+com.zk.rfid.R$id: int consumeRadioGroup
+com.zk.rfid.R$id: int countText
+com.zk.rfid.R$id: int countTextsLin
+com.zk.rfid.R$id: int curr_pwd_edit
+com.zk.rfid.R$id: int damage_btn
+com.zk.rfid.R$id: int dataListView
+com.zk.rfid.R$id: int dateText
+com.zk.rfid.R$id: int delete_btn
+com.zk.rfid.R$id: int deliveryOrderEditNumber
+com.zk.rfid.R$id: int deliveryOrderNumber
+com.zk.rfid.R$id: int demand_date
+com.zk.rfid.R$id: int department
+com.zk.rfid.R$id: int departmentText
+com.zk.rfid.R$id: int department_Leader
+com.zk.rfid.R$id: int detailTable
+com.zk.rfid.R$id: int detailtitle
+com.zk.rfid.R$id: int disagreeBtn
+com.zk.rfid.R$id: int edit_clear_btn
+com.zk.rfid.R$id: int edit_submit_btn
+com.zk.rfid.R$id: int emergencyText
+com.zk.rfid.R$id: int endTime
+com.zk.rfid.R$id: int epc_list_linear
+com.zk.rfid.R$id: int epc_list_title_linear
+com.zk.rfid.R$id: int five_fiveLin
+com.zk.rfid.R$id: int five_fourLin
+com.zk.rfid.R$id: int five_oneLin
+com.zk.rfid.R$id: int five_threeLin
+com.zk.rfid.R$id: int five_twoLin
+com.zk.rfid.R$id: int four_oneLin
+com.zk.rfid.R$id: int getMaterialPersonText
+com.zk.rfid.R$id: int gobacktext
+com.zk.rfid.R$id: int handPersonText
+com.zk.rfid.R$id: int hand_person
+com.zk.rfid.R$id: int head_arrowImageView
+com.zk.rfid.R$id: int head_contentLayout
+com.zk.rfid.R$id: int head_lastUpdatedTextView
+com.zk.rfid.R$id: int head_progressBar
+com.zk.rfid.R$id: int head_tipsTextView
+com.zk.rfid.R$id: int inDateText
+com.zk.rfid.R$id: int in_beginTime
+com.zk.rfid.R$id: int in_endTime
+com.zk.rfid.R$id: int in_zk_begintime_delete
+com.zk.rfid.R$id: int in_zk_endtime_delete
+com.zk.rfid.R$id: int inboxRadioGroup
+com.zk.rfid.R$id: int include_box_count
+com.zk.rfid.R$id: int init_bg_img
+com.zk.rfid.R$id: int invImg
+com.zk.rfid.R$id: int inventoryRecordText
+com.zk.rfid.R$id: int invtitle
+com.zk.rfid.R$id: int isBoxRadioGroup
+com.zk.rfid.R$id: int isBoxText
+com.zk.rfid.R$id: int itemLin
+com.zk.rfid.R$id: int item_bottom
+com.zk.rfid.R$id: int item_img_left
+com.zk.rfid.R$id: int item_img_right
+com.zk.rfid.R$id: int item_text
+com.zk.rfid.R$id: int item_top
+com.zk.rfid.R$id: int left_listview
+com.zk.rfid.R$id: int left_vie_lin
+com.zk.rfid.R$id: int lendBtn
+com.zk.rfid.R$id: int lendCountLin
+com.zk.rfid.R$id: int lendNumberText
+com.zk.rfid.R$id: int lend_count
+com.zk.rfid.R$id: int lend_detail_listview
+com.zk.rfid.R$id: int lend_select_edit
+com.zk.rfid.R$id: int lend_select_imgview
+com.zk.rfid.R$id: int lend_select_lin
+com.zk.rfid.R$id: int list_total_title_linear
+com.zk.rfid.R$id: int loadMoreLin
+com.zk.rfid.R$id: int load_more
+com.zk.rfid.R$id: int login_cancle_btn
+com.zk.rfid.R$id: int login_epc_btn
+com.zk.rfid.R$id: int login_pwd_edit
+com.zk.rfid.R$id: int login_pwd_new_ag_edit
+com.zk.rfid.R$id: int login_pwd_new_edit
+com.zk.rfid.R$id: int login_submit_btn
+com.zk.rfid.R$id: int login_username_edit
+com.zk.rfid.R$id: int logout_btn
+com.zk.rfid.R$id: int loopCount_edit
+com.zk.rfid.R$id: int mainviewLin
+com.zk.rfid.R$id: int mangerOperateLin
+com.zk.rfid.R$id: int mapLin
+com.zk.rfid.R$id: int mapfive
+com.zk.rfid.R$id: int mapfour
+com.zk.rfid.R$id: int mapone
+com.zk.rfid.R$id: int mapthree
+com.zk.rfid.R$id: int maptwo
+com.zk.rfid.R$id: int mat_box_lin
+com.zk.rfid.R$id: int materialCount
+com.zk.rfid.R$id: int materialId
+com.zk.rfid.R$id: int materialIdText
+com.zk.rfid.R$id: int materialName
+com.zk.rfid.R$id: int materialNumberText
+com.zk.rfid.R$id: int material_box_code
+com.zk.rfid.R$id: int material_box_name
+com.zk.rfid.R$id: int material_box_spec
+com.zk.rfid.R$id: int material_empty_list_lin
+com.zk.rfid.R$id: int material_empty_record_lin
+com.zk.rfid.R$id: int material_group
+com.zk.rfid.R$id: int material_id
+com.zk.rfid.R$id: int material_name
+com.zk.rfid.R$id: int material_specDescribe
+com.zk.rfid.R$id: int menu_img
+com.zk.rfid.R$id: int methodRadioGroup
+com.zk.rfid.R$id: int method_ip
+com.zk.rfid.R$id: int method_port
+com.zk.rfid.R$id: int metp_text
+com.zk.rfid.R$id: int modify_list_view
+com.zk.rfid.R$id: int nameText
+com.zk.rfid.R$id: int notice_no
+com.zk.rfid.R$id: int numberText
+com.zk.rfid.R$id: int objCountText
+com.zk.rfid.R$id: int one_fiveLin
+com.zk.rfid.R$id: int one_fourLin
+com.zk.rfid.R$id: int one_oneLin
+com.zk.rfid.R$id: int one_sevenLin
+com.zk.rfid.R$id: int one_sixLin
+com.zk.rfid.R$id: int one_threeLin
+com.zk.rfid.R$id: int one_twoLin
+com.zk.rfid.R$id: int operate
+com.zk.rfid.R$id: int operateLin
+com.zk.rfid.R$id: int operateText
+com.zk.rfid.R$id: int orderCheck
+com.zk.rfid.R$id: int orderText
+com.zk.rfid.R$id: int percentTextView
+com.zk.rfid.R$id: int plateNumber
+com.zk.rfid.R$id: int plateNumberEdit
+com.zk.rfid.R$id: int posCheck
+com.zk.rfid.R$id: int posText
+com.zk.rfid.R$id: int pos_full
+com.zk.rfid.R$id: int pos_item_edit
+com.zk.rfid.R$id: int powerLargeRadio
+com.zk.rfid.R$id: int powerMiddleRadio
+com.zk.rfid.R$id: int powerMostRadio
+com.zk.rfid.R$id: int powerSetRadioGroup
+com.zk.rfid.R$id: int powerSmallRadio
+com.zk.rfid.R$id: int pre_count
+com.zk.rfid.R$id: int property_text
+com.zk.rfid.R$id: int pull_to_refresh_progress
+com.zk.rfid.R$id: int purchaseOrderNumberEdit
+com.zk.rfid.R$id: int purposeText
+com.zk.rfid.R$id: int purpose_text
+com.zk.rfid.R$id: int qualityRadioGroup
+com.zk.rfid.R$id: int qualityText
+com.zk.rfid.R$id: int queryApplyNumber
+com.zk.rfid.R$id: int queryApprovalOrderNumber
+com.zk.rfid.R$id: int queryBtn
+com.zk.rfid.R$id: int queryEditMaterial
+com.zk.rfid.R$id: int queryEditName
+com.zk.rfid.R$id: int queryEditNumber
+com.zk.rfid.R$id: int queryEditUserNum
+com.zk.rfid.R$id: int queryPurchaseOrderNumber
+com.zk.rfid.R$id: int queryRadioGroup
+com.zk.rfid.R$id: int query_add_material_lin
+com.zk.rfid.R$id: int query_date_lin
+com.zk.rfid.R$id: int query_in_lin
+com.zk.rfid.R$id: int query_lend_lin
+com.zk.rfid.R$id: int query_material_lin
+com.zk.rfid.R$id: int query_name_lin
+com.zk.rfid.R$id: int query_out_lin
+com.zk.rfid.R$id: int radioBad
+com.zk.rfid.R$id: int radioBoxNo
+com.zk.rfid.R$id: int radioBoxYes
+com.zk.rfid.R$id: int radioCom
+com.zk.rfid.R$id: int radioConsume
+com.zk.rfid.R$id: int radioEmployee
+com.zk.rfid.R$id: int radioGood
+com.zk.rfid.R$id: int radioGroup
+com.zk.rfid.R$id: int radioInBoxNo
+com.zk.rfid.R$id: int radioInBoxYes
+com.zk.rfid.R$id: int radioIsBoxNo
+com.zk.rfid.R$id: int radioIsBoxYes
+com.zk.rfid.R$id: int radioLend
+com.zk.rfid.R$id: int radioManager
+com.zk.rfid.R$id: int radioNotConsume
+com.zk.rfid.R$id: int radioPos
+com.zk.rfid.R$id: int radioRecord
+com.zk.rfid.R$id: int radioStorage
+com.zk.rfid.R$id: int radioTemp
+com.zk.rfid.R$id: int radioWan
+com.zk.rfid.R$id: int realRecordText
+com.zk.rfid.R$id: int reduce_mat_btn
+com.zk.rfid.R$id: int remarksText
+com.zk.rfid.R$id: int remarks_lin
+com.zk.rfid.R$id: int remind_text
+com.zk.rfid.R$id: int repairOrderEdit
+com.zk.rfid.R$id: int requisition
+com.zk.rfid.R$id: int requisition_person
+com.zk.rfid.R$id: int requisition_time
+com.zk.rfid.R$id: int result_fail
+com.zk.rfid.R$id: int result_fail_lin
+com.zk.rfid.R$id: int result_success
+com.zk.rfid.R$id: int result_success_lin
+com.zk.rfid.R$id: int returnCountLin
+com.zk.rfid.R$id: int returnCountText
+com.zk.rfid.R$id: int return_count
+com.zk.rfid.R$id: int return_date
+com.zk.rfid.R$id: int return_person
+com.zk.rfid.R$id: int scanDetailCount
+com.zk.rfid.R$id: int scanDetailSn
+com.zk.rfid.R$id: int scanDetailUpCount
+com.zk.rfid.R$id: int scan_list
+com.zk.rfid.R$id: int scrollView
+com.zk.rfid.R$id: int seacherEdit
+com.zk.rfid.R$id: int seacher_delete
+com.zk.rfid.R$id: int select_bottom_line
+com.zk.rfid.R$id: int select_imgview
+com.zk.rfid.R$id: int select_spec_imgview
+com.zk.rfid.R$id: int send_company
+com.zk.rfid.R$id: int serialNumber
+com.zk.rfid.R$id: int showCounText
+com.zk.rfid.R$id: int showStorageLin
+com.zk.rfid.R$id: int show_box_count
+com.zk.rfid.R$id: int specText
+com.zk.rfid.R$id: int spec_edit
+com.zk.rfid.R$id: int spec_lin
+com.zk.rfid.R$id: int spec_text
+com.zk.rfid.R$id: int sposRadioGroup
+com.zk.rfid.R$id: int start_btn
+com.zk.rfid.R$id: int start_show
+com.zk.rfid.R$id: int stateText
+com.zk.rfid.R$id: int statueText
+com.zk.rfid.R$id: int stoFifth
+com.zk.rfid.R$id: int stoFour
+com.zk.rfid.R$id: int stoOne
+com.zk.rfid.R$id: int stoRadioGroup
+com.zk.rfid.R$id: int stoSecond
+com.zk.rfid.R$id: int stoThird
+com.zk.rfid.R$id: int storageRecordText
+com.zk.rfid.R$id: int storageStatusText
+com.zk.rfid.R$id: int storage_box_pos
+com.zk.rfid.R$id: int storage_pos
+com.zk.rfid.R$id: int store_approve_lin
+com.zk.rfid.R$id: int store_approve_list
+com.zk.rfid.R$id: int store_approve_list_lin
+com.zk.rfid.R$id: int store_exit_lin
+com.zk.rfid.R$id: int store_exit_list
+com.zk.rfid.R$id: int store_exit_list_lin
+com.zk.rfid.R$id: int store_list_linear
+com.zk.rfid.R$id: int store_list_title_linear
+com.zk.rfid.R$id: int store_select_edit
+com.zk.rfid.R$id: int store_select_imgview
+com.zk.rfid.R$id: int store_select_lin
+com.zk.rfid.R$id: int store_total_lin
+com.zk.rfid.R$id: int store_total_list
+com.zk.rfid.R$id: int store_total_list_lin
+com.zk.rfid.R$id: int storemaptitle
+com.zk.rfid.R$id: int submit_btn
+com.zk.rfid.R$id: int sure_back_code
+com.zk.rfid.R$id: int sure_lend_code
+com.zk.rfid.R$id: int textLeft
+com.zk.rfid.R$id: int textLeftName
+com.zk.rfid.R$id: int textLeftVal
+com.zk.rfid.R$id: int textRight
+com.zk.rfid.R$id: int textRightName
+com.zk.rfid.R$id: int textRightVal
+com.zk.rfid.R$id: int three_eighthLin
+com.zk.rfid.R$id: int three_fiveLin
+com.zk.rfid.R$id: int three_fourLin
+com.zk.rfid.R$id: int three_nineLin
+com.zk.rfid.R$id: int three_oneLin
+com.zk.rfid.R$id: int three_sevenLin
+com.zk.rfid.R$id: int three_sixLin
+com.zk.rfid.R$id: int three_tenLin
+com.zk.rfid.R$id: int three_threeLin
+com.zk.rfid.R$id: int three_twoLin
+com.zk.rfid.R$id: int title
+com.zk.rfid.R$id: int titleId
+com.zk.rfid.R$id: int totalText
+com.zk.rfid.R$id: int two_fiveLin
+com.zk.rfid.R$id: int two_fourLin
+com.zk.rfid.R$id: int two_oneLin
+com.zk.rfid.R$id: int two_threeLin
+com.zk.rfid.R$id: int two_twoLin
+com.zk.rfid.R$id: int typeText
+com.zk.rfid.R$id: int unit
+com.zk.rfid.R$id: int unitText
+com.zk.rfid.R$id: int updateMsg
+com.zk.rfid.R$id: int update_pos_submit
+com.zk.rfid.R$id: int update_submit
+com.zk.rfid.R$id: int use_purpose
+com.zk.rfid.R$id: int userTable
+com.zk.rfid.R$id: int userText
+com.zk.rfid.R$id: int versionText
+com.zk.rfid.R$id: int warehouse
+com.zk.rfid.R$id: int writ_btn
+com.zk.rfid.R$id: int zk_apply_delete
+com.zk.rfid.R$id: int zk_approve_delete
+com.zk.rfid.R$id: int zk_bar_detail
+com.zk.rfid.R$id: int zk_begintime_delete
+com.zk.rfid.R$id: int zk_curr_delete
+com.zk.rfid.R$id: int zk_deliveryOrder_delete
+com.zk.rfid.R$id: int zk_endtime_delete
+com.zk.rfid.R$id: int zk_epc_list
+com.zk.rfid.R$id: int zk_gname_delete
+com.zk.rfid.R$id: int zk_gnum_delete
+com.zk.rfid.R$id: int zk_loading_mes
+com.zk.rfid.R$id: int zk_login_delete
+com.zk.rfid.R$id: int zk_new_delete
+com.zk.rfid.R$id: int zk_newag_delete
+com.zk.rfid.R$id: int zk_purchase_delete
+com.zk.rfid.R$id: int zk_pwd_delete
+com.zk.rfid.R$id: int zk_storage_list
+com.zk.rfid.R$id: int zk_sure_btn
+com.zk.rfid.R$id: int zk_toast_mes
+com.zk.rfid.R$id: int zk_username_delete
+com.zk.rfid.R$id: int zk_userno_delete
+com.zk.rfid.R$layout: int add_material_record_item
+com.zk.rfid.R$layout: int addmaterial
+com.zk.rfid.R$layout: int addmaterial_box
+com.zk.rfid.R$layout: int addmaterial_item
+com.zk.rfid.R$layout: int addmaterial_total
+com.zk.rfid.R$layout: int adjust_epc_total
+com.zk.rfid.R$layout: int adjustepc
+com.zk.rfid.R$layout: int apply_material
+com.zk.rfid.R$layout: int apply_material_item
+com.zk.rfid.R$layout: int apply_option_item
+com.zk.rfid.R$layout: int apply_options
+com.zk.rfid.R$layout: int double_table_item
+com.zk.rfid.R$layout: int editpwd
+com.zk.rfid.R$layout: int epc_list_item
+com.zk.rfid.R$layout: int exceptioninfo
+com.zk.rfid.R$layout: int left_set_item
+com.zk.rfid.R$layout: int left_set_listview
+com.zk.rfid.R$layout: int lenddetail
+com.zk.rfid.R$layout: int lenddetail_main_table_bottom
+com.zk.rfid.R$layout: int lenddetail_main_table_middle
+com.zk.rfid.R$layout: int lenddetail_main_table_top
+com.zk.rfid.R$layout: int lenddetail_person
+com.zk.rfid.R$layout: int lendlist_item
+com.zk.rfid.R$layout: int listview_head
+com.zk.rfid.R$layout: int listviewfooter_more
+com.zk.rfid.R$layout: int loading_dialog
+com.zk.rfid.R$layout: int login
+com.zk.rfid.R$layout: int mainview
+com.zk.rfid.R$layout: int mainview_listview
+com.zk.rfid.R$layout: int mainview_total
+com.zk.rfid.R$layout: int manager_dialog
+com.zk.rfid.R$layout: int map_five_area
+com.zk.rfid.R$layout: int map_four_area
+com.zk.rfid.R$layout: int map_layer_check_box
+com.zk.rfid.R$layout: int map_layer_item
+com.zk.rfid.R$layout: int map_one_area
+com.zk.rfid.R$layout: int map_three_area
+com.zk.rfid.R$layout: int map_two_area
+com.zk.rfid.R$layout: int material_detail
+com.zk.rfid.R$layout: int modify_box_item
+com.zk.rfid.R$layout: int modifybox
+com.zk.rfid.R$layout: int operateepc
+com.zk.rfid.R$layout: int power_set
+com.zk.rfid.R$layout: int reports_list_item
+com.zk.rfid.R$layout: int result_dialog
+com.zk.rfid.R$layout: int scan_epc_list_item
+com.zk.rfid.R$layout: int scan_info_detail
+com.zk.rfid.R$layout: int setmethod
+com.zk.rfid.R$layout: int storage_list_item
+com.zk.rfid.R$layout: int storage_write_epc_query
+com.zk.rfid.R$layout: int store_approve_item
+com.zk.rfid.R$layout: int store_exit_item
+com.zk.rfid.R$layout: int store_material_total
+com.zk.rfid.R$layout: int store_material_view
+com.zk.rfid.R$layout: int store_total
+com.zk.rfid.R$layout: int store_total_item
+com.zk.rfid.R$layout: int store_total_query
+com.zk.rfid.R$layout: int storemapview
+com.zk.rfid.R$layout: int table_item
+com.zk.rfid.R$layout: int update
+com.zk.rfid.R$layout: int userdetail
+com.zk.rfid.R$layout: int wait_modify
+com.zk.rfid.R$layout: int wait_modify_item
+com.zk.rfid.R$layout: int zk_toast_item
+com.zk.rfid.R$menu: int main
+com.zk.rfid.R$string: int accept_department_text
+com.zk.rfid.R$string: int add
+com.zk.rfid.R$string: int add_box
+com.zk.rfid.R$string: int add_epc_count_hint
+com.zk.rfid.R$string: int add_epc_data
+com.zk.rfid.R$string: int add_material_form
+com.zk.rfid.R$string: int agree_text
+com.zk.rfid.R$string: int air_vert_text
+com.zk.rfid.R$string: int app_name
+com.zk.rfid.R$string: int applied_order_text
+com.zk.rfid.R$string: int apply_count_text
+com.zk.rfid.R$string: int apply_date_time_text
+com.zk.rfid.R$string: int apply_jobnumber
+com.zk.rfid.R$string: int apply_join_text
+com.zk.rfid.R$string: int apply_material_name
+com.zk.rfid.R$string: int apply_name
+com.zk.rfid.R$string: int apply_title
+com.zk.rfid.R$string: int appply_person_text
+com.zk.rfid.R$string: int appply_time_text
+com.zk.rfid.R$string: int approve_remarks_text
+com.zk.rfid.R$string: int arrive_material_count_text
+com.zk.rfid.R$string: int attachment_hint
+com.zk.rfid.R$string: int attachment_text
+com.zk.rfid.R$string: int attachment_text_doc
+com.zk.rfid.R$string: int audit_person_text
+com.zk.rfid.R$string: int audit_remarks_text
+com.zk.rfid.R$string: int back_btn_text
+com.zk.rfid.R$string: int back_count_text
+com.zk.rfid.R$string: int back_date_time_text
+com.zk.rfid.R$string: int back_jobnumber
+com.zk.rfid.R$string: int back_name
+com.zk.rfid.R$string: int back_person_text
+com.zk.rfid.R$string: int back_time_text
+com.zk.rfid.R$string: int box_include_count_hint
+com.zk.rfid.R$string: int box_large
+com.zk.rfid.R$string: int box_middle
+com.zk.rfid.R$string: int box_normal
+com.zk.rfid.R$string: int box_small
+com.zk.rfid.R$string: int boxtype
+com.zk.rfid.R$string: int can_use_count
+com.zk.rfid.R$string: int cancle
+com.zk.rfid.R$string: int car_ticket_no_hint
+com.zk.rfid.R$string: int car_ticket_no_text
+com.zk.rfid.R$string: int change_lend
+com.zk.rfid.R$string: int change_use
+com.zk.rfid.R$string: int check_accept_hint
+com.zk.rfid.R$string: int check_accept_text
+com.zk.rfid.R$string: int choose
+com.zk.rfid.R$string: int come_date_time_text
+com.zk.rfid.R$string: int consume
+com.zk.rfid.R$string: int count_hint
+com.zk.rfid.R$string: int create_btn_text
+com.zk.rfid.R$string: int create_epc
+com.zk.rfid.R$string: int create_epc_table
+com.zk.rfid.R$string: int create_epc_text
+com.zk.rfid.R$string: int create_new_text
+com.zk.rfid.R$string: int create_pos_text
+com.zk.rfid.R$string: int create_radio_box
+com.zk.rfid.R$string: int create_radio_not_box
+com.zk.rfid.R$string: int create_text
+com.zk.rfid.R$string: int curr_pwd_hint_text
+com.zk.rfid.R$string: int curr_pwd_text
+com.zk.rfid.R$string: int damage
+com.zk.rfid.R$string: int date_time_notify_be_empty
+com.zk.rfid.R$string: int date_time_notify_en_empty
+com.zk.rfid.R$string: int date_time_notify_not_allow
+com.zk.rfid.R$string: int deliveryOrderNumber_text
+com.zk.rfid.R$string: int deliveryOrder_number_hint
+com.zk.rfid.R$string: int demand_tiem_text
+com.zk.rfid.R$string: int department_Leader_text
+com.zk.rfid.R$string: int department_text
+com.zk.rfid.R$string: int department_text_val
+com.zk.rfid.R$string: int detail
+com.zk.rfid.R$string: int disagree_text
+com.zk.rfid.R$string: int door_land_text
+com.zk.rfid.R$string: int door_vert_text
+com.zk.rfid.R$string: int edit_clear
+com.zk.rfid.R$string: int edit_pwd_fail
+com.zk.rfid.R$string: int edit_pwd_success
+com.zk.rfid.R$string: int edit_pwd_text
+com.zk.rfid.R$string: int edit_submit
+com.zk.rfid.R$string: int emergency_text
+com.zk.rfid.R$string: int english_name_digits
+com.zk.rfid.R$string: int english_password_digits
+com.zk.rfid.R$string: int exception_info_form
+com.zk.rfid.R$string: int exit_text
+com.zk.rfid.R$string: int fifth_area
+com.zk.rfid.R$string: int fourth_area
+com.zk.rfid.R$string: int get_material_text
+com.zk.rfid.R$string: int hand_hint
+com.zk.rfid.R$string: int hand_text
+com.zk.rfid.R$string: int have_out
+com.zk.rfid.R$string: int include_count
+com.zk.rfid.R$string: int include_count_hint
+com.zk.rfid.R$string: int init_fail
+com.zk.rfid.R$string: int init_name
+com.zk.rfid.R$string: int inv_material_form
+com.zk.rfid.R$string: int inventory_record_text
+com.zk.rfid.R$string: int isbox
+com.zk.rfid.R$string: int isinbox
+com.zk.rfid.R$string: int lend_btn_text
+com.zk.rfid.R$string: int lend_date_text
+com.zk.rfid.R$string: int lend_detail_title
+com.zk.rfid.R$string: int lend_jobnumber
+com.zk.rfid.R$string: int lend_name
+com.zk.rfid.R$string: int load_more
+com.zk.rfid.R$string: int login_cancle
+com.zk.rfid.R$string: int login_employee
+com.zk.rfid.R$string: int login_fail
+com.zk.rfid.R$string: int login_fail_error
+com.zk.rfid.R$string: int login_manager
+com.zk.rfid.R$string: int login_pwd_empty
+com.zk.rfid.R$string: int login_pwd_text_hint
+com.zk.rfid.R$string: int login_submit
+com.zk.rfid.R$string: int login_temp
+com.zk.rfid.R$string: int login_username_empty
+com.zk.rfid.R$string: int login_username_hint
+com.zk.rfid.R$string: int logout
+com.zk.rfid.R$string: int material_come_text
+com.zk.rfid.R$string: int material_group_htin
+com.zk.rfid.R$string: int material_group_text
+com.zk.rfid.R$string: int material_id_text
+com.zk.rfid.R$string: int material_lend_title
+com.zk.rfid.R$string: int material_read
+com.zk.rfid.R$string: int method_com_text
+com.zk.rfid.R$string: int method_ip_hint
+com.zk.rfid.R$string: int method_ip_text
+com.zk.rfid.R$string: int method_port_hint
+com.zk.rfid.R$string: int method_port_text
+com.zk.rfid.R$string: int method_set_text
+com.zk.rfid.R$string: int method_wan_text
+com.zk.rfid.R$string: int modify_box_count
+com.zk.rfid.R$string: int modify_box_metal_count_title
+com.zk.rfid.R$string: int modify_need_count_title
+com.zk.rfid.R$string: int more_data
+com.zk.rfid.R$string: int mothod_set
+com.zk.rfid.R$string: int need_tag_hint
+com.zk.rfid.R$string: int need_tag_text
+com.zk.rfid.R$string: int network_error
+com.zk.rfid.R$string: int new_ag_pwd_not_equals
+com.zk.rfid.R$string: int new_pwd_ag_not_allow_empty
+com.zk.rfid.R$string: int new_pwd_ag_text
+com.zk.rfid.R$string: int new_pwd_not_allow_empty
+com.zk.rfid.R$string: int new_pwd_text
+com.zk.rfid.R$string: int new_pwd_text_hint_ag_text
+com.zk.rfid.R$string: int new_pwd_text_hint_text
+com.zk.rfid.R$string: int no
+com.zk.rfid.R$string: int not_allow_input
+com.zk.rfid.R$string: int not_consume
+com.zk.rfid.R$string: int not_need_tag_hint
+com.zk.rfid.R$string: int notice_no_text
+com.zk.rfid.R$string: int old_pwd_not_allow_empty
+com.zk.rfid.R$string: int one_area
+com.zk.rfid.R$string: int operate_text
+com.zk.rfid.R$string: int order_text
+com.zk.rfid.R$string: int out_number
+com.zk.rfid.R$string: int out_number_hint
+com.zk.rfid.R$string: int pos_check_box
+com.zk.rfid.R$string: int position_text
+com.zk.rfid.R$string: int power_large
+com.zk.rfid.R$string: int power_middle
+com.zk.rfid.R$string: int power_most
+com.zk.rfid.R$string: int power_set_text
+com.zk.rfid.R$string: int power_small
+com.zk.rfid.R$string: int pre_count_text
+com.zk.rfid.R$string: int pull_to_refresh_pull_label
+com.zk.rfid.R$string: int pull_to_refresh_refresh_lasttime
+com.zk.rfid.R$string: int purchase_order_number_hint
+com.zk.rfid.R$string: int purchase_order_number_text
+com.zk.rfid.R$string: int quality
+com.zk.rfid.R$string: int quality_bad
+com.zk.rfid.R$string: int quality_good
+com.zk.rfid.R$string: int quality_state
+com.zk.rfid.R$string: int quality_state_text
+com.zk.rfid.R$string: int query
+com.zk.rfid.R$string: int query_arrive_date_time_begin
+com.zk.rfid.R$string: int query_arrive_date_time_end
+com.zk.rfid.R$string: int query_date_time_begin
+com.zk.rfid.R$string: int query_date_time_end
+com.zk.rfid.R$string: int query_in_date_time_begin
+com.zk.rfid.R$string: int query_in_date_time_end
+com.zk.rfid.R$string: int query_location_text_hint
+com.zk.rfid.R$string: int query_material_name
+com.zk.rfid.R$string: int query_material_name_hint
+com.zk.rfid.R$string: int query_material_spec_hint
+com.zk.rfid.R$string: int query_material_spec_text
+com.zk.rfid.R$string: int query_no_data_msg
+com.zk.rfid.R$string: int query_no_more_data_msg
+com.zk.rfid.R$string: int query_number
+com.zk.rfid.R$string: int query_number_hint
+com.zk.rfid.R$string: int query_radio_lend
+com.zk.rfid.R$string: int query_radio_storage
+com.zk.rfid.R$string: int query_user_name
+com.zk.rfid.R$string: int query_user_name_hint
+com.zk.rfid.R$string: int query_user_number
+com.zk.rfid.R$string: int query_user_number_hint
+com.zk.rfid.R$string: int real_record_text
+com.zk.rfid.R$string: int reduce_epc_data
+com.zk.rfid.R$string: int remarks
+com.zk.rfid.R$string: int remindAlarmWarehouse
+com.zk.rfid.R$string: int remindChangeEpcCount
+com.zk.rfid.R$string: int remindNullWarehouse
+com.zk.rfid.R$string: int remindWriteEpc
+com.zk.rfid.R$string: int request
+com.zk.rfid.R$string: int request_material
+com.zk.rfid.R$string: int request_submit
+com.zk.rfid.R$string: int request_table
+com.zk.rfid.R$string: int requisition_person_text
+com.zk.rfid.R$string: int requisition_text
+com.zk.rfid.R$string: int requisition_text_val
+com.zk.rfid.R$string: int requisition_time_text
+com.zk.rfid.R$string: int scan_code
+com.zk.rfid.R$string: int scan_detail_count
+com.zk.rfid.R$string: int scan_detail_name
+com.zk.rfid.R$string: int scan_detail_position
+com.zk.rfid.R$string: int scan_detail_sn
+com.zk.rfid.R$string: int scan_detail_submit
+com.zk.rfid.R$string: int scan_detail_title
+com.zk.rfid.R$string: int scan_detail_upcount
+com.zk.rfid.R$string: int scan_detail_upcount_hint
+com.zk.rfid.R$string: int seacher_hint
+com.zk.rfid.R$string: int second_area
+com.zk.rfid.R$string: int send_com_hint
+com.zk.rfid.R$string: int send_com_text
+com.zk.rfid.R$string: int send_cometime_hint
+com.zk.rfid.R$string: int send_cometime_text
+com.zk.rfid.R$string: int serialNumber_text
+com.zk.rfid.R$string: int stair_land_text
+com.zk.rfid.R$string: int stair_vert_text
+com.zk.rfid.R$string: int start_read
+com.zk.rfid.R$string: int start_read_text
+com.zk.rfid.R$string: int status_text
+com.zk.rfid.R$string: int storage
+com.zk.rfid.R$string: int storage_person_text
+com.zk.rfid.R$string: int storage_pos
+com.zk.rfid.R$string: int storage_pos_hint
+com.zk.rfid.R$string: int storage_pos_item
+com.zk.rfid.R$string: int storage_pos_text
+com.zk.rfid.R$string: int storage_record_text
+com.zk.rfid.R$string: int storage_status_text
+com.zk.rfid.R$string: int store_add_material_table_title
+com.zk.rfid.R$string: int store_approve_table_title
+com.zk.rfid.R$string: int store_damage_text
+com.zk.rfid.R$string: int store_detail_table_title
+com.zk.rfid.R$string: int store_exit_table_title
+com.zk.rfid.R$string: int store_have_use_text
+com.zk.rfid.R$string: int store_remain_text
+com.zk.rfid.R$string: int store_total_text
+com.zk.rfid.R$string: int sure
+com.zk.rfid.R$string: int sure_back_hint
+com.zk.rfid.R$string: int sure_back_jobnumber
+com.zk.rfid.R$string: int sure_back_name
+com.zk.rfid.R$string: int sure_lend_hint
+com.zk.rfid.R$string: int sure_lend_jobnumber
+com.zk.rfid.R$string: int sure_lend_name
+com.zk.rfid.R$string: int third_area
+com.zk.rfid.R$string: int unit_hint
+com.zk.rfid.R$string: int unit_text_hint
+com.zk.rfid.R$string: int updateUrl
+com.zk.rfid.R$string: int use_purpose_hint
+com.zk.rfid.R$string: int use_purpose_text
+com.zk.rfid.R$string: int user_detail_title
+com.zk.rfid.R$string: int wait_modify_obj_count_text
+com.zk.rfid.R$string: int wait_modify_old_count_text
+com.zk.rfid.R$string: int wait_modify_text
+com.zk.rfid.R$string: int warehouse_text
+com.zk.rfid.R$string: int warehouse_text_val
+com.zk.rfid.R$string: int worker_text
+com.zk.rfid.R$string: int write_epc_info_msg
+com.zk.rfid.R$string: int yes
+com.zk.rfid.R$string: int zk_back
+com.zk.rfid.R$string: int zk_new_tag_text
+com.zk.rfid.R$string: int zk_store_map_text
+com.zk.rfid.R$string: int zk_store_tag_text
+com.zk.rfid.R$string: int zk_tag_write_text
+com.zk.rfid.R$style: int AppBaseTheme
+com.zk.rfid.R$style: int AppTheme
+com.zk.rfid.R$style: int TitleThemeStyle
+com.zk.rfid.R$style: int addBtnStyle
+com.zk.rfid.R$style: int airLineStyle
+com.zk.rfid.R$style: int clickBtnNoPercentStyle
+com.zk.rfid.R$style: int clickBtnStyle
+com.zk.rfid.R$style: int dialogStyle
+com.zk.rfid.R$style: int dialogstyle
+com.zk.rfid.R$style: int itemLeftStyle
+com.zk.rfid.R$style: int itemListStyle
+com.zk.rfid.R$style: int itemStyle
+com.zk.rfid.R$style: int landDoorStairStyle
+com.zk.rfid.R$style: int leftFrameStyle
+com.zk.rfid.R$style: int listViewStyle
+com.zk.rfid.R$style: int loginImgStyle
+com.zk.rfid.R$style: int longLineStyle
+com.zk.rfid.R$style: int longinImgStyle
+com.zk.rfid.R$style: int mapBtnitemStyle
+com.zk.rfid.R$style: int redNotNullStyle
+com.zk.rfid.R$style: int reduceBtnStyle
+com.zk.rfid.R$style: int rightFrameStyle
+com.zk.rfid.R$style: int shortLineStyle
+com.zk.rfid.R$style: int tableLayoutLastStyle
+com.zk.rfid.R$style: int tableLayoutStyle
+com.zk.rfid.R$style: int textStyle
+com.zk.rfid.R$style: int titleBgStyle
+com.zk.rfid.R$style: int titleStyle
+com.zk.rfid.R$style: int verticalDoorStairStyle
+com.zk.rfid.R$styleable: int[] PercentLayout_Layout
+com.zk.rfid.R$styleable: int PercentLayout_Layout_layout_heightPercent
+com.zk.rfid.R$styleable: int PercentLayout_Layout_layout_marginBottomPercent
+com.zk.rfid.R$styleable: int PercentLayout_Layout_layout_marginEndPercent
+com.zk.rfid.R$styleable: int PercentLayout_Layout_layout_marginLeftPercent
+com.zk.rfid.R$styleable: int PercentLayout_Layout_layout_marginPercent
+com.zk.rfid.R$styleable: int PercentLayout_Layout_layout_marginRightPercent
+com.zk.rfid.R$styleable: int PercentLayout_Layout_layout_marginStartPercent
+com.zk.rfid.R$styleable: int PercentLayout_Layout_layout_marginTopPercent
+com.zk.rfid.R$styleable: int PercentLayout_Layout_layout_maxHeightPercent
+com.zk.rfid.R$styleable: int PercentLayout_Layout_layout_maxWidthPercent
+com.zk.rfid.R$styleable: int PercentLayout_Layout_layout_minHeightPercent
+com.zk.rfid.R$styleable: int PercentLayout_Layout_layout_minWidthPercent
+com.zk.rfid.R$styleable: int PercentLayout_Layout_layout_textSizePercent
+com.zk.rfid.R$styleable: int PercentLayout_Layout_layout_widthPercent
+com.zk.rfid.R$xml: int tidinfo
+com.zk.rfid.comm.base.BaseActivity
+com.zk.rfid.comm.base.BaseActivity: BaseActivity()
+com.zk.rfid.comm.base.BaseActivity: void onCreate(android.os.Bundle)
+com.zk.rfid.comm.base.BaseActivity: void onDestroy()
+com.zk.rfid.comm.base.BaseActivity: boolean isConn()
+com.zk.rfid.comm.base.BootBroadcastReceiver
+com.zk.rfid.comm.base.BootBroadcastReceiver: java.lang.String action_boot
+com.zk.rfid.comm.base.BootBroadcastReceiver: com.zk.rfid.comm.base.ButtonInferface ctrl_interface
+com.zk.rfid.comm.base.BootBroadcastReceiver: android.content.Intent new_intent
+com.zk.rfid.comm.base.BootBroadcastReceiver: BootBroadcastReceiver()
+com.zk.rfid.comm.base.BootBroadcastReceiver: void setBtnMsgListener(com.zk.rfid.comm.base.ButtonInferface)
+com.zk.rfid.comm.base.BootBroadcastReceiver: void simulateKeystroke(int)
+com.zk.rfid.comm.base.BootBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)
+com.zk.rfid.comm.base.BootBroadcastReceiver$1
+com.zk.rfid.comm.base.BootBroadcastReceiver$1: int val$KeyCode
+com.zk.rfid.comm.base.BootBroadcastReceiver$1: BootBroadcastReceiver$1(int)
+com.zk.rfid.comm.base.BootBroadcastReceiver$1: void run()
+com.zk.rfid.comm.base.ButtonInferface
+com.zk.rfid.comm.base.ButtonInferface: void handleMsg(java.lang.String)
+com.zk.rfid.comm.base.CommDialog
+com.zk.rfid.comm.base.CommDialog: java.lang.String TAG
+com.zk.rfid.comm.base.CommDialog: android.app.Activity activity
+com.zk.rfid.comm.base.CommDialog: CommDialog(android.app.Activity)
+com.zk.rfid.comm.base.CommDialog: void showMaterialDetailDialog(java.lang.String,boolean)
+com.zk.rfid.comm.base.CommDialog: java.util.List getListData(java.util.Map,boolean)
+com.zk.rfid.comm.base.CommDialog: void showReadWriteResMsg(int)
+com.zk.rfid.comm.base.CommDialog$1
+com.zk.rfid.comm.base.CommDialog$1: com.zk.rfid.comm.base.CommDialog this$0
+com.zk.rfid.comm.base.CommDialog$1: android.app.Dialog val$dialog
+com.zk.rfid.comm.base.CommDialog$1: CommDialog$1(com.zk.rfid.comm.base.CommDialog,android.app.Dialog)
+com.zk.rfid.comm.base.CommDialog$1: void onClick(android.view.View)
+com.zk.rfid.comm.base.CommTopView
+com.zk.rfid.comm.base.CommTopView: java.lang.String TAG
+com.zk.rfid.comm.base.CommTopView: android.app.Activity activity
+com.zk.rfid.comm.base.CommTopView: android.widget.ImageView backImg
+com.zk.rfid.comm.base.CommTopView: android.widget.TextView gobacktext
+com.zk.rfid.comm.base.CommTopView: android.view.View$OnClickListener listener
+com.zk.rfid.comm.base.CommTopView: CommTopView(android.app.Activity)
+com.zk.rfid.comm.base.CommTopView: void initTopView()
+com.zk.rfid.comm.base.CommTopView: android.app.Activity access$0(com.zk.rfid.comm.base.CommTopView)
+com.zk.rfid.comm.base.CommTopView$1
+com.zk.rfid.comm.base.CommTopView$1: com.zk.rfid.comm.base.CommTopView this$0
+com.zk.rfid.comm.base.CommTopView$1: CommTopView$1(com.zk.rfid.comm.base.CommTopView)
+com.zk.rfid.comm.base.CommTopView$1: void onClick(android.view.View)
+com.zk.rfid.comm.base.CrashHandler
+com.zk.rfid.comm.base.CrashHandler: java.lang.String TAG
+com.zk.rfid.comm.base.CrashHandler: java.lang.Thread$UncaughtExceptionHandler mDefaultHandler
+com.zk.rfid.comm.base.CrashHandler: com.zk.rfid.comm.base.CrashHandler INSTANCE
+com.zk.rfid.comm.base.CrashHandler: android.content.Context mContext
+com.zk.rfid.comm.base.CrashHandler: java.util.Map infos
+com.zk.rfid.comm.base.CrashHandler: java.text.DateFormat formatter
+com.zk.rfid.comm.base.CrashHandler: void <clinit>()
+com.zk.rfid.comm.base.CrashHandler: CrashHandler()
+com.zk.rfid.comm.base.CrashHandler: com.zk.rfid.comm.base.CrashHandler getInstance()
+com.zk.rfid.comm.base.CrashHandler: void init(android.content.Context)
+com.zk.rfid.comm.base.CrashHandler: void uncaughtException(java.lang.Thread,java.lang.Throwable)
+com.zk.rfid.comm.base.CrashHandler: boolean handleException(java.lang.Throwable)
+com.zk.rfid.comm.base.CrashHandler: void collectDeviceInfo(android.content.Context)
+com.zk.rfid.comm.base.CrashHandler: java.lang.String saveCrashInfo2File(java.lang.Throwable)
+com.zk.rfid.comm.base.CrashHandler: android.content.Context access$0(com.zk.rfid.comm.base.CrashHandler)
+com.zk.rfid.comm.base.CrashHandler$1
+com.zk.rfid.comm.base.CrashHandler$1: com.zk.rfid.comm.base.CrashHandler this$0
+com.zk.rfid.comm.base.CrashHandler$1: CrashHandler$1(com.zk.rfid.comm.base.CrashHandler)
+com.zk.rfid.comm.base.CrashHandler$1: void run()
+com.zk.rfid.comm.base.MyApplication
+com.zk.rfid.comm.base.MyApplication: android.content.Context context
+com.zk.rfid.comm.base.MyApplication: com.zk.rfid.main.work.EpcWork rfidWork
+com.zk.rfid.comm.base.MyApplication: android.os.Handler handler
+com.zk.rfid.comm.base.MyApplication: void <clinit>()
+com.zk.rfid.comm.base.MyApplication: MyApplication()
+com.zk.rfid.comm.base.MyApplication: void onCreate()
+com.zk.rfid.comm.base.MyApplication: com.zk.rfid.main.work.EpcWork getRfidWork()
+com.zk.rfid.comm.base.MyApplication$1
+com.zk.rfid.comm.base.MyApplication$1: MyApplication$1()
+com.zk.rfid.comm.base.MyApplication$1: void handleMessage(android.os.Message)
+com.zk.rfid.comm.date.DatePickerDialogUtil
+com.zk.rfid.comm.date.DatePickerDialogUtil: int TYPE_DATE
+com.zk.rfid.comm.date.DatePickerDialogUtil: int TYPE_TIME
+com.zk.rfid.comm.date.DatePickerDialogUtil: java.util.Calendar calendar
+com.zk.rfid.comm.date.DatePickerDialogUtil: int mYear
+com.zk.rfid.comm.date.DatePickerDialogUtil: int mMonth
+com.zk.rfid.comm.date.DatePickerDialogUtil: int mDay
+com.zk.rfid.comm.date.DatePickerDialogUtil: int mHour
+com.zk.rfid.comm.date.DatePickerDialogUtil: int mMinute
+com.zk.rfid.comm.date.DatePickerDialogUtil: android.app.Dialog timeDialog
+com.zk.rfid.comm.date.DatePickerDialogUtil: android.content.Context context
+com.zk.rfid.comm.date.DatePickerDialogUtil: com.zk.rfid.comm.date.DateTimeCallBackListener listen
+com.zk.rfid.comm.date.DatePickerDialogUtil: android.app.DatePickerDialog$OnDateSetListener mDateSetListener
+com.zk.rfid.comm.date.DatePickerDialogUtil: android.app.TimePickerDialog$OnTimeSetListener mTimeSetListener
+com.zk.rfid.comm.date.DatePickerDialogUtil: DatePickerDialogUtil(android.content.Context)
+com.zk.rfid.comm.date.DatePickerDialogUtil: android.app.Dialog getDate(com.zk.rfid.comm.date.DateTimeCallBackListener)
+com.zk.rfid.comm.date.DatePickerDialogUtil: android.app.Dialog getTime(com.zk.rfid.comm.date.DateTimeCallBackListener)
+com.zk.rfid.comm.date.DatePickerDialogUtil: void access$0(com.zk.rfid.comm.date.DatePickerDialogUtil,int)
+com.zk.rfid.comm.date.DatePickerDialogUtil: void access$1(com.zk.rfid.comm.date.DatePickerDialogUtil,int)
+com.zk.rfid.comm.date.DatePickerDialogUtil: int access$2(com.zk.rfid.comm.date.DatePickerDialogUtil)
+com.zk.rfid.comm.date.DatePickerDialogUtil: void access$3(com.zk.rfid.comm.date.DatePickerDialogUtil,int)
+com.zk.rfid.comm.date.DatePickerDialogUtil: int access$4(com.zk.rfid.comm.date.DatePickerDialogUtil)
+com.zk.rfid.comm.date.DatePickerDialogUtil: com.zk.rfid.comm.date.DateTimeCallBackListener access$5(com.zk.rfid.comm.date.DatePickerDialogUtil)
+com.zk.rfid.comm.date.DatePickerDialogUtil: int access$6(com.zk.rfid.comm.date.DatePickerDialogUtil)
+com.zk.rfid.comm.date.DatePickerDialogUtil: android.app.Dialog access$7(com.zk.rfid.comm.date.DatePickerDialogUtil)
+com.zk.rfid.comm.date.DatePickerDialogUtil: void access$8(com.zk.rfid.comm.date.DatePickerDialogUtil,int)
+com.zk.rfid.comm.date.DatePickerDialogUtil: void access$9(com.zk.rfid.comm.date.DatePickerDialogUtil,int)
+com.zk.rfid.comm.date.DatePickerDialogUtil: int access$10(com.zk.rfid.comm.date.DatePickerDialogUtil)
+com.zk.rfid.comm.date.DatePickerDialogUtil: int access$11(com.zk.rfid.comm.date.DatePickerDialogUtil)
+com.zk.rfid.comm.date.DatePickerDialogUtil$1
+com.zk.rfid.comm.date.DatePickerDialogUtil$1: com.zk.rfid.comm.date.DatePickerDialogUtil this$0
+com.zk.rfid.comm.date.DatePickerDialogUtil$1: DatePickerDialogUtil$1(com.zk.rfid.comm.date.DatePickerDialogUtil)
+com.zk.rfid.comm.date.DatePickerDialogUtil$1: void onDateSet(android.widget.DatePicker,int,int,int)
+com.zk.rfid.comm.date.DatePickerDialogUtil$2
+com.zk.rfid.comm.date.DatePickerDialogUtil$2: com.zk.rfid.comm.date.DatePickerDialogUtil this$0
+com.zk.rfid.comm.date.DatePickerDialogUtil$2: DatePickerDialogUtil$2(com.zk.rfid.comm.date.DatePickerDialogUtil)
+com.zk.rfid.comm.date.DatePickerDialogUtil$2: void onTimeSet(android.widget.TimePicker,int,int)
+com.zk.rfid.comm.date.DateTimeCallBackListener
+com.zk.rfid.comm.date.DateTimeCallBackListener: void dateTimeCallBack(java.lang.String)
+com.zk.rfid.comm.date.MyDatePickerDialog
+com.zk.rfid.comm.date.MyDatePickerDialog: com.zk.rfid.comm.date.DateTimeCallBackListener listen
+com.zk.rfid.comm.date.MyDatePickerDialog: MyDatePickerDialog(android.content.Context,android.app.DatePickerDialog$OnDateSetListener,int,int,int)
+com.zk.rfid.comm.date.MyDatePickerDialog: void onStop()
+com.zk.rfid.comm.date.MyTimePickerDialog
+com.zk.rfid.comm.date.MyTimePickerDialog: com.zk.rfid.comm.date.DateTimeCallBackListener listen
+com.zk.rfid.comm.date.MyTimePickerDialog: MyTimePickerDialog(android.content.Context,android.app.TimePickerDialog$OnTimeSetListener,int,int,boolean)
+com.zk.rfid.comm.date.MyTimePickerDialog: void onStop()
+com.zk.rfid.comm.listvew.CustomListView
+com.zk.rfid.comm.listvew.CustomListView: java.lang.String TAG
+com.zk.rfid.comm.listvew.CustomListView: int RELEASE_To_REFRESH
+com.zk.rfid.comm.listvew.CustomListView: int PULL_To_REFRESH
+com.zk.rfid.comm.listvew.CustomListView: int REFRESHING
+com.zk.rfid.comm.listvew.CustomListView: int DONE
+com.zk.rfid.comm.listvew.CustomListView: int LOADING
+com.zk.rfid.comm.listvew.CustomListView: int RATIO
+com.zk.rfid.comm.listvew.CustomListView: android.view.LayoutInflater inflater
+com.zk.rfid.comm.listvew.CustomListView: android.widget.LinearLayout headView
+com.zk.rfid.comm.listvew.CustomListView: android.widget.TextView tipsTextview
+com.zk.rfid.comm.listvew.CustomListView: android.widget.TextView lastUpdatedTextView
+com.zk.rfid.comm.listvew.CustomListView: android.widget.ImageView arrowImageView
+com.zk.rfid.comm.listvew.CustomListView: android.widget.ProgressBar progressBar
+com.zk.rfid.comm.listvew.CustomListView: android.view.animation.RotateAnimation animation
+com.zk.rfid.comm.listvew.CustomListView: android.view.animation.RotateAnimation reverseAnimation
+com.zk.rfid.comm.listvew.CustomListView: boolean isRecored
+com.zk.rfid.comm.listvew.CustomListView: int headContentWidth
+com.zk.rfid.comm.listvew.CustomListView: int headContentHeight
+com.zk.rfid.comm.listvew.CustomListView: int startY
+com.zk.rfid.comm.listvew.CustomListView: int firstItemIndex
+com.zk.rfid.comm.listvew.CustomListView: int state
+com.zk.rfid.comm.listvew.CustomListView: boolean isBack
+com.zk.rfid.comm.listvew.CustomListView: com.zk.rfid.comm.listvew.CustomListView$OnRefreshListener refreshListener
+com.zk.rfid.comm.listvew.CustomListView: com.zk.rfid.comm.listvew.CustomListView$OnLoadListener loadListener
+com.zk.rfid.comm.listvew.CustomListView: boolean isRefreshable
+com.zk.rfid.comm.listvew.CustomListView: android.widget.ProgressBar moreProgressBar
+com.zk.rfid.comm.listvew.CustomListView: android.widget.TextView loadMoreView
+com.zk.rfid.comm.listvew.CustomListView: android.view.View moreView
+com.zk.rfid.comm.listvew.CustomListView: CustomListView(android.content.Context)
+com.zk.rfid.comm.listvew.CustomListView: CustomListView(android.content.Context,android.util.AttributeSet)
+com.zk.rfid.comm.listvew.CustomListView: void init(android.content.Context)
+com.zk.rfid.comm.listvew.CustomListView: void onScroll(android.widget.AbsListView,int,int,int)
+com.zk.rfid.comm.listvew.CustomListView: void onScrollStateChanged(android.widget.AbsListView,int)
+com.zk.rfid.comm.listvew.CustomListView: boolean onTouchEvent(android.view.MotionEvent)
+com.zk.rfid.comm.listvew.CustomListView: void changeHeaderViewByState()
+com.zk.rfid.comm.listvew.CustomListView: void setonRefreshListener(com.zk.rfid.comm.listvew.CustomListView$OnRefreshListener)
+com.zk.rfid.comm.listvew.CustomListView: void setonLoadListener(com.zk.rfid.comm.listvew.CustomListView$OnLoadListener)
+com.zk.rfid.comm.listvew.CustomListView: void onRefreshComplete()
+com.zk.rfid.comm.listvew.CustomListView: void onLoad()
+com.zk.rfid.comm.listvew.CustomListView: void onLoadComplete()
+com.zk.rfid.comm.listvew.CustomListView: void onRefresh()
+com.zk.rfid.comm.listvew.CustomListView: void measureView(android.view.View)
+com.zk.rfid.comm.listvew.CustomListView: void setAdapter(android.widget.BaseAdapter)
+com.zk.rfid.comm.listvew.CustomListView: void access$0(com.zk.rfid.comm.listvew.CustomListView)
+com.zk.rfid.comm.listvew.CustomListView$1
+com.zk.rfid.comm.listvew.CustomListView$1: com.zk.rfid.comm.listvew.CustomListView this$0
+com.zk.rfid.comm.listvew.CustomListView$1: CustomListView$1(com.zk.rfid.comm.listvew.CustomListView)
+com.zk.rfid.comm.listvew.CustomListView$1: void onClick(android.view.View)
+com.zk.rfid.comm.listvew.CustomListView$OnLoadListener
+com.zk.rfid.comm.listvew.CustomListView$OnLoadListener: void onLoad()
+com.zk.rfid.comm.listvew.CustomListView$OnRefreshListener
+com.zk.rfid.comm.listvew.CustomListView$OnRefreshListener: void onRefresh()
+com.zk.rfid.comm.scro.HoScrollView
+com.zk.rfid.comm.scro.HoScrollView: int begin
+com.zk.rfid.comm.scro.HoScrollView: float startX
+com.zk.rfid.comm.scro.HoScrollView: float endX
+com.zk.rfid.comm.scro.HoScrollView: boolean isFirst
+com.zk.rfid.comm.scro.HoScrollView: int menuWidth
+com.zk.rfid.comm.scro.HoScrollView: int leftMenuArgs
+com.zk.rfid.comm.scro.HoScrollView: HoScrollView(android.content.Context,android.util.AttributeSet,int)
+com.zk.rfid.comm.scro.HoScrollView: HoScrollView(android.content.Context,android.util.AttributeSet)
+com.zk.rfid.comm.scro.HoScrollView: HoScrollView(android.content.Context)
+com.zk.rfid.comm.scro.HoScrollView: void init(android.content.Context)
+com.zk.rfid.comm.scro.HoScrollView: void initViews(android.view.View[],int,com.zk.rfid.comm.scro.HoScrollView$SizeCallback)
+com.zk.rfid.comm.scro.HoScrollView: boolean onTouchEvent(android.view.MotionEvent,com.zk.rfid.comm.scro.HoScrollView,android.view.View)
+com.zk.rfid.comm.scro.HoScrollView: void moveToLeft(com.zk.rfid.comm.scro.HoScrollView,android.view.View)
+com.zk.rfid.comm.scro.HoScrollView: int getLeftMenuArgs()
+com.zk.rfid.comm.scro.HoScrollView: void setLeftMenuArgs(int)
+com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener
+com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener: android.view.ViewGroup parent
+com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener: android.view.View[] children
+com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener: int scrollToViewIdx
+com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener: int scrollToViewPos
+com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener: com.zk.rfid.comm.scro.HoScrollView$SizeCallback sizeCallback
+com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener: com.zk.rfid.comm.scro.HoScrollView this$0
+com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener: HoScrollView$MyOnGlobalLayoutListener(com.zk.rfid.comm.scro.HoScrollView,android.view.ViewGroup,android.view.View[],int,com.zk.rfid.comm.scro.HoScrollView$SizeCallback)
+com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener: void onGlobalLayout()
+com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener$1
+com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener$1: com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener this$1
+com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener$1: com.zk.rfid.comm.scro.HoScrollView val$me
+com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener$1: HoScrollView$MyOnGlobalLayoutListener$1(com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener,com.zk.rfid.comm.scro.HoScrollView)
+com.zk.rfid.comm.scro.HoScrollView$MyOnGlobalLayoutListener$1: void run()
+com.zk.rfid.comm.scro.HoScrollView$SizeCallback
+com.zk.rfid.comm.scro.HoScrollView$SizeCallback: void onGlobalLayout()
+com.zk.rfid.comm.scro.HoScrollView$SizeCallback: void getViewSize(int,int,int,int[],int)
+com.zk.rfid.comm.scro.SizeCallbackForMenu
+com.zk.rfid.comm.scro.SizeCallbackForMenu: int btnWidth
+com.zk.rfid.comm.scro.SizeCallbackForMenu: android.view.View btnSlide
+com.zk.rfid.comm.scro.SizeCallbackForMenu: SizeCallbackForMenu(android.view.View)
+com.zk.rfid.comm.scro.SizeCallbackForMenu: void onGlobalLayout()
+com.zk.rfid.comm.scro.SizeCallbackForMenu: void getViewSize(int,int,int,int[],int)
+com.zk.rfid.comm.search.SeacherEdit
+com.zk.rfid.comm.search.SeacherEdit: SeacherEdit()
+com.zk.rfid.comm.search.SeacherEdit: void seacherTextChange(android.widget.EditText,android.view.View,com.zk.rfid.comm.search.SeacherEditCallBackListen)
+com.zk.rfid.comm.search.SeacherEdit$1
+com.zk.rfid.comm.search.SeacherEdit$1: com.zk.rfid.comm.search.SeacherEditCallBackListen val$listen
+com.zk.rfid.comm.search.SeacherEdit$1: android.view.View val$imgview
+com.zk.rfid.comm.search.SeacherEdit$1: SeacherEdit$1(com.zk.rfid.comm.search.SeacherEditCallBackListen,android.view.View)
+com.zk.rfid.comm.search.SeacherEdit$1: void onTextChanged(java.lang.CharSequence,int,int,int)
+com.zk.rfid.comm.search.SeacherEdit$1: void beforeTextChanged(java.lang.CharSequence,int,int,int)
+com.zk.rfid.comm.search.SeacherEdit$1: void afterTextChanged(android.text.Editable)
+com.zk.rfid.comm.search.SeacherEdit$2
+com.zk.rfid.comm.search.SeacherEdit$2: android.widget.EditText val$editText
+com.zk.rfid.comm.search.SeacherEdit$2: SeacherEdit$2(android.widget.EditText)
+com.zk.rfid.comm.search.SeacherEdit$2: void onClick(android.view.View)
+com.zk.rfid.comm.search.SeacherEditCallBackListen
+com.zk.rfid.comm.search.SeacherEditCallBackListen: void callBack(java.lang.String)
+com.zk.rfid.login.activity.EditPwdActivity
+com.zk.rfid.login.activity.EditPwdActivity: EditPwdActivity()
+com.zk.rfid.login.activity.LoginActivity
+com.zk.rfid.login.activity.LoginActivity: LoginActivity()
+com.zk.rfid.main.activity.AdjustActivity
+com.zk.rfid.main.activity.AdjustActivity: AdjustActivity()
+com.zk.rfid.main.activity.ApplyMaterialActivity
+com.zk.rfid.main.activity.ApplyMaterialActivity: ApplyMaterialActivity()
+com.zk.rfid.main.activity.ExceptionActivity
+com.zk.rfid.main.activity.ExceptionActivity: ExceptionActivity()
+com.zk.rfid.main.activity.LendDetailActivity
+com.zk.rfid.main.activity.LendDetailActivity: LendDetailActivity()
+com.zk.rfid.main.activity.MainActivity
+com.zk.rfid.main.activity.MainActivity: MainActivity()
+com.zk.rfid.main.activity.MaterialDetailActivity
+com.zk.rfid.main.activity.MaterialDetailActivity: MaterialDetailActivity()
+com.zk.rfid.main.activity.ModifyBoxActivity
+com.zk.rfid.main.activity.ModifyBoxActivity: ModifyBoxActivity()
+com.zk.rfid.main.activity.OperateEpcActivity
+com.zk.rfid.main.activity.OperateEpcActivity: OperateEpcActivity()
+com.zk.rfid.main.activity.OperateEpcActivity$MyBroadcastReceiver
+com.zk.rfid.main.activity.StoreToTalActivity
+com.zk.rfid.main.activity.StoreToTalActivity: StoreToTalActivity()
+com.zk.rfid.main.activity.WaitModifyCountActivity
+com.zk.rfid.main.activity.WaitModifyCountActivity: WaitModifyCountActivity()
+com.zk.rfid.map.activity.AddMaterialActivity
+com.zk.rfid.map.activity.AddMaterialActivity: AddMaterialActivity()
+com.zk.rfid.map.activity.EpcWriteActivity
+com.zk.rfid.map.activity.EpcWriteActivity: EpcWriteActivity()
+com.zk.rfid.percent.PercentFrameLayout
+com.zk.rfid.percent.PercentFrameLayout: com.zk.rfid.percent.PercentLayoutHelper mHelper
+com.zk.rfid.percent.PercentFrameLayout: PercentFrameLayout(android.content.Context)
+com.zk.rfid.percent.PercentFrameLayout: PercentFrameLayout(android.content.Context,android.util.AttributeSet)
+com.zk.rfid.percent.PercentFrameLayout: PercentFrameLayout(android.content.Context,android.util.AttributeSet,int)
+com.zk.rfid.percent.PercentFrameLayout: com.zk.rfid.percent.PercentFrameLayout$LayoutParams generateLayoutParams(android.util.AttributeSet)
+com.zk.rfid.percent.PercentFrameLayout: void onMeasure(int,int)
+com.zk.rfid.percent.PercentFrameLayout: void onLayout(boolean,int,int,int,int)
+com.zk.rfid.percent.PercentFrameLayout: android.widget.FrameLayout$LayoutParams generateLayoutParams(android.util.AttributeSet)
+com.zk.rfid.percent.PercentFrameLayout$LayoutParams
+com.zk.rfid.percent.PercentFrameLayout$LayoutParams: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo mPercentLayoutInfo
+com.zk.rfid.percent.PercentFrameLayout$LayoutParams: PercentFrameLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+com.zk.rfid.percent.PercentFrameLayout$LayoutParams: PercentFrameLayout$LayoutParams(int,int)
+com.zk.rfid.percent.PercentFrameLayout$LayoutParams: PercentFrameLayout$LayoutParams(int,int,int)
+com.zk.rfid.percent.PercentFrameLayout$LayoutParams: PercentFrameLayout$LayoutParams(android.view.ViewGroup$LayoutParams)
+com.zk.rfid.percent.PercentFrameLayout$LayoutParams: PercentFrameLayout$LayoutParams(android.view.ViewGroup$MarginLayoutParams)
+com.zk.rfid.percent.PercentFrameLayout$LayoutParams: PercentFrameLayout$LayoutParams(android.widget.FrameLayout$LayoutParams)
+com.zk.rfid.percent.PercentFrameLayout$LayoutParams: PercentFrameLayout$LayoutParams(com.zk.rfid.percent.PercentFrameLayout$LayoutParams)
+com.zk.rfid.percent.PercentFrameLayout$LayoutParams: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo getPercentLayoutInfo()
+com.zk.rfid.percent.PercentFrameLayout$LayoutParams: void setBaseAttributes(android.content.res.TypedArray,int,int)
+com.zk.rfid.percent.PercentLayoutHelper
+com.zk.rfid.percent.PercentLayoutHelper: java.lang.String TAG
+com.zk.rfid.percent.PercentLayoutHelper: android.view.ViewGroup mHost
+com.zk.rfid.percent.PercentLayoutHelper: java.lang.String REGEX_PERCENT
+com.zk.rfid.percent.PercentLayoutHelper: PercentLayoutHelper(android.view.ViewGroup)
+com.zk.rfid.percent.PercentLayoutHelper: void fetchWidthAndHeight(android.view.ViewGroup$LayoutParams,android.content.res.TypedArray,int,int)
+com.zk.rfid.percent.PercentLayoutHelper: void adjustChildren(int,int)
+com.zk.rfid.percent.PercentLayoutHelper: void supportMinOrMaxDimesion(int,int,android.view.View,com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo)
+com.zk.rfid.percent.PercentLayoutHelper: void invokeMethod(java.lang.String,int,int,android.view.View,java.lang.Class,com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal)
+com.zk.rfid.percent.PercentLayoutHelper: void supportTextSize(int,int,android.view.View,com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo)
+com.zk.rfid.percent.PercentLayoutHelper: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo getPercentLayoutInfo(android.content.Context,android.util.AttributeSet)
+com.zk.rfid.percent.PercentLayoutHelper: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal getPercentVal(android.content.res.TypedArray,int,boolean)
+com.zk.rfid.percent.PercentLayoutHelper: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo checkForInfoExists(com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo)
+com.zk.rfid.percent.PercentLayoutHelper: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal getPercentVal(java.lang.String,boolean)
+com.zk.rfid.percent.PercentLayoutHelper: void restoreOriginalParams()
+com.zk.rfid.percent.PercentLayoutHelper: boolean handleMeasuredStateTooSmall()
+com.zk.rfid.percent.PercentLayoutHelper: boolean shouldHandleMeasuredWidthTooSmall(android.view.View,com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo)
+com.zk.rfid.percent.PercentLayoutHelper: boolean shouldHandleMeasuredHeightTooSmall(android.view.View,com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo)
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal widthPercent
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal heightPercent
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal leftMarginPercent
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal topMarginPercent
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal rightMarginPercent
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal bottomMarginPercent
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal startMarginPercent
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal endMarginPercent
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal textSizePercent
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal maxWidthPercent
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal maxHeightPercent
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal minWidthPercent
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal minHeightPercent
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: android.view.ViewGroup$MarginLayoutParams mPreservedParams
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: PercentLayoutHelper$PercentLayoutInfo()
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: void fillLayoutParams(android.view.ViewGroup$LayoutParams,int,int)
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: void fillMarginLayoutParams(android.view.ViewGroup$MarginLayoutParams,int,int)
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: java.lang.String toString()
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: void restoreMarginLayoutParams(android.view.ViewGroup$MarginLayoutParams)
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo: void restoreLayoutParams(android.view.ViewGroup$LayoutParams)
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal: float percent
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal: boolean isBaseWidth
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal: PercentLayoutHelper$PercentLayoutInfo$PercentVal()
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo$PercentVal: PercentLayoutHelper$PercentLayoutInfo$PercentVal(float,boolean)
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutParams
+com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutParams: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo getPercentLayoutInfo()
+com.zk.rfid.percent.PercentLinearLayout
+com.zk.rfid.percent.PercentLinearLayout: java.lang.String TAG
+com.zk.rfid.percent.PercentLinearLayout: com.zk.rfid.percent.PercentLayoutHelper mPercentLayoutHelper
+com.zk.rfid.percent.PercentLinearLayout: PercentLinearLayout(android.content.Context,android.util.AttributeSet)
+com.zk.rfid.percent.PercentLinearLayout: void onMeasure(int,int)
+com.zk.rfid.percent.PercentLinearLayout: int getScreenHeight()
+com.zk.rfid.percent.PercentLinearLayout: void onLayout(boolean,int,int,int,int)
+com.zk.rfid.percent.PercentLinearLayout: com.zk.rfid.percent.PercentLinearLayout$LayoutParams generateLayoutParams(android.util.AttributeSet)
+com.zk.rfid.percent.PercentLinearLayout: android.widget.LinearLayout$LayoutParams generateLayoutParams(android.util.AttributeSet)
+com.zk.rfid.percent.PercentLinearLayout$LayoutParams
+com.zk.rfid.percent.PercentLinearLayout$LayoutParams: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo mPercentLayoutInfo
+com.zk.rfid.percent.PercentLinearLayout$LayoutParams: PercentLinearLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+com.zk.rfid.percent.PercentLinearLayout$LayoutParams: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo getPercentLayoutInfo()
+com.zk.rfid.percent.PercentLinearLayout$LayoutParams: void setBaseAttributes(android.content.res.TypedArray,int,int)
+com.zk.rfid.percent.PercentLinearLayout$LayoutParams: PercentLinearLayout$LayoutParams(int,int)
+com.zk.rfid.percent.PercentLinearLayout$LayoutParams: PercentLinearLayout$LayoutParams(android.view.ViewGroup$LayoutParams)
+com.zk.rfid.percent.PercentLinearLayout$LayoutParams: PercentLinearLayout$LayoutParams(android.view.ViewGroup$MarginLayoutParams)
+com.zk.rfid.percent.PercentRelativeLayout
+com.zk.rfid.percent.PercentRelativeLayout: com.zk.rfid.percent.PercentLayoutHelper mHelper
+com.zk.rfid.percent.PercentRelativeLayout: PercentRelativeLayout(android.content.Context)
+com.zk.rfid.percent.PercentRelativeLayout: PercentRelativeLayout(android.content.Context,android.util.AttributeSet)
+com.zk.rfid.percent.PercentRelativeLayout: PercentRelativeLayout(android.content.Context,android.util.AttributeSet,int)
+com.zk.rfid.percent.PercentRelativeLayout: com.zk.rfid.percent.PercentRelativeLayout$LayoutParams generateLayoutParams(android.util.AttributeSet)
+com.zk.rfid.percent.PercentRelativeLayout: void onMeasure(int,int)
+com.zk.rfid.percent.PercentRelativeLayout: void onLayout(boolean,int,int,int,int)
+com.zk.rfid.percent.PercentRelativeLayout: android.widget.RelativeLayout$LayoutParams generateLayoutParams(android.util.AttributeSet)
+com.zk.rfid.percent.PercentRelativeLayout$LayoutParams
+com.zk.rfid.percent.PercentRelativeLayout$LayoutParams: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo mPercentLayoutInfo
+com.zk.rfid.percent.PercentRelativeLayout$LayoutParams: PercentRelativeLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+com.zk.rfid.percent.PercentRelativeLayout$LayoutParams: PercentRelativeLayout$LayoutParams(int,int)
+com.zk.rfid.percent.PercentRelativeLayout$LayoutParams: PercentRelativeLayout$LayoutParams(android.view.ViewGroup$LayoutParams)
+com.zk.rfid.percent.PercentRelativeLayout$LayoutParams: PercentRelativeLayout$LayoutParams(android.view.ViewGroup$MarginLayoutParams)
+com.zk.rfid.percent.PercentRelativeLayout$LayoutParams: com.zk.rfid.percent.PercentLayoutHelper$PercentLayoutInfo getPercentLayoutInfo()
+com.zk.rfid.percent.PercentRelativeLayout$LayoutParams: void setBaseAttributes(android.content.res.TypedArray,int,int)
+com.zk.rfid.update.AutoUpdateActivty
+com.zk.rfid.update.AutoUpdateActivty: AutoUpdateActivty()
+com.zk.rfid.util.SysApplication

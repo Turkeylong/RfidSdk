@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/itemLin"
+        style="@style/itemListStyle"
+        android:gravity="center"
+        android:minHeight="30dp"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/orderText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/order_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/dateText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/send_cometime_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/inDateText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/material_come_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/nameText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="@string/query_material_name" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/totalText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/count_hint" />
+
+        <View style="@style/shortLineStyle" />
+        
+        <TextView
+            android:id="@+id/unitText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/unit_text_hint" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/plateNumber"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/car_ticket_no_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/attachmentText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/attachment_text_doc" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/qualityText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/quality_state_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/approvalOrderNumberText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/check_accept_text" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/handPersonText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/hand_text" />
+
+        <View style="@style/shortLineStyle" />
+    </LinearLayout>
+
+</LinearLayout>

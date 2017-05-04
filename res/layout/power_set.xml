@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="right|center"
+    android:orientation="horizontal" >
+
+    <TextView
+        style="@style/textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/power_set_text" />
+
+    <RadioGroup
+        android:id="@+id/powerSetRadioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center|left"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/powerSmallRadio"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_weight="1"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="@string/power_small" />
+
+        <RadioButton
+            android:id="@+id/powerMiddleRadio"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="@string/power_middle" />
+
+        <RadioButton
+            android:id="@+id/powerLargeRadio"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="@string/power_large" />
+
+        <RadioButton
+            android:id="@+id/powerMostRadio"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="@string/power_most" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,631 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center|top"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/line_green"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:shrinkColumns="1" >
+
+            <TableRow style="@style/tableLayoutStyle" >
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/query_number" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemListStyle"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/material_id"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_white_btn"
+                        android:digits="@string/english_name_digits"
+                        android:hint="@string/query_number_hint"
+                        android:inputType="number"
+                        android:maxLength="11"
+                        android:singleLine="true" />
+
+                    <TextView
+                        style="@style/redNotNullStyle"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <View style="@style/shortLineStyle" />
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/query_material_name" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemListStyle"
+                    android:layout_width="0dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/material_name"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_white_btn"
+                        android:gravity="center|left"
+                        android:hint="@string/query_material_name_hint"
+                        android:maxLength="100"
+                        android:minHeight="48dp" />
+
+                    <TextView style="@style/redNotNullStyle" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow style="@style/tableLayoutStyle" >
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/query_material_spec_text" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemListStyle"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/material_specDescribe"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_white_btn"
+                        android:hint="@string/query_material_spec_hint" />
+
+                    <TextView
+                        style="@style/redNotNullStyle"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <View style="@style/shortLineStyle" />
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/isbox" />
+
+                <View style="@style/shortLineStyle" />
+
+                <RadioGroup
+                    android:id="@+id/isBoxRadioGroup"
+                    style="@style/itemListStyle"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radioIsBoxYes"
+                        style="@style/textStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:checked="true"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/radioIsBoxNo"
+                        style="@style/textStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/no" />
+                </RadioGroup>
+
+                <View style="@style/shortLineStyle" />
+            </TableRow>
+
+            <TableRow style="@style/tableLayoutStyle" >
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/isinbox" />
+
+                <View style="@style/shortLineStyle" />
+
+                <RadioGroup
+                    android:id="@+id/inboxRadioGroup"
+                    style="@style/itemListStyle"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radioInBoxYes"
+                        style="@style/textStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:checked="true"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/radioInBoxNo"
+                        style="@style/textStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/no" />
+                </RadioGroup>
+
+                <View style="@style/shortLineStyle" />
+
+                <TextView
+                    android:id="@+id/property_text"
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/quality" />
+
+                <View style="@style/shortLineStyle" />
+
+                <RadioGroup
+                    android:id="@+id/consumeRadioGroup"
+                    style="@style/itemListStyle"
+                    android:layout_width="0dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:gravity="center|left"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radioNotConsume"
+                        style="@style/textStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/not_consume" />
+
+                    <RadioButton
+                        android:id="@+id/radioConsume"
+                        style="@style/textStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:checked="true"
+                        android:text="@string/consume" />
+                </RadioGroup>
+            </TableRow>
+
+            <TableRow style="@style/tableLayoutStyle" >
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/quality_state" />
+
+                <View style="@style/shortLineStyle" />
+
+                <RadioGroup
+                    android:id="@+id/qualityRadioGroup"
+                    style="@style/itemListStyle"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radioGood"
+                        style="@style/textStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:checked="true"
+                        android:text="@string/quality_good" />
+
+                    <RadioButton
+                        android:id="@+id/radioBad"
+                        style="@style/textStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/quality_bad" />
+                </RadioGroup>
+
+                <View style="@style/shortLineStyle" />
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/include_count" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemListStyle"
+                    android:layout_width="0dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/materialCount"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_white_btn"
+                        android:gravity="center|left"
+                        android:hint="@string/include_count_hint"
+                        android:inputType="numberDecimal"
+                        android:maxLength="8"
+                        android:singleLine="true" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow style="@style/tableLayoutStyle" >
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/count_hint" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemListStyle"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/loopCount_edit"
+                        style="@style/textStyle"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/rect_white_btn"
+                        android:gravity="center|left"
+                        android:inputType="numberDecimal"
+                        android:maxLength="6"
+                        android:singleLine="true"
+                        android:text="1" />
+
+                    <LinearLayout
+                        android:id="@+id/add_unit_lin"
+                        android:layout_width="75dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/rect_white_btn"
+                        android:orientation="horizontal" >
+
+                        <EditText
+                            android:id="@+id/add_unit_edit"
+                            style="@style/textStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:maxLength="4"
+                            android:singleLine="true" />
+
+                        <ImageView
+                            android:id="@+id/select_imgview"
+                            style="@style/textStyle"
+                            android:layout_width="25dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center|right"
+                            android:src="@drawable/select_down_img" />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/textStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="3dp"
+                        android:gravity="center|left"
+                        android:text="@string/unit_hint" />
+
+                    <TextView
+                        style="@style/redNotNullStyle"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <View style="@style/shortLineStyle" />
+
+                <TextView
+                    android:id="@+id/spec_text"
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/boxtype" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemListStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/spec_lin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/rect_white_btn"
+                        android:orientation="horizontal" >
+
+                        <EditText
+                            android:id="@+id/spec_edit"
+                            style="@style/textStyle"
+                            android:layout_width="80dp"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp"
+                            android:background="@color/white"
+                            android:editable="false"
+                            android:gravity="center"
+                            android:singleLine="true" />
+
+                        <ImageView
+                            android:id="@+id/select_spec_imgview"
+                            style="@style/textStyle"
+                            android:layout_width="25dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center|right"
+                            android:src="@drawable/select_down_img" />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/redNotNullStyle"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow style="@style/tableLayoutStyle" >
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/material_group_text" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemListStyle"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/material_group"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_white_btn"
+                        android:gravity="center|left"
+                        android:hint="@string/material_group_htin"
+                        android:inputType="number"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <View style="@style/shortLineStyle" />
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/car_ticket_no_text" />
+
+                <View style="@style/shortLineStyle" />
+
+                <EditText
+                    android:id="@+id/plateNumberEdit"
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/rect_white_btn"
+                    android:gravity="center|left"
+                    android:hint="@string/car_ticket_no_hint"
+                    android:maxLength="40"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow style="@style/tableLayoutLastStyle" >
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/storage_pos_text" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemListStyle"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/storage_pos"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:background="@drawable/rect_white_btn"
+                        android:editable="false"
+                        android:gravity="center|left"
+                        android:hint="@string/storage_pos_hint"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:id="@+id/pos_full"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        style="@style/redNotNullStyle"
+                        android:layout_gravity="center" />
+
+                    <EditText
+                        android:id="@+id/pos_item_edit"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_white_btn"
+                        android:gravity="center"
+                        android:hint="@string/storage_pos_item"
+                        android:inputType="number"
+                        android:singleLine="true" />
+
+                    <TextView
+                        style="@style/redNotNullStyle"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <View style="@style/shortLineStyle" />
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/attachment_text" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemListStyle"
+                    android:layout_width="0dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/attachment"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_white_btn"
+                        android:gravity="center|left"
+                        android:hint="@string/attachment_hint"
+                        android:singleLine="true" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/reduce_btn" />
+    </LinearLayout>
+
+</LinearLayout>

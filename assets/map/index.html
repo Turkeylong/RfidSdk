@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript">
+
+function getOffset(obj){
+    var x = obj.offsetLeft, y = obj.offsetTop;
+    while(obj.offsetParent){
+        obj = obj.offsetParent;
+        x += obj.offsetLeft;
+        y += obj.offsetTop;
+    }
+    return {x : x, y : y};
+};
+function showBorder(obj){
+    var img = document.getElementById("bd");
+    var div = document.getElementById(objId);
+    var offset = getOffset(img)
+	
+	
+    var coords = obj.coords.split(",");
+     
+    div.style.display = "block";
+    div.style.left = offset.x + parseInt(coords[0])-2 + "px";
+    div.style.top = offset.y + parseInt(coords[1])-1 + "px";
+    div.style.width = parseInt(coords[2]) - parseInt(coords[0])-1 + "px";
+    div.style.height = parseInt(coords[3]) - parseInt(coords[1])-1 + "px";
+	
+	div.style.textAlign="center";
+	div.style.lineHeight=div.style.height;
+	//div.innerHTML="你大爷的测试";
+}
+
+function showBorderTest(obj,objId){
+    var img = document.getElementById("bd");
+    var div = document.getElementById(objId);
+    var offset = getOffset(img)
+	
+	
+    var coords = obj.coords.split(",");
+     
+    div.style.display = "block";
+    div.style.left = offset.x + parseInt(coords[0])-2 + "px";
+    div.style.top = offset.y + parseInt(coords[1])-1 + "px";
+    div.style.width = parseInt(coords[2]) - parseInt(coords[0])-1 + "px";
+    div.style.height = parseInt(coords[3]) - parseInt(coords[1])-1 + "px";
+	
+	div.style.textAlign="center";
+	div.style.lineHeight=div.style.height;
+	//div.innerHTML="你大爷的测试";
+}
+
+function hideBorder(){
+    document.getElementById("border").style.display = "none";
+}
+
+ function sendInfoToJava()
+ {
+    //调用android程序中的方法，并传递参数
+    var name = document.getElementById("name_input").value;
+    window.AndroidWebView.showInfoFromJs(name);
+  }
+
+  //在android代码中调用此方法
+  function showInfoFromJava(msg)
+  {
+    //alert("来自客户端的信息："+msg);
+    document.getElementById("name_input").value=msg;
+  }
+  
+   function ontest()
+  {
+    //alert("来自客户端的信息："+msg);
+     document.getElementById("test1").onmousemove();
+
+     document.getElementById("test2").onmousemove();
+  }
+  
+  function of(key) 
+  { 
+    javascript:window.location.href=key ; 
+  }
+
+function newjsonfun(json) 
+{ 
+   
+   var str = eval(json);
+   var len=str.length;
+  
+   for(var i=0;i<len;i++)
+   {
+      var key1=str[i].key; 
+	  var val1=str[i].val;
+	  document.getElementById("name_input").value=key1;
+	  
+	  document.getElementById('t'+key1).onmousemove();
+	  document.getElementById('b'+key1).innerHTML=val1;
+		  
+   }  	
+} 
+
+function showJSON() {    
+    var user =    
+    {    
+    "username":"andy",    
+    "age":20,    
+    "info": { "tel": "123456", "cellphone": "98765"},    
+    "address":    
+    [    
+    {"city":"beijing","postcode":"222333"},    
+    {"city":"newyork","postcode":"555666"}    
+    ]    
+    }    
+    
+    alert(user.username);    
+    alert(user.age);    
+    alert(user.info.cellphone);    
+    alert(user.address[0].city);    
+    alert(user.address[0].postcode);    
+    
+    user.username = "Tom";    
+    alert(user.username);    
+    }
+</script>
+<title></title>
+</head>
+
+<body >
+<div id="b0203010101" onclick="of('0203010101')" style="display:none; position:absolute;border:2px solid #FF0000; " ></div>
+<div id="b020301010B010201"  onclick="of('020301010B010201')" style="display:none; position:absolute;border:2px solid #FF0000; "></div>
+
+<img src="smap.png" width="600" height="850" border="0" usemap="#Map" id="bd" />
+<map name="Map" id="Map">
+
+<area shape="rect" coords="27,17,173,51" onmousemove="showBorderTest(this,'b0203010101');" id="t0203010101"/>
+<area shape="rect" coords="233,18,377,53"  onmousemove="showBorderTest(this,'b020301010B010201');"  id="t020301010B010201" />
+
+<area shape="rect" coords="428,17,574,53" href="020301010B010301"  onclick="showBorder(this);"/><area shape="rect" coords="29,56,172,91" href="020301010B010201" onclick="showBorder(this);" /><area shape="rect" coords="229,56,379,93" href="020301010B010202" onclick="showBorder(this);" />
+<area shape="rect" coords="427,57,574,93" href="020301010B010302"  onclick="showBorder(this);"/><area shape="rect" coords="27,96,175,128" href="020301010B010103"  onclick="showBorder(this);"/><area shape="rect" coords="233,95,376,131" href="020301010B010203"  onclick="showBorder(this);"/>
+<area shape="rect" coords="426,95,574,130" href="020301010B010303" onclick="showBorder(this);" />
+<area shape="rect" coords="25,153,174,195" href="020301010B020101"  onclick="showBorder(this);"/><area shape="rect" coords="26,196,174,232" href="020301010B020102" onclick="showBorder(this);" />
+<area shape="rect" coords="27,234,173,271" href="020301010B020103" onclick="showBorder(this);" /><area shape="rect" coords="229,158,379,199" href="020301010B020201"  onclick="showBorder(this);"/>
+<area shape="rect" coords="228,197,381,235" href="020301010B020202"  onclick="showBorder(this);"/><area shape="rect" coords="229,236,378,273" href="020301010B020203"  onclick="showBorder(this);"/>
+<area shape="rect" coords="425,157,573,194"  onclick="showBorder(this);" />
+<area shape="rect" coords="428,198,575,232"  onclick="showBorder(this);"/>
+<area shape="rect" coords="426,237,575,274"  onclick="showBorder(this);" />
+<area shape="rect" coords="27,715,173,754" href="020301010B060101" onclick="showBorder(this);" /><area shape="rect" coords="27,755,175,791" href="060102" onclick="showBorder(this);" />
+<area shape="rect" coords="26,794,172,832" href="020301010B060103" onclick="showBorder(this);" />
+<area shape="rect" coords="229,717,379,754" href="020301010B060201"  onclick="showBorder(this);"/><area shape="rect" coords="228,757,380,792" href="060202" onclick="showBorder(this);" />
+<area shape="rect" coords="228,795,380,832" href="020301010B060203" onclick="showBorder(this);" />
+<area shape="rect" coords="425,716,575,754" href="020301010B060301" onclick="showBorder(this);" />
+<area shape="rect" coords="425,756,575,795" href="020301010B060302"  onclick="showBorder(this);"/>
+<area shape="rect" coords="425,796,576,833" href="020301010B060303" onclick="showBorder(this);" />
+<area shape="rect" coords="26,293,174,331" href="020301010B030101"  onclick="showBorder(this);"/>
+<area shape="rect" coords="229,295,380,331" href="020301010B030201"  onclick="showBorder(this);"/>
+<area shape="rect" coords="426,296,575,332" href="020301010B030301" onclick="showBorder(this);" />
+<area shape="rect" coords="25,333,175,371" href="020301010B030102"  onclick="showBorder(this);"/>
+<area shape="rect" coords="25,373,174,410" href="020301010B030103"  onclick="showBorder(this);"/>
+<area shape="rect" coords="230,373,380,411" href="020301010B030203"  onclick="showBorder(this);"/>
+<area shape="rect" coords="230,335,380,374" href="020301010B030202"  onclick="showBorder(this);"/>
+<area shape="rect" coords="425,337,574,376" href="020301010B030302"  onclick="showBorder(this);"/>
+<area shape="rect" coords="424,374,575,412" href="020301010B030303"  onclick="showBorder(this);"/>
+<area shape="rect" coords="27,573,175,611" href="020301010B050101"  onclick="showBorder(this);"/><area shape="rect" coords="25,613,176,648" href="020301010B050102" onclick="showBorder(this);" /><area shape="rect" coords="24,652,176,690" href="020301010B050103"  onclick="showBorder(this);"/>
+<area shape="rect" coords="231,575,379,613" href="020301010B050201"  onclick="showBorder(this);"/><area shape="rect" coords="231,616,381,648" href="020301010B050202"  onclick="showBorder(this);"/>
+<area shape="rect" coords="230,653,380,689" href="020301010B050203" onclick="showBorder(this);" />
+<area shape="rect" coords="424,575,575,611" href="020301010B050301" onclick="showBorder(this);" />
+<area shape="rect" coords="425,614,576,652" href="020301010B050302"  onclick="showBorder(this);"/>
+<area shape="rect" coords="424,652,575,691" href="020301010B050303" onclick="showBorder(this);" />
+<area shape="rect" coords="25,436,175,472" href="020301010B040101" onclick="showBorder(this);" />
+<area shape="rect" coords="26,474,174,512" href="020301010B040102"  onclick="showBorder(this);"/>
+<area shape="rect" coords="25,514,175,554" href="020301010B040103" onclick="showBorder(this);" />
+<area shape="rect" coords="229,436,379,475" href="020301010B040201" onclick="showBorder(this);" />
+<area shape="rect" coords="229,477,378,515" href="020301010B040202"  onclick="showBorder(this);"/>
+<area shape="rect" coords="229,515,380,553" href="020301010B040203"  onclick="showBorder(this);"/>
+<area shape="rect" coords="425,437,575,473" href="020301010B040301"  onclick="showBorder(this);"/>
+<area shape="rect" coords="425,477,575,514" href="020301010B040302"  onclick="showBorder(this);"/>
+<area shape="rect" coords="425,515,576,553" href="020301010B040303" onclick="showBorder(this);" />
+</map>
+
+
+  <p>测试Android WebView 与 Javascript 交互</p>
+  <input id = "name_input" class = "inputStyle" value="你大爷的" type="text"/>
+  <a class = "rect" onclick="sendInfoToJava()">JS调用Java</a>
+</body>
+</html>

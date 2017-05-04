@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="textStyle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="dialogStyle">
+        <item name="android:layout_width">500dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/rect_white_btn</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="titleBgStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@drawable/headbg</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--
+         <style name="itemStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+    -->
+
+    <style name="mapBtnitemStyle">
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_blue</item>
+    </style>
+
+    <!--
+        <style name="clickBtnStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/onclick_btn</item>
+    </style>
+    -->
+
+    <style name="addBtnStyle">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">@drawable/add</item>
+    </style>
+
+    <style name="reduceBtnStyle">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">@drawable/reduce</item>
+    </style>
+
+    <style name="leftFrameStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">30dp</item>
+    </style>
+
+    <style name="rightFrameStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+
+</resources>

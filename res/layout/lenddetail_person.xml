@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/itemStyle"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/line_green"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:shrinkColumns="1" >
+
+        <TableRow style="@style/tableLayoutLastStyle" >
+
+            <TextView
+                style="@style/textStyle"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/sure_lend_jobnumber" />
+
+            <View style="@style/shortLineStyle" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="3"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/sure_lend_code"
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/rect_white_btn"
+                    android:gravity="center|left"
+                    android:hint="@string/sure_lend_hint"
+                    android:inputType="number"
+                    android:maxLength="30"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <View style="@style/shortLineStyle" />
+
+            <TextView
+                style="@style/textStyle"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/sure_back_jobnumber" />
+
+            <View style="@style/shortLineStyle" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="3"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/sure_back_code"
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/rect_white_btn"
+                    android:gravity="center|left"
+                    android:hint="@string/sure_back_hint"
+                    android:maxLength="20"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

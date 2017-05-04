@@ -1,0 +1,271 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/line_green"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:shrinkColumns="1" >
+
+            <TableRow style="@style/tableLayoutStyle" >
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/department_Leader_text" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemStyle"
+                    android:layout_width="0dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/department_Leader"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <View style="@style/shortLineStyle" />
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/requisition_person_text" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemStyle"
+                    android:layout_width="0dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/requisition_person"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <View style="@style/shortLineStyle" />
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/requisition_time_text" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemStyle"
+                    android:layout_width="0dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/requisition_time"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:singleLine="true" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow style="@style/tableLayoutLastStyle" >
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/back_person_text" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemStyle"
+                    android:layout_width="0dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/return_person"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <View style="@style/shortLineStyle" />
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/back_time_text" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemStyle"
+                    android:layout_width="0dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/return_date"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <View style="@style/shortLineStyle" />
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/use_purpose_text"
+                    android:visibility="visible" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemStyle"
+                    android:layout_width="0dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/purpose_text"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:singleLine="true"
+                        android:visibility="visible" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/line_green"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:shrinkColumns="1" >
+
+            <TableRow style="@style/tableLayoutLastStyle" >
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/audit_remarks_text" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemStyle"
+                    android:layout_width="0dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/auditRemarks"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <View style="@style/shortLineStyle" />
+
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/storage_person_text" />
+
+                <View style="@style/shortLineStyle" />
+
+                <LinearLayout
+                    style="@style/itemStyle"
+                    android:layout_width="0dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/hand_person"
+                        style="@style/textStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:singleLine="true" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

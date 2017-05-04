@@ -1,0 +1,198 @@
+<resources>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="redNotNullStyle">
+        <item name="android:layout_width">12dp</item>
+        <item name="android:layout_height">12dp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:text">*</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="landDoorStairStyle">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/doorbg</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="verticalDoorStairStyle">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/doorbg</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="loginImgStyle">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="dialogStyle">
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/rect_white_btn</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="titleStyle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="titleBgStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/headbg</item>
+    </style>
+
+    <style name="TitleThemeStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="longLineStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/blue</item>
+    </style>
+
+    <style name="shortLineStyle">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/blue</item>
+    </style>
+
+    <style name="listViewStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:divider">@color/blue</item>
+        <item name="android:dividerHeight">0.5dp</item>
+    </style>
+
+    <style name="textStyle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="dialogstyle" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="itemStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+
+    <style name="itemListStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxHeight">40dp</item>
+    </style>
+
+    <style name="itemLeftStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">52dp</item>
+    </style>
+
+    <style name="mapBtnitemStyle">
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_blue</item>
+    </style>
+
+    <style name="clickBtnStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/onclick_btn</item>
+    </style>
+
+    <style name="clickBtnNoPercentStyle">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/onclick_blue_btn</item>
+    </style>
+
+    <style name="addBtnStyle">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/add</item>
+    </style>
+
+    <style name="reduceBtnStyle">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/reduce</item>
+    </style>
+
+    <style name="airLineStyle">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@drawable/airbg</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:text">@string/air_vert_text</item>
+    </style>
+
+    <style name="leftFrameStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">30dp</item>
+    </style>
+
+    <style name="rightFrameStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+
+    <style name="tableLayoutStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">0.5dp</item>
+        <item name="android:layout_marginRight">0.5dp</item>
+        <item name="android:layout_marginTop">0.5dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="tableLayoutLastStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+</resources>

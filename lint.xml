@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CutPasteId" severity="ignore" />
+    <issue id="DefaultLocale" severity="ignore" />
+    <issue id="NewApi" severity="ignore" />
+    <issue id="ResourceAsColor" severity="ignore" />
+</lint>

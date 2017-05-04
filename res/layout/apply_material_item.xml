@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/itemStyle"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <View style="@style/shortLineStyle" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/checkText"
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/choose"
+                android:visibility="visible" />
+
+            <CheckBox
+                android:id="@+id/orderCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:gravity="center"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/nameText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/apply_material_name" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/countText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/can_use_count"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/applyCountLin"
+            style="@style/itemStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/reduce_mat_btn"
+                style="@style/reduceBtnStyle" />
+
+            <EditText
+                android:id="@+id/apply_count"
+                style="@style/textStyle"
+                android:layout_width="60dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:background="@drawable/rect_white_btn"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/add_mat_btn"
+                style="@style/addBtnStyle" />
+        </LinearLayout>
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/unitText"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/unit_text_hint" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/materialIdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View style="@style/longLineStyle" />
+
+</LinearLayout>

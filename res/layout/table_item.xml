@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/item_top"
+        style="@style/longLineStyle"
+        android:visibility="gone" />
+
+    <LinearLayout
+        style="@style/itemListStyle"
+        android:orientation="horizontal" >
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/textLeft"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="2dp" />
+
+        <View style="@style/shortLineStyle" />
+
+        <TextView
+            android:id="@+id/textRight"
+            style="@style/textStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="2dp"
+            android:textIsSelectable="true" />
+
+        <View style="@style/shortLineStyle" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/item_bottom"
+        style="@style/longLineStyle" />
+
+</LinearLayout>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">广州维抢修</string>
+    <string name="init_name">中国石油</string>
+    <string name="updateUrl">http://acrfid.vicp.io:8000/update</string>
+    <string name="init_fail">初始化失败</string>
+    <string name="network_error">用户名</string>
+    <string name="login_username_hint">请输入用户名</string>
+    <string name="login_pwd_text_hint">请输入密码</string>
+    <string name="login_username_empty">用户名不能为空</string>
+    <string name="login_pwd_empty">密码不能为空</string>
+    <string name="english_name_digits">_0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="english_password_digits">~!@#$%^&#038;*()[]{}?+-_0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="login_submit">登&#160;&#160;录</string>
+    <string name="login_cancle">退&#160;&#160;出</string>
+    <string name="login_manager">管理员</string>
+    <string name="login_employee">员工</string>
+    <string name="login_temp">临时工</string>
+    <string name="login_fail">登录失败，请检查您的用户名和密码</string>
+    <string name="login_fail_error">登录失败，系统返回结果异常</string>
+    <string name="apply_title">物资借用申请</string>
+    <string name="material_lend_title">借领记录及物资</string>
+    <string name="apply_material_name">名称规格</string>
+    <string name="edit_pwd_text">修改密码</string>
+    <string name="curr_pwd_text">当前密码</string>
+    <string name="curr_pwd_hint_text">请输入当前密码</string>
+    <string name="new_pwd_text">新的密码</string>
+    <string name="new_pwd_ag_text">确认密码</string>
+    <string name="new_pwd_text_hint_text">请输入新密码</string>
+    <string name="new_pwd_text_hint_ag_text">请再次输入新密码</string>
+    <string name="old_pwd_not_allow_empty">原密码不能为空</string>
+    <string name="new_pwd_not_allow_empty">新密码不能为空</string>
+    <string name="new_pwd_ag_not_allow_empty">确认密码不能为空</string>
+    <string name="new_ag_pwd_not_equals">新密码和确认密码不一致</string>
+    <string name="edit_pwd_success">修改成功</string>
+    <string name="edit_pwd_fail">修改失败</string>
+    <string name="zk_back">返回</string>
+    <string name="zk_store_map_text">仓库平面图</string>
+    <string name="zk_store_tag_text">物资信息写入标签</string>
+    <string name="zk_tag_write_text">写入标签</string>
+    <string name="zk_new_tag_text">物资仓位调整</string>
+    <string name="edit_submit">提&#160;&#160;交</string>
+    <string name="edit_clear">清&#160;&#160;空</string>
+    <string name="apply_date_time_text">申请日期</string>
+    <string name="come_date_time_text">入库日期</string>
+    <string name="back_date_time_text">归还日期</string>
+    <string name="query_date_time_begin">开始日期</string>
+    <string name="query_date_time_end">结束日期</string>
+    <string name="query_arrive_date_time_begin">到货开始日期</string>
+    <string name="query_arrive_date_time_end">到货结束日期</string>
+    <string name="query_in_date_time_begin">入库开始日期</string>
+    <string name="query_in_date_time_end">入库结束日期</string>
+    <string name="query_location_text_hint">请输入货位号</string>
+    <string name="date_time_notify_be_empty">开始日期不能为空</string>
+    <string name="date_time_notify_en_empty">结束日期不能为空</string>
+    <string name="date_time_notify_not_allow">结束日期不能小于开始日期</string>
+    <string name="query_number">物资编号</string>
+    <string name="out_number">通知单号</string>
+    <string name="out_number_hint">请输入通知单号</string>
+    <string name="query_number_hint">请输入物资编号</string>
+    <string name="deliveryOrder_number_hint">请输入入库单号</string>
+    <string name="query_material_name">名称规格</string>
+    <string name="query_material_name_hint">请输入名称规格</string>
+    <string name="query_material_spec_text">规格描述</string>
+    <string name="query_material_spec_hint">请输入规格描述</string>
+    <string name="query_user_number">员工工号</string>
+    <string name="query_user_number_hint">请输入员工工号</string>
+    <string name="query_user_name">员工姓名</string>
+    <string name="query_user_name_hint">请输入员工姓名</string>
+    <string name="reduce_epc_data">减少数量</string>
+    <string name="add_epc_count_hint">请输入数量</string>
+    <string name="add_epc_data">增加数量</string>
+    <string name="create_epc_text">写&#160;入</string>
+    <string name="query_radio_lend">借领记录</string>
+    <string name="query_radio_storage">物资</string>
+    <string name="apply_join_text">加&#160;入</string>
+    <string name="query_no_data_msg">暂无数据</string>
+    <string name="query_no_more_data_msg">没有更多的数据了</string>
+    <string name="lend_detail_title">生产物资领料通知单</string>
+    <string name="user_detail_title">用户信息</string>
+    <string name="mothod_set">连接设置</string>
+    <!-- <string name="replace_pos_text">广东省清远市龙山镇 </string> -->
+    <string name="lend_btn_text">领&#160;&#160;出</string>
+    <string name="back_btn_text">退&#160;&#160;回</string>
+    <string name="create_btn_text">生成标签</string>
+    <string name="create_pos_text">仓位储物:</string>
+    <string name="sure">确&#160;&#160;定</string>
+    <string name="cancle">取&#160;&#160;消</string>
+    <string name="create_epc">生成标签</string>
+    <string name="query">查&#160;询</string>
+    <string name="request_table">物资申请表</string>
+    <string name="request_material">物资申请</string>
+    <string name="add_material_form">物资新增</string>
+    <string name="inv_material_form">物资盘点</string>
+    <string name="exception_info_form">异常提醒</string>
+    <string name="create_epc_table">生成EPC</string>
+    <string name="create_radio_box">箱子</string>
+    <string name="create_radio_not_box">非箱子</string>
+    <string name="create_text">生&#160;成</string>
+    <string name="create_new_text">生成新标签</string>
+    <string name="deliveryOrderNumber_text">入库单号</string>
+    <string name="request">申&#160;请</string>
+    <string name="request_submit">申&#160;&#160;请</string>
+    <string name="scan_code">扫描</string>
+    <string name="exit_text">不能退出程序</string>
+    <string name="not_allow_input">不支持表情输入</string>
+    <string name="quality">性质</string>
+    <string name="consume">消耗性</string>
+    <string name="not_consume">固定资产</string>
+    <string name="isinbox">需要箱装</string>
+    <string name="boxtype">规格</string>
+    <string name="box_normal">常规</string>
+    <string name="box_large">大</string>
+    <string name="box_middle">中</string>
+    <string name="box_small">小</string>
+    <string name="isbox">箱子</string>
+    <string name="quality_state">质量状况</string>
+    <string name="quality_state_text">质量</string>
+    <string name="quality_good">良</string>
+    <string name="quality_bad">差</string>
+    <string name="attachment_text">附件备注</string>
+    <string name="attachment_text_doc">附件</string>
+    <string name="attachment_hint">请输入资料附件或者备注</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="count_hint">数量</string>
+    <string name="unit_hint">(单位)</string>
+    <string name="unit_text_hint">单位</string>
+    <string name="need_tag_text">贴标签</string>
+    <string name="need_tag_hint">需要</string>
+    <string name="not_need_tag_hint">不需要</string>
+    <string name="include_count">内含数量</string>
+    <string name="include_count_hint">单个包袋或盒装内含数量</string>
+    <string name="box_include_count_hint">箱内存放物资数量</string>
+    <string name="hand_text">经办人</string>
+    <string name="hand_hint">请输入经办人姓名</string>
+    <string name="check_accept_text">验收单号</string>
+    <string name="check_accept_hint">请输入验收单号</string>
+    <string name="send_com_text">供货单位</string>
+    <string name="send_com_hint">请输入供货单位名称</string>
+    <string name="send_cometime_text">到货日期</string>
+    <string name="lend_date_text">日期</string>
+    <string name="send_cometime_hint">请输入到货日期</string>
+    <string name="purchase_order_number_text">采购单号</string>
+    <string name="purchase_order_number_hint">请输入采购单号</string>
+    <string name="arrive_material_count_text">实收数量</string>
+    <string name="remarks">备注</string>
+    <string name="use_purpose_text">用途</string>
+    <string name="use_purpose_hint">申请用途，包含地址</string>
+    <string name="car_ticket_no_text">车号/票号</string>
+    <string name="car_ticket_no_hint">请输入车号/票号</string>
+    <string name="add">添&#160;&#160;加</string>
+    <string name="add_box">新增箱子</string>
+    <string name="can_use_count">数量</string>
+    <string name="position_text">存放位置</string>
+    <string name="order_text">序号</string>
+    <string name="appply_time_text">申请日期</string>
+    <string name="appply_person_text">申请人</string>
+    <string name="status_text">状态</string>
+    <string name="serialNumber_text">编号</string>
+    <string name="operate_text">操作</string>
+    <string name="material_come_text">入库日期</string>
+    <string name="storage">存储</string>
+    <string name="storage_pos">位置</string>
+    <string name="pos_check_box">位置筛选</string>
+    <string name="one_area">1区</string>
+    <string name="second_area">2区</string>
+    <string name="third_area">3区</string>
+    <string name="fourth_area">4区</string>
+    <string name="fifth_area">5区</string>
+    <string name="material_group_htin">请输入所属物料组编号</string>
+    <string name="storage_pos_text">存放位置</string>
+    <string name="storage_pos_hint">点击输入框后从左滑平面图中选择位置</string>
+    <string name="storage_pos_item">位号</string>
+    <string name="choose">请选择</string>
+    <string name="detail">详细</string>
+    <string name="logout">注销</string>
+    <string name="damage">标记损坏</string>
+    <string name="have_out">已出库</string>
+    <string name="change_use">标记可借领</string>
+    <string name="change_lend">标记已领用</string>
+    <string name="apply_jobnumber">申请人工号</string>
+    <string name="apply_name">申请人姓名</string>
+    <string name="lend_jobnumber">借出人工号</string>
+    <string name="lend_name">借出人姓名</string>
+    <string name="back_jobnumber">归还人工号</string>
+    <string name="back_name">归还人姓名</string>
+    <string name="sure_lend_jobnumber">借出确认人工号</string>
+    <string name="sure_lend_name">借出确认人姓名</string>
+    <string name="sure_back_jobnumber">归还确认人工号</string>
+    <string name="sure_back_name">归还确认人姓名</string>
+    <string name="sure_lend_hint">借出确认时必填</string>
+    <string name="sure_back_hint">归还确认时必填</string>
+    <string name="agree_text">同&#160;意</string>
+    <string name="disagree_text">拒&#160;绝</string>
+    <string name="material_read">物资状态更新及调仓</string>
+    <string name="modify_box_count">更新箱子数量</string>
+    <string name="start_read">开始扫描</string>
+    <string name="start_read_text">点击开始扫描后贴近标签</string>
+    <string name="method_wan_text">Wifi方式</string>
+    <string name="method_com_text">串口方式</string>
+    <string name="method_set_text">设定</string>
+    <string name="method_ip_text">设备IP</string>
+    <string name="method_ip_hint">请输入需要连接设备IP</string>
+    <string name="method_port_text">端口</string>
+    <string name="method_port_hint">请输入需要连接设备端口</string>
+    <string name="apply_count_text">通知数量</string>
+    <string name="pre_count_text">预领数量</string>
+    <string name="back_count_text">退回数量</string>
+    <string name="store_detail_table_title">物资库存明细表</string>
+    <string name="store_approve_table_title">物资验收记录表</string>
+    <string name="store_exit_table_title">物资发放记录表</string>
+    <string name="store_add_material_table_title">物资入库记录表</string>
+    <string name="seacher_hint">请输入查找内容</string>
+    <string name="modify_box_metal_count_title">更新箱子或金属标签数量</string>
+    <string name="modify_need_count_title">待修改标签数量(仅对新增)</string>
+    <string name="emergency_text">应急</string>
+
+    <!-- 申请领取表详细 -->
+    <string name="department_text">部门</string>
+    <string name="accept_department_text">领料单位</string>
+    <string name="department_text_val">广东管理处</string>
+    <string name="demand_tiem_text">需求日期</string>
+    <string name="notice_no_text">通知单号</string>
+    <string name="warehouse_text">发出仓库</string>
+    <string name="warehouse_text_val">广州维抢修中心库</string>
+    <string name="worker_text">维修工单</string>
+    <string name="requisition_text">领料单位</string>
+    <string name="requisition_text_val">广州维抢修中心</string>
+    <string name="department_Leader_text">主管领导</string>
+    <string name="requisition_person_text">预领人</string>
+    <string name="requisition_time_text">预领日期</string>
+    <string name="back_person_text">退料人</string>
+    <string name="back_time_text">退料日期</string>
+    <string name="audit_person_text">采办审批</string>
+    <string name="storage_person_text">库管员</string>
+    <string name="audit_remarks_text">审核备注</string>
+    <string name="approve_remarks_text">审批备注</string>
+    <!-- 申请领取表详细 -->
+
+
+    <!-- 报表 -->
+    <string name="material_group_text">物料组</string>
+    <string name="material_id_text">物资编号</string>
+    <string name="storage_record_text">账存数量</string>
+    <string name="real_record_text">实存数量</string>
+    <string name="inventory_record_text">盘点盈亏数量</string>
+    <string name="storage_status_text">货存现状</string>
+    <string name="get_material_text">领料人</string>
+    <string name="applied_order_text">发料单号</string>
+    <!-- 报表 -->
+
+
+    <!-- 大门和楼梯 -->
+    <string name="door_vert_text">大\n\n\n\n门</string>
+    <string name="door_land_text">大&#160;&#160;&#160;&#160;门</string>
+    <string name="stair_vert_text">楼\n\n\n\n梯</string>
+    <string name="stair_land_text">楼&#160;&#160;&#160;&#160;梯</string>
+    <string name="air_vert_text">天\n线</string>
+    <!-- 大门和楼梯 -->
+
+
+    <!-- listview -->
+    <string name="more_data">加载更多</string>
+    <string name="load_more">加载更多</string>
+    <string name="pull_to_refresh_pull_label">松开刷新</string>
+    <string name="pull_to_refresh_refresh_lasttime">最近更新</string>
+    <!-- listview -->
+    <!-- 扫描显示详细 -->
+    <string name="scan_detail_title">物资详情</string>
+    <string name="scan_detail_name">名称规格</string>
+    <string name="scan_detail_count">包含数量</string>
+    <string name="scan_detail_sn">箱子编号</string>
+    <string name="scan_detail_upcount">更新数量</string>
+    <string name="scan_detail_upcount_hint">请输入变更的数量</string>
+    <string name="scan_detail_position">所放位置</string>
+    <string name="scan_detail_submit">确认修改</string>
+    <!-- 扫描显示详细 -->
+
+
+    <!-- 待修改 -->
+    <string name="wait_modify_obj_count_text">目标数量</string>
+    <string name="wait_modify_old_count_text">原来数量</string>
+    <string name="wait_modify_text">修改</string>
+    <!-- 待修改 -->
+
+
+    <!-- 库存总量列表 -->
+    <string name="store_total_text">库存量</string>
+    <string name="store_have_use_text">已使用</string>
+    <string name="store_remain_text">剩余</string>
+    <string name="store_damage_text">损坏</string>
+    <!-- 库存总量列表 -->
+
+
+    <!-- 天线功率设置 -->
+    <string name="power_set_text">功率设置</string>
+    <string name="power_small">小</string>
+    <string name="power_middle">中</string>
+    <string name="power_large">大</string>
+    <string name="power_most">特大</string>
+    <string name="write_epc_info_msg">切记:请勿在仓库架子上写标签,将空白标签放在天线盘</string>
+
+    <!-- 异常提醒-->
+    <string name="remindAlarmWarehouse">异常出库提醒</string>
+    <string name="remindNullWarehouse">物资为零提醒</string>
+    <string name="remindChangeEpcCount">物资验收提醒</string>
+    <string name="remindWriteEpc">出库确认提醒</string>
+</resources>
